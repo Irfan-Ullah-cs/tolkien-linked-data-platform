@@ -1,0 +1,1360 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://localhost:5000/resource/%C3%89douard_Kloczko> owl:sameAs <http://dbpedia.org/resource/%C3%89douard_Kloczko> .
+
+<http://localhost:5000/resource/%C3%89omer> owl:sameAs <http://dbpedia.org/resource/%C3%89omer> .
+
+<http://localhost:5000/resource/%C3%89owyn> owl:sameAs <http://dbpedia.org/resource/%C3%89owyn> .
+
+<http://localhost:5000/resource/%C3%9E%C3%B3rsteinn_Thorarensen> owl:sameAs <http://dbpedia.org/resource/%C3%9Eorsteinn_Thorarensen> .
+
+<http://localhost:5000/resource/%C3%9Eoron%C3%BAm%C3%AB> owl:sameAs <http://dbpedia.org/resource/Aquila_(constellation)>,
+        <http://dbpedia.org/resource/Vega> .
+
+<http://localhost:5000/resource/99_Holywell_Street> owl:sameAs <http://dbpedia.org/resource/Holywell_Street,_Oxford> .
+
+<http://localhost:5000/resource/Aegnor> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Aegnor_%28Elven_Escort%29> owl:sameAs <http://dbpedia.org/resource/Topps> .
+
+<http://localhost:5000/resource/Aican%C3%A1ro> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Aicanaro> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Aikan%C3%A1ro> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Aikanaro> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Aiwendil> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/Alan_Lee> owl:sameAs <http://dbpedia.org/resource/Realism_(visual_arts)>,
+        <http://dbpedia.org/resource/Romanticism> .
+
+<http://localhost:5000/resource/Alatariel> owl:sameAs <http://dbpedia.org/resource/Alatariel> .
+
+<http://localhost:5000/resource/Alwin_Arundel_Lowdham> owl:sameAs <http://dbpedia.org/resource/915>,
+        <http://dbpedia.org/resource/Knarr> .
+
+<http://localhost:5000/resource/Alwin_Lowdham> owl:sameAs <http://dbpedia.org/resource/915>,
+        <http://dbpedia.org/resource/Knarr> .
+
+<http://localhost:5000/resource/Amandil> owl:sameAs <http://dbpedia.org/resource/Amandil> .
+
+<http://localhost:5000/resource/Ambar> owl:sameAs <http://dbpedia.org/resource/Oikumene> .
+
+<http://localhost:5000/resource/Ambar%C3%A1to> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Amon_Hen_219> owl:sameAs <http://dbpedia.org/resource/Outlander_(film)>,
+        <http://dbpedia.org/resource/War_and_Peace> .
+
+<http://localhost:5000/resource/An%C3%A1rion> owl:sameAs <http://dbpedia.org/resource/An%C3%A1rion> .
+
+<http://localhost:5000/resource/Angband_%28game%29> owl:sameAs <http://dbpedia.org/resource/Angband_(video_game)> .
+
+<http://localhost:5000/resource/Anke_Ei%C3%9Fmann> owl:sameAs <http://dbpedia.org/resource/Anke_Ei%C3%9Fmann> .
+
+<http://localhost:5000/resource/Annatar> owl:sameAs <http://dbpedia.org/resource/Annatar> .
+
+<http://localhost:5000/resource/Anne_Besson> owl:sameAs <http://dbpedia.org/resource/Anne_Besson> .
+
+<http://localhost:5000/resource/Aragon> owl:sameAs <http://dbpedia.org/resource/Aragon> .
+
+<http://localhost:5000/resource/Aragorn> owl:sameAs <http://dbpedia.org/resource/Aragorn> .
+
+<http://localhost:5000/resource/Aragorn_II> owl:sameAs <http://dbpedia.org/resource/Aragorn_II> .
+
+<http://localhost:5000/resource/Aragorn_II_Elessar> owl:sameAs <http://dbpedia.org/resource/Aragorn_II_Elessar> .
+
+<http://localhost:5000/resource/ArdaCraft> owl:sameAs <http://dbpedia.org/resource/Minecraft>,
+        <http://dbpedia.org/resource/Procedural_generation> .
+
+<http://localhost:5000/resource/Ardacraft> owl:sameAs <http://dbpedia.org/resource/Minecraft>,
+        <http://dbpedia.org/resource/Procedural_generation> .
+
+<http://localhost:5000/resource/Aredhel> owl:sameAs <http://dbpedia.org/resource/Aredhel> .
+
+<http://localhost:5000/resource/Arien> owl:sameAs <http://dbpedia.org/resource/Arien> .
+
+<http://localhost:5000/resource/Artanis> owl:sameAs <http://dbpedia.org/resource/Artanis> .
+
+<http://localhost:5000/resource/Artano> owl:sameAs <http://dbpedia.org/resource/Artano> .
+
+<http://localhost:5000/resource/Aruman> owl:sameAs <http://dbpedia.org/resource/Aruman> .
+
+<http://localhost:5000/resource/Arundel_Lowdham> owl:sameAs <http://dbpedia.org/resource/915>,
+        <http://dbpedia.org/resource/Knarr> .
+
+<http://localhost:5000/resource/Arvedui> owl:sameAs <http://dbpedia.org/resource/Arvedui> .
+
+<http://localhost:5000/resource/Arwen> owl:sameAs <http://dbpedia.org/resource/Arwen> .
+
+<http://localhost:5000/resource/Ashere> owl:sameAs <http://dbpedia.org/resource/%C3%86schere> .
+
+<http://localhost:5000/resource/Augusy> owl:sameAs <http://dbpedia.org/resource/Minden_Day> .
+
+<http://localhost:5000/resource/Aul%C3%AB> owl:sameAs <http://dbpedia.org/resource/Aul%C3%AB> .
+
+<http://localhost:5000/resource/Auta> owl:sameAs <http://dbpedia.org/resource/Aorist> .
+
+<http://localhost:5000/resource/Auta-> owl:sameAs <http://dbpedia.org/resource/Aorist> .
+
+<http://localhost:5000/resource/Av%C3%A1nier> owl:sameAs <http://dbpedia.org/resource/Aorist> .
+
+<http://localhost:5000/resource/Avall%C3%B3n%C3%AB> owl:sameAs <http://dbpedia.org/resource/Avalon>,
+        <http://dbpedia.org/resource/King_Arthur> .
+
+<http://localhost:5000/resource/Avall%C3%B3ne> owl:sameAs <http://dbpedia.org/resource/Avalon>,
+        <http://dbpedia.org/resource/King_Arthur> .
+
+<http://localhost:5000/resource/Avallon%C3%AB> owl:sameAs <http://dbpedia.org/resource/Avalon>,
+        <http://dbpedia.org/resource/King_Arthur> .
+
+<http://localhost:5000/resource/Avallone> owl:sameAs <http://dbpedia.org/resource/Avalon>,
+        <http://dbpedia.org/resource/King_Arthur> .
+
+<http://localhost:5000/resource/Avanier> owl:sameAs <http://dbpedia.org/resource/Aorist> .
+
+<http://localhost:5000/resource/Azog> owl:sameAs <http://dbpedia.org/resource/Azog> .
+
+<http://localhost:5000/resource/BBC> owl:sameAs <http://dbpedia.org/resource/BBC> .
+
+<http://localhost:5000/resource/Balin> owl:sameAs <http://dbpedia.org/resource/Balin> .
+
+<http://localhost:5000/resource/Barahir> owl:sameAs <http://dbpedia.org/resource/Barahir> .
+
+<http://localhost:5000/resource/Bard> owl:sameAs <http://dbpedia.org/resource/Bard> .
+
+<http://localhost:5000/resource/Beleg> owl:sameAs <http://dbpedia.org/resource/Beleg> .
+
+<http://localhost:5000/resource/Beorn> owl:sameAs <http://dbpedia.org/resource/Beorn> .
+
+<http://localhost:5000/resource/Beren> owl:sameAs <http://dbpedia.org/resource/Beren> .
+
+<http://localhost:5000/resource/Bernard_Cribbins> owl:sameAs <http://dbpedia.org/resource/Bernard_Cribbins> .
+
+<http://localhost:5000/resource/Bert> owl:sameAs <http://dbpedia.org/resource/Bert> .
+
+<http://localhost:5000/resource/Bifur> owl:sameAs <http://dbpedia.org/resource/Bifur> .
+
+<http://localhost:5000/resource/Bilbo> owl:sameAs <http://dbpedia.org/resource/Bilbo> .
+
+<http://localhost:5000/resource/Bilbo_Baggins> owl:sameAs <http://dbpedia.org/resource/Bilbo_Baggins> .
+
+<http://localhost:5000/resource/Bird-tamer> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/Black_Captain> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Black_Gate_of_Mordor> owl:sameAs <http://dbpedia.org/resource/Black_Gate_of_Mordor> .
+
+<http://localhost:5000/resource/Blokes> owl:sameAs <http://dbpedia.org/resource/Homo_floresiensis> .
+
+<http://localhost:5000/resource/Blue_Wizards> owl:sameAs <http://dbpedia.org/resource/Blue_Wizards> .
+
+<http://localhost:5000/resource/Bofur> owl:sameAs <http://dbpedia.org/resource/Bofur> .
+
+<http://localhost:5000/resource/Bolg> owl:sameAs <http://dbpedia.org/resource/Bolg> .
+
+<http://localhost:5000/resource/Bombur> owl:sameAs <http://dbpedia.org/resource/Bombur> .
+
+<http://localhost:5000/resource/Boromir> owl:sameAs <http://dbpedia.org/resource/Boromir> .
+
+<http://localhost:5000/resource/Burglar> owl:sameAs <http://dbpedia.org/resource/Burglar> .
+
+<http://localhost:5000/resource/C%C3%ADrdan> owl:sameAs <http://dbpedia.org/resource/C%C3%ADrdan> .
+
+<http://localhost:5000/resource/CE> owl:sameAs <http://dbpedia.org/resource/Last_common_ancestor> .
+
+<http://localhost:5000/resource/Captain_of_Despair> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Carvin_Knowles> owl:sameAs <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/User:CarvinKnowles> .
+
+<http://localhost:5000/resource/Catapults> owl:sameAs <http://dbpedia.org/resource/Trebuchet> .
+
+<http://localhost:5000/resource/Celbaros> owl:sameAs <http://dbpedia.org/resource/Cheltenham> .
+
+<http://localhost:5000/resource/Celebrimbor> owl:sameAs <http://dbpedia.org/resource/Celebrimbor> .
+
+<http://localhost:5000/resource/Celegorm> owl:sameAs <http://dbpedia.org/resource/Celegorm> .
+
+<http://localhost:5000/resource/Chief_investigator> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Chief_of_the_Nine> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Circles_of_the_World> owl:sameAs <http://dbpedia.org/resource/Heimskringla> .
+
+<http://localhost:5000/resource/Cirion> owl:sameAs <http://dbpedia.org/resource/Cirion> .
+
+<http://localhost:5000/resource/Cirth> owl:sameAs <http://dbpedia.org/resource/Elder_Futhark> .
+
+<http://localhost:5000/resource/Coldfells> owl:sameAs <http://dbpedia.org/resource/Fell> .
+
+<http://localhost:5000/resource/Collected_Poems> owl:sameAs <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/The_Collected_Poems_of_J.R.R._Tolkien> .
+
+<http://localhost:5000/resource/Collected_Poems_of_J.R.R._Tolkien> owl:sameAs <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/The_Collected_Poems_of_J.R.R._Tolkien> .
+
+<http://localhost:5000/resource/Common_Eldarin> owl:sameAs <http://dbpedia.org/resource/Last_common_ancestor> .
+
+<http://localhost:5000/resource/Corn> owl:sameAs <http://dbpedia.org/resource/Maize> .
+
+<http://localhost:5000/resource/Cotton> owl:sameAs <http://dbpedia.org/resource/Sampson_Gamgee> .
+
+<http://localhost:5000/resource/Cotton_Family> owl:sameAs <http://dbpedia.org/resource/Sampson_Gamgee> .
+
+<http://localhost:5000/resource/Cotton_family> owl:sameAs <http://dbpedia.org/resource/Sampson_Gamgee> .
+
+<http://localhost:5000/resource/Crown_of_Gondor> owl:sameAs <http://dbpedia.org/resource/Hedjet> .
+
+<http://localhost:5000/resource/Cruachan> owl:sameAs <http://dbpedia.org/resource/Cruachan_(band)>,
+        <http://dbpedia.org/resource/Cruachan_(band)#Members> .
+
+<http://localhost:5000/resource/Curufin> owl:sameAs <http://dbpedia.org/resource/Curufin> .
+
+<http://localhost:5000/resource/Curumo> owl:sameAs <http://dbpedia.org/resource/Curumo> .
+
+<http://localhost:5000/resource/Curunir> owl:sameAs <http://dbpedia.org/resource/Curunir> .
+
+<http://localhost:5000/resource/Dale> owl:sameAs <http://dbpedia.org/resource/Dale_(landform)> .
+
+<http://localhost:5000/resource/Dale_%28Kingdom%29> owl:sameAs <http://dbpedia.org/resource/Dale_(landform)> .
+
+<http://localhost:5000/resource/Dark_Lands> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Denethor> owl:sameAs <http://dbpedia.org/resource/Denethor> .
+
+<http://localhost:5000/resource/Denethor_II> owl:sameAs <http://dbpedia.org/resource/Denethor_II> .
+
+<http://localhost:5000/resource/Der_Herr_der_Ringe_%281992_German_radio_series%29> owl:sameAs <http://dbpedia.org/resource/Cotta%E2%80%99s_H%C3%B6rb%C3%BChne>,
+        <http://dbpedia.org/resource/Der_H%C3%B6rverlag>,
+        <http://dbpedia.org/resource/Peter_Zwetkoff> .
+
+<http://localhost:5000/resource/Der_Hobbit_%281980_German_radio_series%29> owl:sameAs <http://dbpedia.org/resource/Cotta%E2%80%99s_H%C3%B6rb%C3%BChne>,
+        <http://dbpedia.org/resource/Der_H%C3%B6rverlag>,
+        <http://dbpedia.org/resource/Enno_Dugend> .
+
+<http://localhost:5000/resource/Dior> owl:sameAs <http://dbpedia.org/resource/Dior> .
+
+<http://localhost:5000/resource/Dominic_Monaghan> owl:sameAs <http://dbpedia.org/resource/Dominic_Monaghan> .
+
+<http://localhost:5000/resource/Dori> owl:sameAs <http://dbpedia.org/resource/Dori> .
+
+<http://localhost:5000/resource/Downfallen> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Dragon> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Dragons> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Drake> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Drakes> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Dungeons_and_Dragons> owl:sameAs <http://dbpedia.org/resource/Dungeons_%26_Dragons> .
+
+<http://localhost:5000/resource/Dutch_Tolkien_Society> owl:sameAs <http://dbpedia.org/resource/Low_Franconian> .
+
+<http://localhost:5000/resource/Dwalin> owl:sameAs <http://dbpedia.org/resource/Dwalin> .
+
+<http://localhost:5000/resource/E%C3%A4rendil> owl:sameAs <http://dbpedia.org/resource/E%C3%A4rendil> .
+
+<http://localhost:5000/resource/E%C3%A4rendur%2C_son_of_Tar-Amandil> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/E%C3%A4rendur_%28son_of_Tar-Amandil%29> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/E%C3%A4rnil_II> owl:sameAs <http://dbpedia.org/resource/E%C3%A4rnil_II> .
+
+<http://localhost:5000/resource/E%C3%B6l> owl:sameAs <http://dbpedia.org/resource/E%C3%B6l> .
+
+<http://localhost:5000/resource/E%C3%B6nw%C3%AB> owl:sameAs <http://dbpedia.org/resource/E%C3%B6nw%C3%AB> .
+
+<http://localhost:5000/resource/Eangrim> owl:sameAs <http://dbpedia.org/resource/Germanic_name> .
+
+<http://localhost:5000/resource/Earendur%2C_son_of_Tar-Amandil> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/Ecthelion> owl:sameAs <http://dbpedia.org/resource/Ecthelion> .
+
+<http://localhost:5000/resource/Ecthelion_II> owl:sameAs <http://dbpedia.org/resource/Ecthelion_II> .
+
+<http://localhost:5000/resource/Edhelharn> owl:sameAs <http://dbpedia.org/resource/Edhelharn> .
+
+<http://localhost:5000/resource/Edouard_Kloczko> owl:sameAs <http://dbpedia.org/resource/%C3%89douard_Kloczko> .
+
+<http://localhost:5000/resource/Edward_Kloczko> owl:sameAs <http://dbpedia.org/resource/%C3%89douard_Kloczko> .
+
+<http://localhost:5000/resource/El_Se%C3%B1or_de_los_Anillos%2C_Parte_I%3A_La_Communidad_del_Anillo_%28Libro_1%29> owl:sameAs <http://dbpedia.org/resource/Defender_of_the_Crown> .
+
+<http://localhost:5000/resource/Elanor> owl:sameAs <http://dbpedia.org/resource/Lysimachia_arvensis> .
+
+<http://localhost:5000/resource/Elanor_%28flower%29> owl:sameAs <http://dbpedia.org/resource/Lysimachia_arvensis> .
+
+<http://localhost:5000/resource/Elatan> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/Eldarion> owl:sameAs <http://dbpedia.org/resource/Eldarion> .
+
+<http://localhost:5000/resource/Elder_Children_of_Il%C3%BAvatar> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elder_Children_of_Iluvatar> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elder_Kindred> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elendil> owl:sameAs <http://dbpedia.org/resource/Elendil> .
+
+<http://localhost:5000/resource/Elf> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elfs> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Ellath> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elrod> owl:sameAs <http://dbpedia.org/resource/Elrod> .
+
+<http://localhost:5000/resource/Elron> owl:sameAs <http://dbpedia.org/resource/Elron> .
+
+<http://localhost:5000/resource/Elrond> owl:sameAs <http://dbpedia.org/resource/Elrond> .
+
+<http://localhost:5000/resource/Elros> owl:sameAs <http://dbpedia.org/resource/Elros> .
+
+<http://localhost:5000/resource/Elven> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elves> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Elwing> owl:sameAs <http://dbpedia.org/resource/Elwing> .
+
+<http://localhost:5000/resource/Ent> owl:sameAs <http://dbpedia.org/resource/The_Wanderer_(Old_English_poem)> .
+
+<http://localhost:5000/resource/Ents> owl:sameAs <http://dbpedia.org/resource/The_Wanderer_(Old_English_poem)> .
+
+<http://localhost:5000/resource/Envinyatar> owl:sameAs <http://dbpedia.org/resource/Envinyatar> .
+
+<http://localhost:5000/resource/Erendis> owl:sameAs <http://dbpedia.org/resource/Erendis> .
+
+<http://localhost:5000/resource/Ermeni%C3%AB> owl:sameAs <http://dbpedia.org/resource/Unmoved_mover> .
+
+<http://localhost:5000/resource/Ermenie> owl:sameAs <http://dbpedia.org/resource/Unmoved_mover> .
+
+<http://localhost:5000/resource/Estirin> owl:sameAs <http://dbpedia.org/resource/Exeter> .
+
+<http://localhost:5000/resource/Estirios> owl:sameAs <http://dbpedia.org/resource/Exeter> .
+
+<http://localhost:5000/resource/Ettendales> owl:sameAs <http://dbpedia.org/resource/Dale_(landform)> .
+
+<http://localhost:5000/resource/Eurocon> owl:sameAs <http://dbpedia.org/resource/Eurocon> .
+
+<http://localhost:5000/resource/Evil_Eye> owl:sameAs <http://dbpedia.org/resource/Evil_Eye> .
+
+<http://localhost:5000/resource/Evocation_of_Virgil_in_Tolkien%27s_Art> owl:sameAs <http://dbpedia.org/resource/Virgil> .
+
+<http://localhost:5000/resource/F%C3%ABanor> owl:sameAs <http://dbpedia.org/resource/F%C3%ABanor> .
+
+<http://localhost:5000/resource/Faramir> owl:sameAs <http://dbpedia.org/resource/Faramir> .
+
+<http://localhost:5000/resource/Figwit> owl:sameAs <http://dbpedia.org/resource/Topps> .
+
+<http://localhost:5000/resource/Finarfin> owl:sameAs <http://dbpedia.org/resource/Finarfin> .
+
+<http://localhost:5000/resource/Fingolfin> owl:sameAs <http://dbpedia.org/resource/Fingolfin> .
+
+<http://localhost:5000/resource/Fingon> owl:sameAs <http://dbpedia.org/resource/Fingon> .
+
+<http://localhost:5000/resource/Finrod> owl:sameAs <http://dbpedia.org/resource/Finrod> .
+
+<http://localhost:5000/resource/Finw%C3%AB> owl:sameAs <http://dbpedia.org/resource/Finw%C3%AB> .
+
+<http://localhost:5000/resource/First-born> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/First_born> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/First_of_the_Nazg%C3%BBl> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Firstborn> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Fladweth-amrog> owl:sameAs <http://dbpedia.org/resource/Penkridge>,
+        <http://dbpedia.org/resource/Staffordshire> .
+
+<http://localhost:5000/resource/Fladweth_Amrod> owl:sameAs <http://dbpedia.org/resource/Penkridge>,
+        <http://dbpedia.org/resource/Staffordshire> .
+
+<http://localhost:5000/resource/Four_Shire_Stone> owl:sameAs <http://dbpedia.org/resource/Four_Shire_Stone> .
+
+<http://localhost:5000/resource/Fr%C3%A9awyn> owl:sameAs <http://dbpedia.org/resource/Hera_Hilmar> .
+
+<http://localhost:5000/resource/Frank_Frazetta> owl:sameAs <http://dbpedia.org/resource/Al_Capp>,
+        <http://dbpedia.org/resource/Fire_and_Ice_(1983_film)>,
+        <http://dbpedia.org/resource/Li'l_Abner> .
+
+<http://localhost:5000/resource/French_Tolkien_Association> owl:sameAs <http://dbpedia.org/resource/%C3%89tudes_sur_J._R._R._Tolkien> .
+
+<http://localhost:5000/resource/Fritz_M%C3%B6ser> owl:sameAs <http://dbpedia.org/resource/Fritz_M%C3%B6ser>,
+        <http://dbpedia.org/resource/Wikipedia:Hauptseite> .
+
+<http://localhost:5000/resource/Fritz_Moser> owl:sameAs <http://dbpedia.org/resource/Fritz_M%C3%B6ser>,
+        <http://dbpedia.org/resource/Wikipedia:Hauptseite> .
+
+<http://localhost:5000/resource/Frodo> owl:sameAs <http://dbpedia.org/resource/Frodo> .
+
+<http://localhost:5000/resource/Frodo_Baggins> owl:sameAs <http://dbpedia.org/resource/Frodo_Baggins> .
+
+<http://localhost:5000/resource/Galadrial> owl:sameAs <http://dbpedia.org/resource/Galadrial> .
+
+<http://localhost:5000/resource/Galadriel> owl:sameAs <http://dbpedia.org/resource/Galadriel> .
+
+<http://localhost:5000/resource/Gandalf> owl:sameAs <http://dbpedia.org/resource/Gandalf> .
+
+<http://localhost:5000/resource/Gandalf_Greyhame> owl:sameAs <http://dbpedia.org/resource/Gandalf_Greyhame> .
+
+<http://localhost:5000/resource/Gandalf_the_Gray> owl:sameAs <http://dbpedia.org/resource/Gandalf_the_Gray> .
+
+<http://localhost:5000/resource/Gandalf_the_Grey> owl:sameAs <http://dbpedia.org/resource/Gandalf_the_Grey> .
+
+<http://localhost:5000/resource/Gandalf_the_White> owl:sameAs <http://dbpedia.org/resource/Gandalf_the_White> .
+
+<http://localhost:5000/resource/Gandolf> owl:sameAs <http://dbpedia.org/resource/Gandolf> .
+
+<http://localhost:5000/resource/Gary_Russell> owl:sameAs <http://dbpedia.org/resource/Gary_Russell> .
+
+<http://localhost:5000/resource/Gate_of_Silver> owl:sameAs <http://dbpedia.org/resource/malachite> .
+
+<http://localhost:5000/resource/Geoffrey_Bache_Smith> owl:sameAs <http://dbpedia.org/resource/Lancashire_Fusiliers> .
+
+<http://localhost:5000/resource/Geraint> owl:sameAs <http://dbpedia.org/resource/Cornwall> .
+
+<http://localhost:5000/resource/Gil-galad> owl:sameAs <http://dbpedia.org/resource/Gil-galad> .
+
+<http://localhost:5000/resource/Gimli> owl:sameAs <http://dbpedia.org/resource/Gimli> .
+
+<http://localhost:5000/resource/Glamhoth> owl:sameAs <http://dbpedia.org/resource/Names_for_Germany> .
+
+<http://localhost:5000/resource/Glorfindel> owl:sameAs <http://dbpedia.org/resource/Glorfindel> .
+
+<http://localhost:5000/resource/Glow-worms> owl:sameAs <http://dbpedia.org/resource/Glowworm>,
+        <http://dbpedia.org/resource/Main_Page> .
+
+<http://localhost:5000/resource/Glowworms> owl:sameAs <http://dbpedia.org/resource/Glowworm>,
+        <http://dbpedia.org/resource/Main_Page> .
+
+<http://localhost:5000/resource/Gollum> owl:sameAs <http://dbpedia.org/resource/Gollum> .
+
+<http://localhost:5000/resource/Gorthaur> owl:sameAs <http://dbpedia.org/resource/Gorthaur> .
+
+<http://localhost:5000/resource/Grafton> owl:sameAs <http://dbpedia.org/resource/Grafton_(publisher)> .
+
+<http://localhost:5000/resource/Grafton_Books> owl:sameAs <http://dbpedia.org/resource/Grafton_(publisher)> .
+
+<http://localhost:5000/resource/Great_Goblin> owl:sameAs <http://dbpedia.org/resource/Great_Goblin> .
+
+<http://localhost:5000/resource/Great_Isle> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Great_Lands> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Great_Worms> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Greenleaf> owl:sameAs <http://dbpedia.org/resource/Greenleaf> .
+
+<http://localhost:5000/resource/Grey_Pilgrim> owl:sameAs <http://dbpedia.org/resource/Grey_Pilgrim> .
+
+<http://localhost:5000/resource/Greyhame> owl:sameAs <http://dbpedia.org/resource/Greyhame> .
+
+<http://localhost:5000/resource/Gubben_Noach> owl:sameAs <http://dbpedia.org/resource/Gubben_Noak> .
+
+<http://localhost:5000/resource/H%C3%A9ra> owl:sameAs <http://dbpedia.org/resource/Hera_Hilmar> .
+
+<http://localhost:5000/resource/H%C3%BArin> owl:sameAs <http://dbpedia.org/resource/H%C3%BArin> .
+
+<http://localhost:5000/resource/Haldir> owl:sameAs <http://dbpedia.org/resource/Haldir> .
+
+<http://localhost:5000/resource/Haradrim_%28Tolkien_Society%29> owl:sameAs <http://dbpedia.org/resource/Afrikaners#Afrikaner_diaspora> .
+
+<http://localhost:5000/resource/Heinz_Strobl> owl:sameAs <http://dbpedia.org/resource/Gandalf_(musician)> .
+
+<http://localhost:5000/resource/Helluin> owl:sameAs <http://dbpedia.org/resource/Sirius> .
+
+<http://localhost:5000/resource/Helm%27s_daughter> owl:sameAs <http://dbpedia.org/resource/Hera_Hilmar> .
+
+<http://localhost:5000/resource/Heorrenda> owl:sameAs <http://dbpedia.org/resource/Kudrun> .
+
+<http://localhost:5000/resource/Hera> owl:sameAs <http://dbpedia.org/resource/Hera_Hilmar> .
+
+<http://localhost:5000/resource/Heruven> owl:sameAs <http://dbpedia.org/resource/Kudrun> .
+
+<http://localhost:5000/resource/Heruvendo> owl:sameAs <http://dbpedia.org/resource/Kudrun> .
+
+<http://localhost:5000/resource/Herwent> owl:sameAs <http://dbpedia.org/resource/Kudrun> .
+
+<http://localhost:5000/resource/Hither_Lands> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Hlothran> owl:sameAs <http://dbpedia.org/resource/Sampson_Gamgee> .
+
+<http://localhost:5000/resource/Hobbit> owl:sameAs <http://dbpedia.org/resource/Homo_floresiensis> .
+
+<http://localhost:5000/resource/Hobbit-kind> owl:sameAs <http://dbpedia.org/resource/Homo_floresiensis> .
+
+<http://localhost:5000/resource/Hobbits> owl:sameAs <http://dbpedia.org/resource/Homo_floresiensis> .
+
+<http://localhost:5000/resource/Hobitit> owl:sameAs <http://dbpedia.org/resource/Hobitit_(televisiosarja)> .
+
+<http://localhost:5000/resource/Horwin> owl:sameAs <http://dbpedia.org/resource/Kudrun> .
+
+<http://localhost:5000/resource/Howard_Shore> owl:sameAs <http://dbpedia.org/resource/Howard_Shore> .
+
+<http://localhost:5000/resource/Hr%C3%A1vandil> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/Huor> owl:sameAs <http://dbpedia.org/resource/Huor> .
+
+<http://localhost:5000/resource/Icelandic_Song> owl:sameAs <http://dbpedia.org/resource/Bjarni_%C3%9Eorsteinsson> .
+
+<http://localhost:5000/resource/Idril> owl:sameAs <http://dbpedia.org/resource/Idril> .
+
+<http://localhost:5000/resource/Ilmar%C3%AB> owl:sameAs <http://dbpedia.org/resource/Ilmar%C3%AB> .
+
+<http://localhost:5000/resource/Imbar> owl:sameAs <http://dbpedia.org/resource/Oikumene> .
+
+<http://localhost:5000/resource/Irina_Horea> owl:sameAs <http://dbpedia.org/resource/Diane_Wakoski>,
+        <http://dbpedia.org/resource/Ian_McEwan>,
+        <http://dbpedia.org/resource/John_Irving>,
+        <http://dbpedia.org/resource/Karl_Shapiro>,
+        <http://dbpedia.org/resource/Paul_Bailey>,
+        <http://dbpedia.org/resource/William_Golding> .
+
+<http://localhost:5000/resource/Iris> owl:sameAs <http://dbpedia.org/resource/Iris_pseudacorus> .
+
+<http://localhost:5000/resource/Irmo> owl:sameAs <http://dbpedia.org/resource/Irmo> .
+
+<http://localhost:5000/resource/Isabelle_Pantin> owl:sameAs <http://dbpedia.org/resource/Isabelle_Pantin> .
+
+<http://localhost:5000/resource/Isengard> owl:sameAs <http://dbpedia.org/resource/Isengard> .
+
+<http://localhost:5000/resource/Isildur> owl:sameAs <http://dbpedia.org/resource/Isildur> .
+
+<http://localhost:5000/resource/Isilm%C3%AB> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/Isilme> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/Isle_of_Elenna> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/J.R.R._Tolkien%27s_inspirations%2Fnotes> owl:sameAs <http://dbpedia.org/resource/Black_Country>,
+        <http://dbpedia.org/resource/Chivery>,
+        <http://dbpedia.org/resource/Farthing>,
+        <http://dbpedia.org/resource/Hacker_(folklore)>,
+        <http://dbpedia.org/resource/Hundred_(division)>,
+        <http://dbpedia.org/resource/Huns>,
+        <http://dbpedia.org/resource/Image:Brueghel-tower-of-babel.jpg>,
+        <http://dbpedia.org/resource/Lord_of_the_Rings>,
+        <http://dbpedia.org/resource/Mont_Saint_Michel>,
+        <http://dbpedia.org/resource/Rohirrim>,
+        <http://dbpedia.org/resource/St_Michael's_Mount>,
+        <http://dbpedia.org/resource/Susa>,
+        <http://dbpedia.org/resource/The_Eagle_and_Child>,
+        <http://dbpedia.org/resource/The_Hobbit>,
+        <http://dbpedia.org/resource/Woodwose> .
+
+<http://localhost:5000/resource/Jan_Broberg> owl:sameAs <http://dbpedia.org/resource/Jan_Broberg> .
+
+<http://localhost:5000/resource/Jenny_Dolfen> owl:sameAs <http://dbpedia.org/resource/Jenny_Dolfen> .
+
+<http://localhost:5000/resource/Jeremy> owl:sameAs <http://dbpedia.org/resource/915>,
+        <http://dbpedia.org/resource/Knarr> .
+
+<http://localhost:5000/resource/John_Howe> owl:sameAs <http://dbpedia.org/resource/John_Howe> .
+
+<http://localhost:5000/resource/Jonathan_Markison> owl:sameAs <http://dbpedia.org/resource/Don_(honorific)#Religion> .
+
+<http://localhost:5000/resource/Jules_Bass> owl:sameAs <http://dbpedia.org/resource/Peabody_Award> .
+
+<http://localhost:5000/resource/Ken_Kamins> owl:sameAs <http://dbpedia.org/resource/Miramax>,
+        <http://dbpedia.org/resource/The_Lovely_Bones_(film)> .
+
+<http://localhost:5000/resource/King_Elessar> owl:sameAs <http://dbpedia.org/resource/King_Elessar> .
+
+<http://localhost:5000/resource/Kingdom_of_Dale> owl:sameAs <http://dbpedia.org/resource/Dale_(landform)> .
+
+<http://localhost:5000/resource/L%27association_La_Compagnie_de_la_Comt%C3%A9> owl:sameAs <http://dbpedia.org/resource/%C3%89tudes_sur_J._R._R._Tolkien#Associations_.C2.AB_loi_1901_.C2.BB> .
+
+<http://localhost:5000/resource/L%27association_La_Facult%C3%A9_des_%C3%A9tudes_elfiques> owl:sameAs <http://dbpedia.org/resource/%C3%89tudes_sur_J._R._R._Tolkien#Associations_.C2.AB_loi_1901_.C2.BB> .
+
+<http://localhost:5000/resource/L%C3%BAthien> owl:sameAs <http://dbpedia.org/resource/L%C3%BAthien> .
+
+<http://localhost:5000/resource/LOR> owl:sameAs <http://dbpedia.org/resource/Lord_of_the_Rings_Adventure_Game> .
+
+<http://localhost:5000/resource/Lands_Without> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Language_A> owl:sameAs <http://dbpedia.org/resource/Sacrosanctum_Concilium> .
+
+<http://localhost:5000/resource/Language_of_Rohan> owl:sameAs <http://dbpedia.org/resource/Middle_English_creole_hypothesis> .
+
+<http://localhost:5000/resource/Lathspell> owl:sameAs <http://dbpedia.org/resource/Lathspell> .
+
+<http://localhost:5000/resource/Latin> owl:sameAs <http://dbpedia.org/resource/Sacrosanctum_Concilium> .
+
+<http://localhost:5000/resource/Legolas> owl:sameAs <http://dbpedia.org/resource/Legolas> .
+
+<http://localhost:5000/resource/Legolas_Greenleaf> owl:sameAs <http://dbpedia.org/resource/Legolas_Greenleaf> .
+
+<http://localhost:5000/resource/Lenition> owl:sameAs <http://dbpedia.org/resource/Lenition#Grammatical_lenition>,
+        <http://dbpedia.org/resource/Welsh_morphology#Initial_consonant_mutation> .
+
+<http://localhost:5000/resource/Leo_Carruthers> owl:sameAs <http://dbpedia.org/resource/Leo_Carruthers> .
+
+<http://localhost:5000/resource/Leonard_Rosenman> owl:sameAs <http://dbpedia.org/resource/Leonard_Rosenman> .
+
+<http://localhost:5000/resource/Letter_241b> owl:sameAs <http://dbpedia.org/resource/Gunpowder%20Plot> .
+
+<http://localhost:5000/resource/Letter_49d> owl:sameAs <http://dbpedia.org/resource/Passing%20out%20(military)>,
+        <http://dbpedia.org/resource/Smoking%20concert> .
+
+<http://localhost:5000/resource/Letters_of_J.R.R._Tolkien> owl:sameAs <http://dbpedia.org/resource/Wayback_Machine> .
+
+<http://localhost:5000/resource/Lin_Carter> owl:sameAs <http://dbpedia.org/resource/Lin_Carter> .
+
+<http://localhost:5000/resource/Lindsey_Stirling> owl:sameAs <http://dbpedia.org/resource/Lindsey_Stirling> .
+
+<http://localhost:5000/resource/List_of_Tolkien_Encyclopedias> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/List_of_encyclopaedias> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/List_of_encyclopedias> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/List_of_tolkien_encyclopaedias> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/List_of_tolkien_encyclopedias> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/List_of_tolkien_wikis> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/List_of_wikis> owl:sameAs <http://dbpedia.org/resource/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%94%D0%B6%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BB%D0%BA%D0%B8%D0%BD>,
+        <http://dbpedia.org/resource/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A1%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B5%D0%BC%D1%8C%D0%B5>,
+        <http://dbpedia.org/resource/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C>,
+        <http://dbpedia.org/resource/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D8%B3%D8%B1%D8%B2%D9%85%DB%8C%D9%86_%D9%85%DB%8C%D8%A7%D9%86%DB%8C>,
+        <http://dbpedia.org/resource/%EB%B6%84%EB%A5%98:J._R._R._%ED%86%A8%ED%82%A8>,
+        <http://dbpedia.org/resource/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%9C%84%ED%82%A4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%95%85>,
+        <http://dbpedia.org/resource/Categoria:John_Ronald_Reuel_Tolkien>,
+        <http://dbpedia.org/resource/Categoria:Tolkien>,
+        <http://dbpedia.org/resource/Hoofdpagina>,
+        <http://dbpedia.org/resource/Kategoria:Zwi%C4%85zane_z_tw%C3%B3rczo%C5%9Bci%C4%85_J.R.R._Tolkiena>,
+        <http://dbpedia.org/resource/Kategorie:J._R._R._Tolkien>,
+        <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/Pagina_principal%C4%83>,
+        <http://dbpedia.org/resource/Pagina_principale>,
+        <http://dbpedia.org/resource/Progetto:Tolkien>,
+        <http://dbpedia.org/resource/Proiect:P%C4%83m%C3%A2ntul_de_Mijloc>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu>,
+        <http://dbpedia.org/resource/Projet:Terre_du_Milieu/%C3%89valuation/Statistiques>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:P%C3%A1gina_principal>,
+        <http://dbpedia.org/resource/Wikip%C3%A9dia:Projetos/Tolkien>,
+        <http://dbpedia.org/resource/Wikipedia:Portada>,
+        <http://dbpedia.org/resource/Wikipedia:Strona_g%C5%82%C3%B3wna>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProject_Middle-earth>,
+        <http://dbpedia.org/resource/Wikipedia:WikiProjekt_Tolkiens_Welt>,
+        <http://dbpedia.org/resource/Wikipedia:Wikiproject/Tolkien>,
+        <http://dbpedia.org/resource/Wikiprojekt:%C5%9Ar%C3%B3dziemie>,
+        <http://dbpedia.org/resource/Wikiproyecto:Tolkien> .
+
+<http://localhost:5000/resource/Little_People> owl:sameAs <http://dbpedia.org/resource/Homo_floresiensis> .
+
+<http://localhost:5000/resource/Lord_of_Minas_Morgul> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Lord_of_Morgul> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Lord_of_the_Nazg%C3%BBl> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Lord_of_the_Nazgul> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Lord_of_the_Nine_Riders> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Lord_of_the_Rings_%28board_game%29> owl:sameAs <http://dbpedia.org/resource/Lord_of_the_Rings_(board_game)>,
+        <http://dbpedia.org/resource/Spiel_des_Jahres> .
+
+<http://localhost:5000/resource/Lord_of_the_Rings_Adventure_Game> owl:sameAs <http://dbpedia.org/resource/Lord_of_the_Rings_Adventure_Game> .
+
+<http://localhost:5000/resource/Lothlorien> owl:sameAs <http://dbpedia.org/resource/Lothlorien> .
+
+<http://localhost:5000/resource/Lowdham> owl:sameAs <http://dbpedia.org/resource/915>,
+        <http://dbpedia.org/resource/Knarr> .
+
+<http://localhost:5000/resource/Lurtz> owl:sameAs <http://dbpedia.org/resource/Lurtz> .
+
+<http://localhost:5000/resource/M%C3%A1rio_Braga> owl:sameAs <http://dbpedia.org/resource/M%C3%A1rio_Braga> .
+
+<http://localhost:5000/resource/M%C3%AEm> owl:sameAs <http://dbpedia.org/resource/Der_Ring_des_Nibelungen> .
+
+<http://localhost:5000/resource/Maedhros> owl:sameAs <http://dbpedia.org/resource/Maedhros> .
+
+<http://localhost:5000/resource/Maeglin> owl:sameAs <http://dbpedia.org/resource/Maeglin> .
+
+<http://localhost:5000/resource/Maglor> owl:sameAs <http://dbpedia.org/resource/Maglor> .
+
+<http://localhost:5000/resource/Mairon> owl:sameAs <http://dbpedia.org/resource/Mairon> .
+
+<http://localhost:5000/resource/Mallorn_44> owl:sameAs <http://dbpedia.org/resource/John_Inglesant>,
+        <http://dbpedia.org/resource/Joseph_Henry_Shorthouse> .
+
+<http://localhost:5000/resource/Mallorn_46> owl:sameAs <http://dbpedia.org/resource/A_Voyage_to_Arcturus>,
+        <http://dbpedia.org/resource/David_Lindsay_(novelist)>,
+        <http://dbpedia.org/resource/Perelandra> .
+
+<http://localhost:5000/resource/Mandos> owl:sameAs <http://dbpedia.org/resource/Mandos> .
+
+<http://localhost:5000/resource/Manw%C3%AB> owl:sameAs <http://dbpedia.org/resource/Manw%C3%AB> .
+
+<http://localhost:5000/resource/Map_of_Thror> owl:sameAs <http://dbpedia.org/resource/Anglo-Saxon_runes> .
+
+<http://localhost:5000/resource/Mar-nu-Falmar> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Marc_Gunn> owl:sameAs <http://dbpedia.org/resource/Marc_Gunn> .
+
+<http://localhost:5000/resource/Melian> owl:sameAs <http://dbpedia.org/resource/Melian> .
+
+<http://localhost:5000/resource/Melko> owl:sameAs <http://dbpedia.org/resource/Melko> .
+
+<http://localhost:5000/resource/Melkor> owl:sameAs <http://dbpedia.org/resource/Melkor> .
+
+<http://localhost:5000/resource/Melpomaen> owl:sameAs <http://dbpedia.org/resource/Topps> .
+
+<http://localhost:5000/resource/Meriadoc_Brandybuck> owl:sameAs <http://dbpedia.org/resource/Meriadoc_Brandybuck> .
+
+<http://localhost:5000/resource/Merry> owl:sameAs <http://dbpedia.org/resource/Merry> .
+
+<http://localhost:5000/resource/Middle-earth> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Middle_Earth> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Mim> owl:sameAs <http://dbpedia.org/resource/Der_Ring_des_Nibelungen> .
+
+<http://localhost:5000/resource/Minas_Anor> owl:sameAs <http://dbpedia.org/resource/Minas_Anor> .
+
+<http://localhost:5000/resource/Minas_Ithil> owl:sameAs <http://dbpedia.org/resource/Minas_Ithil> .
+
+<http://localhost:5000/resource/Minas_Morgul> owl:sameAs <http://dbpedia.org/resource/Minas_Morgul> .
+
+<http://localhost:5000/resource/Minas_Tirith> owl:sameAs <http://dbpedia.org/resource/Minas_Tirith> .
+
+<http://localhost:5000/resource/Minecraft_Middle-Earth> owl:sameAs <http://dbpedia.org/resource/Microsoft>,
+        <http://dbpedia.org/resource/Minecraft>,
+        <http://dbpedia.org/resource/Mojang_Studios> .
+
+<http://localhost:5000/resource/Minhiriath> owl:sameAs <http://dbpedia.org/resource/Mesopotamia#Etymology> .
+
+<http://localhost:5000/resource/Misconceptions> owl:sameAs <http://dbpedia.org/resource/%CE%9C%CE%AD%CF%83%CE%B7_%CE%93%CE%B7>,
+        <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring_(video_game)> .
+
+<http://localhost:5000/resource/Mithrandir> owl:sameAs <http://dbpedia.org/resource/Mithrandir> .
+
+<http://localhost:5000/resource/Mithril_Armoury> owl:sameAs <http://dbpedia.org/resource/Chapter_7,_Title_11,_United_States_Code> .
+
+<http://localhost:5000/resource/Monster_Lizard> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Morgoth> owl:sameAs <http://dbpedia.org/resource/Morgoth> .
+
+<http://localhost:5000/resource/Morwen> owl:sameAs <http://dbpedia.org/resource/Morwen> .
+
+<http://localhost:5000/resource/N%C3%BAmen%C3%B3r%C3%AB> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/N%C3%BAmen%C3%B3re> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/N%C3%BAmenor> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Necromancer> owl:sameAs <http://dbpedia.org/resource/Necromancer> .
+
+<http://localhost:5000/resource/Nerwen> owl:sameAs <http://dbpedia.org/resource/Nerwen> .
+
+<http://localhost:5000/resource/Nessa> owl:sameAs <http://dbpedia.org/resource/Nessa> .
+
+<http://localhost:5000/resource/Nielluin> owl:sameAs <http://dbpedia.org/resource/Sirius> .
+
+<http://localhost:5000/resource/Nienna> owl:sameAs <http://dbpedia.org/resource/Nienna> .
+
+<http://localhost:5000/resource/Nils_Werenskiold> owl:sameAs <http://dbpedia.org/resource/Nils_Werenskiold>,
+        <http://dbpedia.org/resource/Portal:Forside> .
+
+<http://localhost:5000/resource/Nimrodel_%2F_Procession_%2F_White_Rider> owl:sameAs <http://dbpedia.org/resource/Mirage_(Camel_album)> .
+
+<http://localhost:5000/resource/Niothluimi> owl:sameAs <http://dbpedia.org/resource/Sirius> .
+
+<http://localhost:5000/resource/Nori> owl:sameAs <http://dbpedia.org/resource/Nori> .
+
+<http://localhost:5000/resource/Norse_Mythology> owl:sameAs <http://dbpedia.org/resource/Prose_Edda> .
+
+<http://localhost:5000/resource/Norse_mythology> owl:sameAs <http://dbpedia.org/resource/Prose_Edda> .
+
+<http://localhost:5000/resource/Notes_on_inspirations> owl:sameAs <http://dbpedia.org/resource/Black_Country>,
+        <http://dbpedia.org/resource/Chivery>,
+        <http://dbpedia.org/resource/Farthing>,
+        <http://dbpedia.org/resource/Hacker_(folklore)>,
+        <http://dbpedia.org/resource/Hundred_(division)>,
+        <http://dbpedia.org/resource/Huns>,
+        <http://dbpedia.org/resource/Image:Brueghel-tower-of-babel.jpg>,
+        <http://dbpedia.org/resource/Lord_of_the_Rings>,
+        <http://dbpedia.org/resource/Mont_Saint_Michel>,
+        <http://dbpedia.org/resource/Rohirrim>,
+        <http://dbpedia.org/resource/St_Michael's_Mount>,
+        <http://dbpedia.org/resource/Susa>,
+        <http://dbpedia.org/resource/The_Eagle_and_Child>,
+        <http://dbpedia.org/resource/The_Hobbit>,
+        <http://dbpedia.org/resource/Woodwose> .
+
+<http://localhost:5000/resource/Numenor> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Numenore> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Numinor> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Oakenshield> owl:sameAs <http://dbpedia.org/resource/Oakenshield> .
+
+<http://localhost:5000/resource/Olorin> owl:sameAs <http://dbpedia.org/resource/Olorin> .
+
+<http://localhost:5000/resource/Onodrim> owl:sameAs <http://dbpedia.org/resource/The_Wanderer_(Old_English_poem)> .
+
+<http://localhost:5000/resource/Onyali%C3%AB> owl:sameAs <http://dbpedia.org/resource/The_Wanderer_(Old_English_poem)> .
+
+<http://localhost:5000/resource/Ori> owl:sameAs <http://dbpedia.org/resource/Ori> .
+
+<http://localhost:5000/resource/Orodreth> owl:sameAs <http://dbpedia.org/resource/Orodreth> .
+
+<http://localhost:5000/resource/Oss%C3%AB> owl:sameAs <http://dbpedia.org/resource/Oss%C3%AB> .
+
+<http://localhost:5000/resource/Outer_Lands> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Paul_Kont> owl:sameAs <http://dbpedia.org/resource/Paul_Kont> .
+
+<http://localhost:5000/resource/Pauline_Baynes> owl:sameAs <http://dbpedia.org/resource/Pauline_Baynes> .
+
+<http://localhost:5000/resource/People_of_the_Stars> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Peregrin> owl:sameAs <http://dbpedia.org/resource/Peregrin> .
+
+<http://localhost:5000/resource/Peregrin_I> owl:sameAs <http://dbpedia.org/resource/Peregrin_I> .
+
+<http://localhost:5000/resource/Peregrin_Took> owl:sameAs <http://dbpedia.org/resource/Peregrin_Took> .
+
+<http://localhost:5000/resource/Peter_Jackson> owl:sameAs <http://dbpedia.org/resource/Vancouver_Film_Critics_Circle>,
+        <http://dbpedia.org/resource/Washington_D.C._Area_Film_Critics_Association> .
+
+<http://localhost:5000/resource/Peter_Xavier_Price> owl:sameAs <http://dbpedia.org/resource/Peter_Xavier_Price> .
+
+<http://localhost:5000/resource/Philpot> owl:sameAs <http://dbpedia.org/resource/Philpot> .
+
+<http://localhost:5000/resource/Pippin> owl:sameAs <http://dbpedia.org/resource/Pippin> .
+
+<http://localhost:5000/resource/Pippin_Took> owl:sameAs <http://dbpedia.org/resource/Pippin_Took> .
+
+<http://localhost:5000/resource/Plaques_and_Memorials> owl:sameAs <http://dbpedia.org/resource/Blue_plaque> .
+
+<http://localhost:5000/resource/Polcon> owl:sameAs <http://dbpedia.org/resource/Polcon> .
+
+<http://localhost:5000/resource/Popular_media> owl:sameAs <http://dbpedia.org/resource/A_Minecraft_Movie>,
+        <http://dbpedia.org/resource/The_Lego_Batman_Movie>,
+        <http://dbpedia.org/resource/The_Summer_I_Turned_Pretty_(TV_series)> .
+
+<http://localhost:5000/resource/R.W._Chambers> owl:sameAs <http://dbpedia.org/resource/Anglo-Catholicism>,
+        <http://dbpedia.org/resource/Quain_Professor>,
+        <http://dbpedia.org/resource/Staxton>,
+        <http://dbpedia.org/resource/Swansea>,
+        <http://dbpedia.org/resource/University_College_London>,
+        <http://dbpedia.org/resource/Wales>,
+        <http://dbpedia.org/resource/Widsith>,
+        <http://dbpedia.org/resource/Yorkshire> .
+
+<http://localhost:5000/resource/R._W._Chambers> owl:sameAs <http://dbpedia.org/resource/Anglo-Catholicism>,
+        <http://dbpedia.org/resource/Quain_Professor>,
+        <http://dbpedia.org/resource/Staxton>,
+        <http://dbpedia.org/resource/Swansea>,
+        <http://dbpedia.org/resource/University_College_London>,
+        <http://dbpedia.org/resource/Wales>,
+        <http://dbpedia.org/resource/Widsith>,
+        <http://dbpedia.org/resource/Yorkshire> .
+
+<http://localhost:5000/resource/RW_Chambers> owl:sameAs <http://dbpedia.org/resource/Anglo-Catholicism>,
+        <http://dbpedia.org/resource/Quain_Professor>,
+        <http://dbpedia.org/resource/Staxton>,
+        <http://dbpedia.org/resource/Swansea>,
+        <http://dbpedia.org/resource/University_College_London>,
+        <http://dbpedia.org/resource/Wales>,
+        <http://dbpedia.org/resource/Widsith>,
+        <http://dbpedia.org/resource/Yorkshire> .
+
+<http://localhost:5000/resource/Ra-hoom-rah%21> owl:sameAs <http://dbpedia.org/resource/Morgana_Lefay> .
+
+<http://localhost:5000/resource/Radagast> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/Radagast_the_Brown> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/Radegast> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/Ralph_Bakshi> owl:sameAs <http://dbpedia.org/resource/Giffoni_Film_Festival> .
+
+<http://localhost:5000/resource/Recovery_and_Transcendence_for_the_Contemporary_Mythmaker> owl:sameAs <http://dbpedia.org/resource/Maria_Curie-Sk%C5%82odowska_University> .
+
+<http://localhost:5000/resource/References_to_The_Lord_of_the_Rings> owl:sameAs <http://dbpedia.org/resource/A_Minecraft_Movie>,
+        <http://dbpedia.org/resource/The_Lego_Batman_Movie>,
+        <http://dbpedia.org/resource/The_Summer_I_Turned_Pretty_(TV_series)> .
+
+<http://localhost:5000/resource/Rh%C3%BBnic> owl:sameAs <http://dbpedia.org/resource/International_Phonetic_Alphabet/> .
+
+<http://localhost:5000/resource/Rh%C3%BBnnic> owl:sameAs <http://dbpedia.org/resource/International_Phonetic_Alphabet/> .
+
+<http://localhost:5000/resource/Rhunic> owl:sameAs <http://dbpedia.org/resource/International_Phonetic_Alphabet/> .
+
+<http://localhost:5000/resource/Richard_Taylor> owl:sameAs <http://dbpedia.org/resource/Richard_Taylor_(movies)> .
+
+<http://localhost:5000/resource/Rivendell_%28song%29> owl:sameAs <http://dbpedia.org/resource/Caress_of_Steel>,
+        <http://dbpedia.org/resource/Fly_by_Night_(album)> .
+
+<http://localhost:5000/resource/Ro%C3%A4c> owl:sameAs <http://dbpedia.org/resource/Raven_in_mythology#Celtic_mythology> .
+
+<http://localhost:5000/resource/Roac> owl:sameAs <http://dbpedia.org/resource/Raven_in_mythology#Celtic_mythology> .
+
+<http://localhost:5000/resource/Rohan_language> owl:sameAs <http://dbpedia.org/resource/Middle_English_creole_hypothesis> .
+
+<http://localhost:5000/resource/Rohanese> owl:sameAs <http://dbpedia.org/resource/Middle_English_creole_hypothesis> .
+
+<http://localhost:5000/resource/Rohirric> owl:sameAs <http://dbpedia.org/resource/Middle_English_creole_hypothesis> .
+
+<http://localhost:5000/resource/Rush> owl:sameAs <http://dbpedia.org/resource/Caress_of_Steel>,
+        <http://dbpedia.org/resource/Fly_by_Night_(album)> .
+
+<http://localhost:5000/resource/SEVEN_10> owl:sameAs <http://dbpedia.org/resource/Dorothy_L._Sayers> .
+
+<http://localhost:5000/resource/SEVEN_9> owl:sameAs <http://dbpedia.org/resource/Charles_Williams_(British_writer)> .
+
+<http://localhost:5000/resource/Salmar> owl:sameAs <http://dbpedia.org/resource/Salmar> .
+
+<http://localhost:5000/resource/Sam> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Sam_Gamgee> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Sam_Gardner> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Samwise> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Samwise_Gamgee> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Samwise_Gardner> owl:sameAs <http://dbpedia.org/resource/World_War_I> .
+
+<http://localhost:5000/resource/Saruman> owl:sameAs <http://dbpedia.org/resource/Saruman> .
+
+<http://localhost:5000/resource/Sarumon> owl:sameAs <http://dbpedia.org/resource/Sarumon> .
+
+<http://localhost:5000/resource/Sauron> owl:sameAs <http://dbpedia.org/resource/Sauron> .
+
+<http://localhost:5000/resource/Sauruman> owl:sameAs <http://dbpedia.org/resource/Sauruman> .
+
+<http://localhost:5000/resource/Sharku> owl:sameAs <http://dbpedia.org/resource/Sharku> .
+
+<http://localhost:5000/resource/Shepherds_of_the_Trees> owl:sameAs <http://dbpedia.org/resource/The_Wanderer_(Old_English_poem)> .
+
+<http://localhost:5000/resource/Shire> owl:sameAs <http://dbpedia.org/resource/Shire> .
+
+<http://localhost:5000/resource/Sierra_Entertainment> owl:sameAs <http://dbpedia.org/resource/Sierra_Entertainment> .
+
+<http://localhost:5000/resource/Silmari%C3%ABn> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Fillet_(clothing)> .
+
+<http://localhost:5000/resource/Silmarien> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Fillet_(clothing)> .
+
+<http://localhost:5000/resource/Simbelmyn%C3%AB> owl:sameAs <http://dbpedia.org/resource/Anemone_nemorosa>,
+        <http://dbpedia.org/resource/Pulsatilla_vulgaris> .
+
+<http://localhost:5000/resource/Simbelmyne> owl:sameAs <http://dbpedia.org/resource/Anemone_nemorosa>,
+        <http://dbpedia.org/resource/Pulsatilla_vulgaris> .
+
+<http://localhost:5000/resource/Song_of_the_Mounds_of_Mundburg> owl:sameAs <http://dbpedia.org/resource/Y_Gododdin> .
+
+<http://localhost:5000/resource/Sorcerer> owl:sameAs <http://dbpedia.org/resource/Sorcerer> .
+
+<http://localhost:5000/resource/Soron%C3%BAm%C3%AB> owl:sameAs <http://dbpedia.org/resource/Aquila_(constellation)>,
+        <http://dbpedia.org/resource/Vega> .
+
+<http://localhost:5000/resource/Soronume> owl:sameAs <http://dbpedia.org/resource/Aquila_(constellation)>,
+        <http://dbpedia.org/resource/Vega> .
+
+<http://localhost:5000/resource/South_Gondor> owl:sameAs <http://dbpedia.org/resource/South_Gondor> .
+
+<http://localhost:5000/resource/Starwards> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/Stormcrow> owl:sameAs <http://dbpedia.org/resource/Stormcrow> .
+
+<http://localhost:5000/resource/Strider> owl:sameAs <http://dbpedia.org/resource/Strider> .
+
+<http://localhost:5000/resource/Swan> owl:sameAs <http://dbpedia.org/resource/Swan#Role_in_culture> .
+
+<http://localhost:5000/resource/Swans> owl:sameAs <http://dbpedia.org/resource/Swan#Role_in_culture> .
+
+<http://localhost:5000/resource/TG> owl:sameAs <http://dbpedia.org/resource/Main_Page> .
+
+<http://localhost:5000/resource/TS> owl:sameAs <http://dbpedia.org/resource/Charitable_incorporated_organisation> .
+
+<http://localhost:5000/resource/Tales_of_Middle_Earth> owl:sameAs <http://dbpedia.org/resource/Ubisoft> .
+
+<http://localhost:5000/resource/Tar-Aldarion> owl:sameAs <http://dbpedia.org/resource/Tar-Aldarion> .
+
+<http://localhost:5000/resource/Tar-Elendil> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/Tar-mairon> owl:sameAs <http://dbpedia.org/resource/Tar-mairon> .
+
+<http://localhost:5000/resource/Tar_elendil> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture> .
+
+<http://localhost:5000/resource/Ted_Nasmith> owl:sameAs <http://dbpedia.org/resource/Ted_Nasmith> .
+
+<http://localhost:5000/resource/Th%C3%A9oden> owl:sameAs <http://dbpedia.org/resource/Th%C3%A9oden> .
+
+<http://localhost:5000/resource/Th%C3%B3r%27s_Map> owl:sameAs <http://dbpedia.org/resource/Anglo-Saxon_runes> .
+
+<http://localhost:5000/resource/Th%C3%B3r%27s_map> owl:sameAs <http://dbpedia.org/resource/Anglo-Saxon_runes> .
+
+<http://localhost:5000/resource/Tharkun> owl:sameAs <http://dbpedia.org/resource/Tharkun> .
+
+<http://localhost:5000/resource/Thauron> owl:sameAs <http://dbpedia.org/resource/Thauron> .
+
+<http://localhost:5000/resource/The_Ballad_of_Bilbo_Baggins> owl:sameAs <http://dbpedia.org/resource/Malibu_U> .
+
+<http://localhost:5000/resource/The_Beatles> owl:sameAs <http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film)>,
+        <http://dbpedia.org/resource/David_Lean>,
+        <http://dbpedia.org/resource/Donovan>,
+        <http://dbpedia.org/resource/Michelangelo_Antonioni>,
+        <http://dbpedia.org/resource/Ryan's_Daughter>,
+        <http://dbpedia.org/resource/Twiggy> .
+
+<http://localhost:5000/resource/The_Brown> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/The_Collected_Poems> owl:sameAs <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/The_Collected_Poems_of_J.R.R._Tolkien> .
+
+<http://localhost:5000/resource/The_Collected_Poems_of_J.R.R._Tolkien> owl:sameAs <http://dbpedia.org/resource/Main_Page>,
+        <http://dbpedia.org/resource/The_Collected_Poems_of_J.R.R._Tolkien> .
+
+<http://localhost:5000/resource/The_Downfallen> owl:sameAs <http://dbpedia.org/resource/Agnatic_primogeniture>,
+        <http://dbpedia.org/resource/Root_race#The_civilization_of_Atlantis> .
+
+<http://localhost:5000/resource/The_Ent%27s_Marching_Song> owl:sameAs <http://dbpedia.org/resource/Morgana_Lefay> .
+
+<http://localhost:5000/resource/The_Flame_Imperishable> owl:sameAs <http://dbpedia.org/resource/Thomas_Aquinas>,
+        <http://dbpedia.org/resource/Thomism> .
+
+<http://localhost:5000/resource/The_Flame_Imperishable%3A_Tolkien%2C_St._Thomas%2C_and_the_Metaphysics_of_Faerie> owl:sameAs <http://dbpedia.org/resource/Thomas_Aquinas>,
+        <http://dbpedia.org/resource/Thomism> .
+
+<http://localhost:5000/resource/The_Fool> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/The_Grey> owl:sameAs <http://dbpedia.org/resource/The_Grey> .
+
+<http://localhost:5000/resource/The_Hobbit_%281985_television_film%29> owl:sameAs <http://dbpedia.org/resource/The_Hobbit_(1985_film)> .
+
+<http://localhost:5000/resource/The_Horn_Book_Magazine> owl:sameAs <http://dbpedia.org/resource/The_Horn_Book_Magazine> .
+
+<http://localhost:5000/resource/The_Letters_of_J.R.R._Tolkien> owl:sameAs <http://dbpedia.org/resource/Wayback_Machine> .
+
+<http://localhost:5000/resource/The_Letters_of_J.R.R._Tolkien%3A_Revised_and_Expanded_Edition> owl:sameAs <http://dbpedia.org/resource/Wayback_Machine> .
+
+<http://localhost:5000/resource/The_Letters_of_J.R.R._Tolkien%3A_Revised_and_Expanded_edition> owl:sameAs <http://dbpedia.org/resource/Wayback_Machine> .
+
+<http://localhost:5000/resource/The_Necromancer_%28song%29> owl:sameAs <http://dbpedia.org/resource/Caress_of_Steel>,
+        <http://dbpedia.org/resource/Fly_by_Night_(album)> .
+
+<http://localhost:5000/resource/The_Oxford_English_School> owl:sameAs <http://dbpedia.org/resource/The_J._R._R._Tolkien_Companion_and_Guide> .
+
+<http://localhost:5000/resource/The_Shire> owl:sameAs <http://dbpedia.org/resource/The_Shire> .
+
+<http://localhost:5000/resource/The_Simple> owl:sameAs <http://dbpedia.org/resource/Radegast_(god)> .
+
+<http://localhost:5000/resource/The_Simpsons> owl:sameAs <http://dbpedia.org/resource/A_Minecraft_Movie>,
+        <http://dbpedia.org/resource/The_Lego_Batman_Movie>,
+        <http://dbpedia.org/resource/The_Summer_I_Turned_Pretty_(TV_series)> .
+
+<http://localhost:5000/resource/The_Sorcerer> owl:sameAs <http://dbpedia.org/resource/The_Sorcerer> .
+
+<http://localhost:5000/resource/The_Tolkien_Society> owl:sameAs <http://dbpedia.org/resource/Charitable_incorporated_organisation> .
+
+<http://localhost:5000/resource/The_Tolkien_Society_of_Sweden> owl:sameAs <http://dbpedia.org/resource/Tolkiens%C3%A4llskap> .
+
+<http://localhost:5000/resource/The_Transactions_of_the_Honourable_Society_of_Cymmrodorion%3A_Session_1923-24> owl:sameAs <http://dbpedia.org/resource/Transactions_of_the_Honourable_Society_of_Cymmrodorion> .
+
+<http://localhost:5000/resource/The_Transactions_of_the_Honourable_Society_of_Cymmrodorion_Session_1923-24> owl:sameAs <http://dbpedia.org/resource/Transactions_of_the_Honourable_Society_of_Cymmrodorion> .
+
+<http://localhost:5000/resource/The_Witchking_of_Angmar> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/The_letters> owl:sameAs <http://dbpedia.org/resource/Wayback_Machine> .
+
+<http://localhost:5000/resource/The_witch_king> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/The_witch_king_of_angmar> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Thief> owl:sameAs <http://dbpedia.org/resource/Thief> .
+
+<http://localhost:5000/resource/Thingol> owl:sameAs <http://dbpedia.org/resource/Thingol> .
+
+<http://localhost:5000/resource/Thorin_%28disambiguation%29> owl:sameAs <http://dbpedia.org/resource/V%C3%B6lusp%C3%A1> .
+
+<http://localhost:5000/resource/Thorin_Oakenshield> owl:sameAs <http://dbpedia.org/resource/Thorin_Oakenshield> .
+
+<http://localhost:5000/resource/Thr%C3%B3r%27s_Map> owl:sameAs <http://dbpedia.org/resource/Anglo-Saxon_runes> .
+
+<http://localhost:5000/resource/Thr%C3%B3r%27s_map> owl:sameAs <http://dbpedia.org/resource/Anglo-Saxon_runes> .
+
+<http://localhost:5000/resource/Thranduil> owl:sameAs <http://dbpedia.org/resource/Thranduil> .
+
+<http://localhost:5000/resource/Thror%27s_map> owl:sameAs <http://dbpedia.org/resource/Anglo-Saxon_runes> .
+
+<http://localhost:5000/resource/Tilion> owl:sameAs <http://dbpedia.org/resource/Tilion> .
+
+<http://localhost:5000/resource/ToME> owl:sameAs <http://dbpedia.org/resource/Ubisoft> .
+
+<http://localhost:5000/resource/Tolkien%27s_works_in_popular_media> owl:sameAs <http://dbpedia.org/resource/A_Minecraft_Movie>,
+        <http://dbpedia.org/resource/The_Lego_Batman_Movie>,
+        <http://dbpedia.org/resource/The_Summer_I_Turned_Pretty_(TV_series)> .
+
+<http://localhost:5000/resource/Tolkien%3A_A_Celebration> owl:sameAs <http://dbpedia.org/resource/Charles_A._Coulombe>,
+        <http://dbpedia.org/resource/Colin_Gunton>,
+        <http://dbpedia.org/resource/James_V._Schall>,
+        <http://dbpedia.org/resource/Sean_McGrath_(philosopher)>,
+        <http://dbpedia.org/resource/Stephen_R._Lawhead> .
+
+<http://localhost:5000/resource/Tolkien_%26_Co> owl:sameAs <http://dbpedia.org/resource/%C3%89tudes_sur_J._R._R._Tolkien> .
+
+<http://localhost:5000/resource/Tolkien_Gateway> owl:sameAs <http://dbpedia.org/resource/Main_Page> .
+
+<http://localhost:5000/resource/Tolkien_Society> owl:sameAs <http://dbpedia.org/resource/Charitable_incorporated_organisation> .
+
+<http://localhost:5000/resource/Tolkien_Society_%28UK%29> owl:sameAs <http://dbpedia.org/resource/Charitable_incorporated_organisation> .
+
+<http://localhost:5000/resource/Tom_Bombadil> owl:sameAs <http://dbpedia.org/resource/Tom_Bombadil> .
+
+<http://localhost:5000/resource/Tore_Zetterholm> owl:sameAs <http://dbpedia.org/resource/Tore_Zetterholm> .
+
+<http://localhost:5000/resource/Treebeard> owl:sameAs <http://dbpedia.org/resource/Treebeard> .
+
+<http://localhost:5000/resource/Tribes_of_the_elves> owl:sameAs <http://dbpedia.org/resource/Lebor_Gab%C3%A1la_%C3%89renn> .
+
+<http://localhost:5000/resource/Tulkas> owl:sameAs <http://dbpedia.org/resource/Tulkas> .
+
+<http://localhost:5000/resource/Tuor> owl:sameAs <http://dbpedia.org/resource/Tuor> .
+
+<http://localhost:5000/resource/Turgon> owl:sameAs <http://dbpedia.org/resource/Turgon> .
+
+<http://localhost:5000/resource/Ulmo> owl:sameAs <http://dbpedia.org/resource/Ulmo> .
+
+<http://localhost:5000/resource/Ungoliant> owl:sameAs <http://dbpedia.org/resource/Ungoliant> .
+
+<http://localhost:5000/resource/Unquendor> owl:sameAs <http://dbpedia.org/resource/Low_Franconian> .
+
+<http://localhost:5000/resource/VII_10> owl:sameAs <http://dbpedia.org/resource/Dorothy_L._Sayers> .
+
+<http://localhost:5000/resource/VII_9> owl:sameAs <http://dbpedia.org/resource/Charles_Williams_(British_writer)> .
+
+<http://localhost:5000/resource/Varda> owl:sameAs <http://dbpedia.org/resource/Varda> .
+
+<http://localhost:5000/resource/Variag> owl:sameAs <http://dbpedia.org/resource/Varangian_Guard> .
+
+<http://localhost:5000/resource/Variags> owl:sameAs <http://dbpedia.org/resource/Varangian_Guard> .
+
+<http://localhost:5000/resource/Voronw%C3%AB> owl:sameAs <http://dbpedia.org/resource/Voronw%C3%AB> .
+
+<http://localhost:5000/resource/Walter_Scherf> owl:sameAs <http://dbpedia.org/resource/Walter_Scherf> .
+
+<http://localhost:5000/resource/Wendell_Lariston_Hill%2C_Jr.> owl:sameAs <http://dbpedia.org/resource/Governor_Dodge_State_Park> .
+
+<http://localhost:5000/resource/Westfarthing_of_the_Shire> owl:sameAs <http://dbpedia.org/resource/Westfarthing_of_the_Shire> .
+
+<http://localhost:5000/resource/White_Rider> owl:sameAs <http://dbpedia.org/resource/White_Rider> .
+
+<http://localhost:5000/resource/Wide_World> owl:sameAs <http://dbpedia.org/resource/Middle-earth#Usage_and_misunderstandings> .
+
+<http://localhost:5000/resource/Wilfrid_Trewin_Jeremy> owl:sameAs <http://dbpedia.org/resource/915>,
+        <http://dbpedia.org/resource/Knarr> .
+
+<http://localhost:5000/resource/William> owl:sameAs <http://dbpedia.org/resource/William> .
+
+<http://localhost:5000/resource/Winged_Dragons> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Wingfoot> owl:sameAs <http://dbpedia.org/resource/Wingfoot> .
+
+<http://localhost:5000/resource/Wisconsin_Ring_Game> owl:sameAs <http://dbpedia.org/resource/COVID-19_pandemic>,
+        <http://dbpedia.org/resource/Governor_Dodge_State_Park> .
+
+<http://localhost:5000/resource/Witch-King> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Witch-King_of_Angmar> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Witch-king> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Witch-king_of_Angmar> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Witch_King> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Witchking> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Wizard_king> owl:sameAs <http://dbpedia.org/resource/Witch_(word)> .
+
+<http://localhost:5000/resource/Worldcon> owl:sameAs <http://dbpedia.org/resource/Worldcon> .
+
+<http://localhost:5000/resource/Worm> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Worms> owl:sameAs <http://dbpedia.org/resource/Tetrapodophis> .
+
+<http://localhost:5000/resource/Yavanna> owl:sameAs <http://dbpedia.org/resource/Yavanna> .
+

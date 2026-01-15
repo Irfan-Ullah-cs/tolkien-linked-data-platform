@@ -1,0 +1,219 @@
+==========================================================================================
+SHACL VALIDATION STATISTICS
+==========================================================================================
+
+Validation Status: ✗ VIOLATIONS FOUND
+Total Triples: 2,762,950
+
+Total Violation Types: 12
+Total Violations: 13,834
+Total Affected Entities: 5,953
+
+VIOLATIONS BY PROPERTY
+==========================================================================================
+
+ containedInPlace (Class)
+  • Total Violations: 2,731
+  • Affected Entities: 1,214
+  • Issue: Value does not have class schema1:Place
+  • Sample Entities:
+      1. %C3%8Drensaga
+      2. %C3%8Dverin
+      3. %C3%8Dwerin
+      4. A%C3%AEvrien
+      5. A%C3%BE%C3%A2raphel%C3%BBn
+      6. A%C3%BE%C4%81raphel%C5%ABn
+      7. Adurant
+      8. Aelin-uial
+      9. Aelin_Uial
+      10. Aelinuial
+      ... and 1,204 more entities
+
+ memberOf (Class)
+  • Total Violations: 2,144
+  • Affected Entities: 1,177
+  • Issue: Value does not have class schema1:Organization
+  • Sample Entities:
+      1. %C3%81ri%C3%AB
+      2. %C3%81rien
+      3. %C3%89adig
+      4. %C3%89ogan
+      5. %C3%89omer
+      6. %C3%89omer_%C3%89adig
+      7. %C3%8Drien
+      8. %C3%8Drim%C3%AB
+      9. %C3%8Edh
+      10. %C3%91altariel
+      ... and 1,167 more entities
+
+ publisher (Class)
+  • Total Violations: 2,097
+  • Affected Entities: 1,582
+  • Issue: Value does not have class schema1:Organization
+  • Sample Entities:
+      1. %22Something_Has_Gone_Crack%22
+      2. %C3%96vers%C3%A4ttarens_anm%C3%A4rkningar
+      3. %C3%9Eorgils_Saga_ok_Hafli%C3%B0a
+      4. %D0%9F%D0%B0%D0%BB%D0%B0%D0%BD%D1%82%D0%B8%D1%80
+      5. 1976_J.R.R._Tolkien_Calendar
+      6. 1977_J.R.R._Tolkien_Calendar
+      7. 1978_J.R.R._Tolkien_Calendar
+      8. ATB
+      9. A_Brief_History_of_The_Hobbit
+      10. A_Companion_to_J.R.R._Tolkien
+      ... and 1,572 more entities
+
+ numberOfPages (Datatype)
+  • Total Violations: 1,834
+  • Affected Entities: 1,825
+  • Issue: Value is not Literal with datatype xsd:integer
+  • Sample Entities:
+      1. %22Something_Has_Gone_Crack%22
+      2. %C3%96vers%C3%A4ttarens_anm%C3%A4rkningar
+      3. %D0%9F%D0%B0%D0%BB%D0%B0%D0%BD%D1%82%D0%B8%D1%80
+      4. ATB
+      5. A_Brief_History_of_The_Hobbit
+      6. A_Campaign_and_Adventure_Guidebook_for_Middle-earth
+      7. A_Companion_to_J.R.R._Tolkien
+      8. A_Companion_to_J._R._R._Tolkien
+      9. A_Critical_Companion_to_J.R.R._Tolkien
+      10. A_Dictionary_of_Sources_of_Tolkien
+      ... and 1,815 more entities
+
+ author (Class)
+  • Total Violations: 1,785
+  • Affected Entities: 1,267
+  • Issue: Value does not have class schema1:Person
+  • Sample Entities:
+      1. %C3%96vers%C3%A4ttarens_anm%C3%A4rkningar
+      2. %C3%9Eorgils_Saga_ok_Hafli%C3%B0a
+      3. ATB
+      4. A_Brief_History_of_The_Hobbit
+      5. A_Campaign_and_Adventure_Guidebook_for_Middle-earth
+      6. A_Critical_Companion_to_J.R.R._Tolkien
+      7. A_Dictionary_of_Sources_of_Tolkien
+      8. A_Dictionary_of_Tolkien
+      9. A_Fan%27s_Guide_to_Neo-Sindarin
+      10. A_Gateway_to_Sindarin
+      ... and 1,257 more entities
+
+ parent (Class)
+  • Total Violations: 1,051
+  • Affected Entities: 896
+  • Issue: Value does not have class schema1:Person
+  • Sample Entities:
+      1. %C3%89adig
+      2. %C3%89omer
+      3. %C3%89omer_%C3%89adig
+      4. %C3%89or
+      5. %C3%89owyn
+      6. %C3%8Drien
+      7. %C3%8Drim%C3%AB
+      8. %C3%8Driss%C3%AB
+      9. %C3%91altariel
+      10. %C3%91old%C3%B3ran
+      ... and 886 more entities
+
+ children (Class)
+  • Total Violations: 904
+  • Affected Entities: 740
+  • Issue: Value does not have class schema1:Person
+  • Sample Entities:
+      1. %C3%89omund
+      2. %C3%89omund_of_Eastfold
+      3. %C3%89omund_of_Rohan
+      4. %C3%8Drimon
+      5. %C3%91old%C3%B3ran
+      6. %C3%91olofinw%C3%AB
+      7. %C3%91olondil
+      8. %C3%9Arin
+      9. %C3%9Eindicollo
+      10. %C3%9Eorontar
+      ... and 730 more entities
+
+ name (MinCount)
+  • Total Violations: 601
+  • Affected Entities: 601
+  • Issue: Less than 1 values on <http://localhost:5000/resource/The_Floating_Log>->schema1:name
+  • Sample Entities:
+      1. %22My_dear_Ladies%22_10_June_1971
+      2. %C3%9Bl
+      3. %C3%9Br%C3%AE
+      4. A_Short_Rest
+      5. All-Welcome_Inn
+      6. Amon_D%C3%AEn_%28Vol.2%2C_No.1%29
+      7. Amon_Hen_3
+      8. Amon_Hen_4
+      9. Amon_Hen_5
+      10. Amon_Hen_6
+      ... and 591 more entities
+
+ description (Datatype)
+  • Total Violations: 389
+  • Affected Entities: 276
+  • Issue: Value is not Literal with datatype xsd:string
+  • Sample Entities:
+      1. A%C3%BE%C3%A2raphel%C3%BBn
+      2. A%C3%BE%C4%81raphel%C5%ABn
+      3. Almaren
+      4. Amon_Anwar
+      5. Amon_D%C3%AEn
+      6. Amon_Din
+      7. Amon_R%C3%BBdh
+      8. Amon_Rudh
+      9. Amroth%27s_haven
+      10. An%C3%B3rien
+      ... and 266 more entities
+
+ spouse (Class)
+  • Total Violations: 286
+  • Affected Entities: 248
+  • Issue: Value does not have class schema1:Person
+  • Sample Entities:
+      1. Adalbert_Bolger
+      2. Adanel
+      3. Aegnor
+      4. Aican%C3%A1ro
+      5. Aicanaro
+      6. Aikan%C3%A1ro
+      7. Aikanaro
+      8. Albarth
+      9. Algund
+      10. Amari%C3%AB
+      ... and 238 more entities
+
+ name (Datatype)
+  • Total Violations: 7
+  • Affected Entities: 7
+  • Issue: Value is not Literal with datatype xsd:string
+  • Sample Entities:
+      1. AS
+      2. BA
+      3. DM
+      4. LE
+      5. TD
+      6. TW
+      7. WH
+
+ bookFormat (Datatype)
+  • Total Violations: 5
+  • Affected Entities: 4
+  • Issue: Value is not Literal with datatype xsd:string
+  • Sample Entities:
+      1. Isengard_%28LOTRRPG%29
+      2. Paths_of_the_Wise%3A_The_Guide_to_Magicians_and_Loremasters
+      3. The_Lord_of_the_Rings_Roleplaying_Game%3A_Isengard
+      4. The_Wobbit
+SUMMARY - TOP ISSUES
+ 1. containedInPlace (Class)                              2,731 violations ( 19.7%)
+ 2. memberOf (Class)                                      2,144 violations ( 15.5%)
+ 3. publisher (Class)                                     2,097 violations ( 15.2%)
+ 4. numberOfPages (Datatype)                              1,834 violations ( 13.3%)
+ 5. author (Class)                                        1,785 violations ( 12.9%)
+ 6. parent (Class)                                        1,051 violations (  7.6%)
+ 7. children (Class)                                        904 violations (  6.5%)
+ 8. name (MinCount)                                         601 violations (  4.3%)
+ 9. description (Datatype)                                  389 violations (  2.8%)
+10. spouse (Class)                                          286 violations (  2.1%)
+
+==========================================================================================

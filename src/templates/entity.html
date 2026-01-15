@@ -1,0 +1,299 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} - Tolkien Knowledge Graph{% endblock %}
+
+{% block extra_style %}
+<style>
+.content-card {
+    background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    border: 2px solid #3d2f5f;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header-box {
+    background: linear-gradient(to right, rgba(106, 76, 147, 0.3), rgba(61, 47, 95, 0.2));
+    padding: 25px 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 5px solid #ffd447;
+    border: 2px solid #6a4c93;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 25px;
+}
+
+.header-content {
+    min-width: 0;
+}
+
+.header-image {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.header-image img {
+    max-width: 100%;
+    max-height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    border: 3px solid #6a4c93;
+}
+
+/* If no image, header-box uses single column */
+.header-box.no-image {
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    color: #ffd447;
+    margin: 0 0 12px 0;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffd447;
+    font-family: 'Georgia', serif;
+    margin-top: 25px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3d2f5f;
+}
+a {
+    color: #8ba8f7;
+    font-size: 16px;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ffd447;
+    text-decoration: underline;
+}
+.view-selector {
+    text-align: right;
+    margin-bottom: 12px;
+}
+.btn {
+    padding: 7px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 8px;
+    border: 2px solid #3d2f5f;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.btn-primary { 
+    background: linear-gradient(135deg, #6a4c93, #3d2f5f); 
+    color: #fff;
+    border-color: #ffd447;
+}
+.btn-success { 
+    background: linear-gradient(135deg, #3d2f5f, #1a1f3a); 
+    color: #fff;
+    border-color: #9575cd;
+}
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 196, 0, 0.3);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+}
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgb(255 212 71);
+    color: #feffe6;
+    font-size: 14px;
+}
+.prop-name {
+    vertical-align: top;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    background: rgba(26, 31, 58, 0.6);
+    width: 35%;
+}
+.prop-name div:first-child {
+    font-weight: bold;
+    color: #ffd447;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+.prop-name div:last-child {
+    color: #9575cd;
+    font-size: 10px;
+    word-break: break-all;
+}
+.type-badge {
+    background: linear-gradient(135deg, #6a4c93, #3d2f5f);
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 12px;
+    font-size: 13px;
+    margin-right: 8px;
+    display: inline-block;
+    border: 1px solid #ffd447;
+}
+.lang-badge {
+    display: inline-block;
+    background: rgba(106, 76, 147, 0.3);
+    padding: 4px 10px;
+    margin: 3px;
+    border-radius: 4px;
+    font-size: 13px;
+    border: 1px solid #6a4c93;
+}
+.lang-badge strong {
+    color: #ffd447;
+}
+.info-box {
+    background: rgba(26, 31, 58, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    border: 1px solid #3d2f5f;
+}
+.description-box {
+    background: rgba(255, 212, 71, 0.1);
+    padding: 14px;
+    border-left: 4px solid #ffd447;
+    margin: 12px 0;
+    font-style: italic;
+    color: #e8dff5;
+    border-radius: 4px;
+}
+.footer-box {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #3d2f5f;
+    text-align: center;
+    color: #c4b5d6;
+    font-size: 13px;
+}
+.footer-box strong {
+    color: #ffd447;
+}
+
+@media (max-width: 900px) {
+    .header-box {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .header-image {
+        order: -1;
+    }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="content-card">
+    <div class="view-selector">
+        <span style="color:#c4b5d6; margin-right:10px;">View as:</span>
+        <a href="{{ subject_iri }}" class="btn btn-primary">HTML</a>
+        <a href="{{ subject_iri }}?format=turtle" class="btn btn-success">Turtle</a>
+    </div>
+    
+    <div class="header-box{% if not image_url %} no-image{% endif %}">
+        <div class="header-content">
+            <h1>{{ title }}</h1>
+            
+            {% if entity_types %}
+            <div style="margin-bottom:12px;">
+                {% for type in entity_types %}
+                <span class="type-badge">{{ type }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            {% if labels|length > 1 %}
+            <div style="margin:12px 0;">
+                <strong style="color:#ffd447;">Names in other languages:</strong><br/>
+                <div style="margin-top:8px;">
+                {% for lang, text in labels if lang != "en" %}
+                <span class="lang-badge">
+                    <strong>{{ lang }}:</strong> <span style="color:#e8dff5;">{{ text }}</span>
+                </span>
+                {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+            
+            {% if core_facts %}
+            <table style="margin:12px 0;">
+                {% for key, value in core_facts.items() %}
+                <tr>
+                    <td style="padding:8px; font-weight:bold; color:#ffd447; width:140px;">{{ key }}:</td>
+                    <td style="padding:8px; color:#e8dff5;">{{ value }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+            {% endif %}
+            
+            {% if description %}
+            <div class="description-box">
+                "{{ description }}"
+            </div>
+            {% endif %}
+        </div>
+        
+        {% if image_url %}
+        <div class="header-image">
+            <img src="{{ image_url }}" 
+                 onerror="this.style.display='none';" 
+                 alt="{{ title }}">
+        </div>
+        {% endif %}
+    </div>
+    
+    <div class="info-box">
+        <strong style="color:#ffd447;">Permalink:</strong> <a href="{{ subject_iri }}" style="color:#bb86fc;">{{ subject_iri }}</a><br/>
+        <strong style="color:#ffd447; margin-top:8px; display:inline-block;">RDF Access:</strong> 
+        <code style="background:#0f1419; padding:6px 12px; border-radius:4px; color:#4caf50; font-size:12px; display:inline-block; margin-top:5px;">curl -H "Accept: text/turtle" {{ subject_iri }}</code>
+    </div>
+    
+    {% if literal_props %}
+    <h3>Recorded Facts</h3>
+    <table>
+        {% for name, full_pred, value in literal_props %}
+        <tr>
+            <td class="prop-name">
+                <div>{{ name }}</div>
+                <div>{{ full_pred }}</div>
+            </td>
+            <td style="word-wrap:break-word; color:#ffffff;">{{ value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    
+    {% if uri_props %}
+    <h3>Known Connections</h3>
+    <table>
+        {% for name, full_pred, uri in uri_props %}
+        <tr>
+            <td class="prop-name">
+                <div>{{ name }}</div>
+                <div>{{ full_pred }}</div>
+            </td>
+            <td><a href="{{ uri }}">{{ uri.split('/')[-1]|urldecode|replace('_', ' ') }}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    
+    <div class="footer-box">
+        <strong>Tolkien Knowledge Graph</strong><br/>
+        Sources: <a href="https://tolkiengateway.net" target="_blank">Tolkien Gateway</a>, 
+        <a href="https://lotr.fandom.com" target="_blank">LOTR Wiki</a>, 
+        and external archives
+    </div>
+</div>
+{% endblock %}

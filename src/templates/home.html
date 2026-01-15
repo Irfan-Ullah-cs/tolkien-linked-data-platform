@@ -1,0 +1,688 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Tolkien Knowledge Graph{% endblock %}
+
+{% block extra_style %}
+<style>
+/* Same styles as before... */
+.container {
+    max-width: 1500px;
+}
+
+.hero-compact {
+    background: linear-gradient(to right, rgba(26, 31, 58, 0.95), rgba(15, 20, 25, 0.95));
+    padding: 35px 40px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 2px solid #3d2f5f;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.hero-compact h1 {
+    color: #ffd447;
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.hero-compact p {
+    color: #c4b5d6;
+    font-size: 16px;
+    margin: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.stats-column {
+    background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+    border: 2px solid #3d2f5f;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.stats-column h2 {
+    color: #ffd447;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #3d2f5f;
+    font-family: 'Georgia', serif;
+}
+
+.stat-item {
+    background: rgba(106, 76, 147, 0.15);
+    border: 1px solid #6a4c93;
+    border-radius: 6px;
+    padding: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.stat-item:hover {
+    background: rgba(106, 76, 147, 0.25);
+    transform: translateX(5px);
+}
+
+.stat-item h3 {
+    color: #9575cd;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.stat-item .number {
+    color: #ffd447;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+    display: block;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.stat-item .label {
+    color: #c4b5d6;
+    font-size: 13px;
+}
+
+.featured-column {
+    background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+    border: 2px solid #3d2f5f;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #3d2f5f;
+}
+
+.featured-header h2 {
+    color: #ffd447;
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+.refresh-btn {
+    background: rgba(106, 76, 147, 0.3);
+    border: 1px solid #6a4c93;
+    color: #bb86fc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.refresh-btn:hover {
+    background: rgba(106, 76, 147, 0.5);
+    color: #ffd447;
+}
+
+.character-card {
+    display: none;
+}
+
+.character-card.active {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 20px;
+}
+
+.character-image-wrapper {
+    width: 200px;
+    height: 280px;
+    border-radius: 8px;
+    border: 2px solid #6a4c93;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    overflow: hidden;
+    background: rgba(26, 31, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.no-image-placeholder {
+    color: #6a4c93;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.character-info h3 {
+    color: #ffd447;
+    font-size: 26px;
+    margin: 0 0 15px 0;
+    font-family: 'Georgia', serif;
+}
+
+.character-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.meta-item {
+    background: rgba(106, 76, 147, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 3px solid #9575cd;
+}
+
+.meta-item strong {
+    color: #9575cd;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.meta-item span {
+    color: #e8dff5;
+    font-size: 14px;
+}
+
+.character-description {
+    color: #c4b5d6;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 12px;
+}
+
+.view-character-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #6a4c93, #3d2f5f);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #ffd447;
+    transition: all 0.3s;
+}
+
+.view-character-btn:hover {
+    background: linear-gradient(135deg, #ffd447, #ffed4e);
+    color: #0a0e1a;
+    transform: translateY(-2px);
+}
+
+.content-section {
+    background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+    padding: 28px 32px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 2px solid #3d2f5f;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.content-section h2 {
+    color: #ffd447;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #3d2f5f;
+    font-family: 'Georgia', serif;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.info-box {
+    background: rgba(106, 76, 147, 0.2);
+    padding: 18px;
+    border-radius: 6px;
+    border-left: 4px solid #ffd447;
+    transition: all 0.3s;
+}
+
+.info-box:hover {
+    background: rgba(106, 76, 147, 0.3);
+    border-left-width: 8px;
+}
+
+.info-box strong {
+    color: #ffd447;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 6px;
+    font-family: 'Georgia', serif;
+}
+
+.info-box p {
+    color: #c4b5d6;
+    font-size: 13px;
+    margin: 0;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0;
+}
+
+.feature-list li {
+    color: #e8dff5;
+    padding: 10px 0;
+    padding-left: 28px;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(61, 47, 95, 0.4);
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+}
+
+.feature-list li:before {
+    content: "→";
+    color: #ffd447;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+}
+.lang-badge {
+    background: rgba(106, 76, 147, 0.3);
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: inline-block;
+    margin: 4px;
+    border: 1px solid #6a4c93;
+    color: #e8dff5;
+}
+
+.lang-badge strong {
+    color: #ffd447;
+}
+
+.tech-box {
+    background: rgba(106, 76, 147, 0.2);
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #3d2f5f;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.tech-box:hover {
+    background: rgba(106, 76, 147, 0.35);
+    border-color: #9575cd;
+}
+
+.tech-box strong {
+    color: #ffd447;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.tech-box p {
+    color: #c4b5d6;
+    font-size: 12px;
+    margin: 0;
+}
+
+.credits-box {
+    background: linear-gradient(135deg, #0f1419, #1a1f3a);
+    color: #e8dff5;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #ffd447;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+}
+
+.credits-box h3 {
+    color: #ffd447;
+    font-size: 22px;
+    margin: 0 0 12px 0;
+    font-family: 'Georgia', serif;
+}
+
+.credits-box p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #c4b5d6;
+}
+
+@media (max-width: 1200px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .character-card.active {
+        grid-template-columns: 1fr;
+    }
+    
+    .character-image-wrapper {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+    }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Compact Hero -->
+<div class="hero-compact">
+    <h1>⚔ TOLKIEN KNOWLEDGE GRAPH ⚔</h1>
+    <p>A comprehensive Linked Data representation of J.R.R. Tolkien's legendarium</p>
+</div>
+
+<!-- Two Column Dashboard -->
+<div class="dashboard-grid">
+    <!-- Left: Stats Column -->
+    <div class="stats-column">
+        <h2>Knowledge Statistics</h2>
+        
+        <div class="stat-item">
+            <h3>Total Triples</h3>
+            <span class="number" id="stat-triples">...</span>
+            <span class="label">RDF Statements</span>
+        </div>
+        
+        <div class="stat-item">
+            <h3>Unique Entities</h3>
+            <span class="number" id="stat-entities">...</span>
+            <span class="label">Beings & Places</span>
+        </div>
+        
+        <div class="stat-item">
+            <h3>Languages</h3>
+            <span class="number" id="stat-languages">...</span>
+            <span class="label">Tongues of Men & Elves</span>
+        </div>
+        
+        <div class="stat-item">
+            <h3>External Links</h3>
+            <span class="number" id="stat-links">...</span>
+            <span class="label">Connected Realms</span>
+        </div>
+    </div>
+    
+    <!-- Right: Featured Character -->
+    <div class="featured-column">
+    <div class="featured-header">
+        <h2>Featured Character</h2>
+        <button class="refresh-btn" onclick="randomizeCharacter()">⟳ Refresh</button>
+    </div>
+    
+    {% if featured_characters %}
+        {% for char in featured_characters %}
+        <div class="character-card" data-character="{{ char.name|lower|replace(' ', '_') }}">
+            <div class="character-image-wrapper">
+                {% if char.image %}
+                <img src="{{ char.image }}" alt="{{ char.name }}" class="character-image"
+                     onerror="console.error('Image failed:', this.src); this.style.display='none'; this.parentElement.innerHTML='<div class=\'no-image-placeholder\'>⚔<br>Image Load Error<br><small>{{ char.image }}</small></div>';">
+                {% else %}
+                <div class="no-image-placeholder">⚔<br>No Image Available</div>
+                {% endif %}
+            </div>
+            <div class="character-info">
+                <h3>{{ char.name }}</h3>
+                <div class="character-meta">
+                    {% for key, value in char.meta.items() %}
+                    <div class="meta-item">
+                        <strong>{{ key }}</strong>
+                        <span>{{ value }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="character-description">
+                    {{ char.description }}
+                </div>
+                <a href="{{ char.uri }}" class="view-character-btn">View Full Profile →</a>
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p style="color: red;">No featured characters data!</p>
+    {% endif %}
+</div>
+
+<script>
+// Debug: Log what we received
+console.log('Featured characters:', {{ featured_characters|tojson|safe }});
+console.log('Number of characters:', {{ featured_characters|length }});
+</script>
+</div>
+
+<!-- Additional Sections -->
+<div class="content-section">
+    <h2>The Chronicles Within</h2>
+    <div class="info-grid">
+        <div class="info-box">
+            <strong id="stat-characters">...</strong>
+            <p>Heroes, villains, and folk from all corners of Arda</p>
+        </div>
+        <div class="info-box">
+            <strong id="stat-locations">...</strong>
+            <p>Realms, cities, and hidden places of Middle-earth</p>
+        </div>
+        <div class="info-box">
+            <strong id="stat-works">...</strong>
+            <p>Books, letters, and chronicles of the ages</p>
+        </div>
+        <div class="info-box">
+            <strong id="stat-cards">...</strong>
+            <p>Trading cards from Middle-earth lore</p>
+        </div>
+    </div>
+</div>
+<div class="content-section">
+    <h2>Sources of Ancient Wisdom</h2>
+    <ul class="feature-list">
+        <li><strong>Tolkien Gateway</strong> - 23,000+ pages of detailed histories and legends</li>
+        <li><strong>LOTR Characters Database</strong> - 900+ character profiles with genealogies</li>
+        <li><strong>MECCG Card Collection</strong> - 1,600+ game cards depicting Middle-earth</li>
+        <li><strong>LOTR Wiki Archives</strong> - Multi-language translations spanning 17+ tongues</li>
+        <li><strong>External Libraries</strong> - Connections to DBpedia, YAGO, and Wikidata</li>
+    </ul>
+</div>
+
+<div class="content-section">
+    <h2>Languages of Middle-earth</h2>
+    <p style="color: #c4b5d6; margin-bottom: 18px;">
+        Knowledge recorded in <span id="lang-count">...</span> languages, from Westron to the tongues of distant lands:
+    </p>
+    <div id="languages-container" style="min-height: 60px;">
+        <span style="color: #9575cd;">Loading languages...</span>
+    </div>
+</div>
+
+<div class="content-section">
+    <h2>Semantic Web Technologies</h2>
+    <div class="tech-grid">
+        <div class="tech-box">
+            <strong>RDF & Turtle</strong>
+            <p>Linked knowledge</p>
+        </div>
+        <div class="tech-box">
+            <strong>SPARQL</strong>
+            <p>Query language</p>
+        </div>
+        <div class="tech-box">
+            <strong>Schema.org</strong>
+            <p>Standard vocabulary</p>
+        </div>
+        <div class="tech-box">
+            <strong>SHACL</strong>
+            <p>Data validation</p>
+        </div>
+        <div class="tech-box">
+            <strong>Linked Data</strong>
+            <p>Web of meaning</p>
+        </div>
+        <div class="tech-box">
+            <strong>OWL Reasoning</strong>
+            <p>Inferred knowledge</p>
+        </div>
+    </div>
+</div>
+
+<div class="credits-box">
+    <h3>⚔ Crafted By ⚔</h3>
+    <p><strong>Irfan Ullah</strong> & <strong>Sajid</strong></p>
+    <p style="margin-top:12px;">
+        Semantic Web Course Project - École des Mines de Saint-Étienne
+    </p>
+    <p style="margin-top:8px; font-size:13px;">
+        Instructor: Antoine Zimmermann & Victor Charpenay
+    </p>
+</div>
+
+<script>
+// Debug: Log what we received
+console.log('Featured characters:', {{ featured_characters|tojson|safe }});
+console.log('Number of characters:', {{ featured_characters|length }});
+
+// Character randomization
+const characters = [
+    {% for char in featured_characters %}
+    '{{ char.name|lower|replace(" ", "_") }}'{% if not loop.last %},{% endif %}
+    {% endfor %}
+];
+
+console.log('Character names:', characters);
+
+function randomizeCharacter() {
+    console.log('Randomizing character...');
+    
+    // Hide all characters
+    document.querySelectorAll('.character-card').forEach(card => {
+        card.classList.remove('active');
+    });
+    
+    // Show random character
+    const randomChar = characters[Math.floor(Math.random() * characters.length)];
+    console.log('Selected character:', randomChar);
+    
+    const card = document.querySelector(`[data-character="${randomChar}"]`);
+    if (card) {
+        card.classList.add('active');
+        console.log('Showed character card');
+    } else {
+        console.error('Card not found for:', randomChar);
+    }
+}
+
+// Show random character on page load
+window.addEventListener('DOMContentLoaded', function() {
+    console.log('Page loaded, randomizing...');
+    randomizeCharacter();
+});
+
+async function loadStats() {
+    try {
+        const response = await fetch('/api/stats');
+        const stats = await response.json();
+        
+        // Update the main stats
+        document.getElementById('stat-triples').textContent = 
+            stats.total_triples !== 'N/A' ? parseInt(stats.total_triples).toLocaleString() : 'N/A';
+        
+        document.getElementById('stat-entities').textContent = 
+            stats.unique_entities !== 'N/A' ? parseInt(stats.unique_entities).toLocaleString() : 'N/A';
+        
+        document.getElementById('stat-languages').textContent = 
+            stats.languages ? stats.languages.length : '0';
+        
+        document.getElementById('stat-links').textContent = 
+            stats.external_links !== 'N/A' ? parseInt(stats.external_links).toLocaleString() : 'N/A';
+        
+        // ADD THESE NEW LINES - Update Chronicles Within
+        document.getElementById('stat-characters').textContent = 
+            stats.characters !== 'N/A' ? parseInt(stats.characters).toLocaleString() : 'N/A';
+        
+        document.getElementById('stat-locations').textContent = 
+            stats.locations !== 'N/A' ? parseInt(stats.locations).toLocaleString() : 'N/A';
+        
+        document.getElementById('stat-works').textContent = 
+            stats.works !== 'N/A' ? parseInt(stats.works).toLocaleString() : 'N/A';
+        
+        document.getElementById('stat-cards').textContent = 
+            stats.cards !== 'N/A' ? parseInt(stats.cards).toLocaleString() : 'N/A';
+         if (stats.languages && stats.languages.length > 0) {
+            document.getElementById('lang-count').textContent = stats.languages.length;
+            
+            // Create language badges (show first 15)
+            const languagesHtml = stats.languages.slice(0, 15).map(lang => {
+                const langCode = lang[0];
+                const count = parseInt(lang[1]).toLocaleString();
+                return `<span class="lang-badge">
+                    <strong>${langCode}</strong>: ${count} labels
+                </span>`;
+            }).join('');
+            
+            document.getElementById('languages-container').innerHTML = languagesHtml;
+        } else {
+            document.getElementById('lang-count').textContent = '0';
+            document.getElementById('languages-container').innerHTML = 
+                '<span style="color: #9575cd;">No language data available</span>';
+        }
+        
+        console.log('Stats loaded successfully');
+    } catch (error) {
+        console.error('Error loading stats:', error);
+        // Show error state
+        ['stat-triples', 'stat-entities', 'stat-languages', 'stat-links', 
+         'stat-characters', 'stat-locations', 'stat-works', 'stat-cards'].forEach(id => {
+            const elem = document.getElementById(id);
+            if (elem) elem.textContent = 'Error';
+        });
+    }
+}
+// Load stats after page loads
+window.addEventListener('DOMContentLoaded', function() {
+    console.log('Page loaded, loading stats...');
+    loadStats();
+    randomizeCharacter();
+});
+</script>
+{% endblock %}

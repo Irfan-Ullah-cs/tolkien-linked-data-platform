@@ -1,0 +1,29 @@
+@prefix tg: <http://localhost:5000/vocab/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+tg:Entity a rdfs:Class .
+
+tg:Character a rdfs:Class ;
+  rdfs:subClassOf tg:Entity ;
+  rdfs:subClassOf schema:Person .
+
+tg:Location a rdfs:Class ;
+  rdfs:subClassOf tg:Entity ;
+  rdfs:subClassOf schema:Place .
+
+tg:Work a rdfs:Class ;
+  rdfs:subClassOf tg:Entity ;
+  rdfs:subClassOf schema:CreativeWork .
+
+tg:Organization a rdfs:Class ;
+  rdfs:subClassOf tg:Entity ;
+  rdfs:subClassOf schema:Organization .
+
+tg:Product a rdfs:Class ;
+  rdfs:subClassOf tg:Entity ;
+  rdfs:subClassOf schema:Product .
+
+tg:LivingThing a rdfs:Class ;
+  rdfs:subClassOf tg:Entity ;
+  rdfs:subClassOf schema:Thing .

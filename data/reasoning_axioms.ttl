@@ -1,0 +1,87 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tolkien: <http://localhost:5000/vocab/> .
+@prefix schema: <http://schema.org/> .
+
+
+# OWL:SAMEAS - Already transitive and symmetric by OWL spec
+owl:sameAs a owl:SymmetricProperty, owl:TransitiveProperty ;
+    rdfs:comment "Connects entities to external knowledge graphs. Transitive chains enable discovery of YAGO, Wikidata, Freebase, and multi-language DBpedia resources." .
+
+ 
+# Symmetric Properties
+# If X relates to Y, then Y relates to X
+schema:spouse a owl:SymmetricProperty ;
+    rdfs:label "spouse (symmetric)" ;
+    rdfs:comment "If A is spouse of B, then B is spouse of A" .
+
+schema:relatedTo a owl:SymmetricProperty ;
+    rdfs:label "related to (symmetric)" ;
+    rdfs:comment "Bidirectional relationship between entities" .
+
+tolkien:ally a owl:SymmetricProperty ;
+    rdfs:label "ally (symmetric)" ;
+    rdfs:comment "If A is ally of B, then B is ally of A" .
+
+tolkien:sibling a owl:SymmetricProperty ;
+    rdfs:label "sibling (symmetric)" ;
+    rdfs:comment "Sibling relationships are bidirectional" .
+
+ 
+# Inverse Properties
+# One property is the reverse of another
+schema:children owl:inverseOf schema:parent ;
+    rdfs:label "children/parent (inverse)" ;
+    rdfs:comment "If A has child B, then B has parent A" .
+
+tolkien:rulerOf owl:inverseOf tolkien:ruledBy ;
+    rdfs:label "ruler/ruled (inverse)" ;
+    rdfs:comment "If A rules B, then B is ruled by A" .
+
+ 
+# Transitive Properties
+# If X→Y and Y→Z, then X→Z
+ 
+schema:containedInPlace a owl:TransitiveProperty ;
+    rdfs:label "contained in place (transitive)" ;
+    rdfs:comment "If A is in B and B is in C, then A is in C. Example: Hobbiton→Shire→Eriador" .
+
+tolkien:partOf a owl:TransitiveProperty ;
+    rdfs:label "part of (transitive)" ;
+    rdfs:comment "Hierarchical part-whole relationships" .
+
+ 
+# Property Chains
+# Combine properties to create new relationships
+ 
+tolkien:grandparent a owl:ObjectProperty ;
+    rdfs:label "grandparent" ;
+    rdfs:comment "Person who is parent of one's parent" ;
+    owl:propertyChainAxiom (schema:parent schema:parent) .
+
+tolkien:ancestor a owl:ObjectProperty ;
+    rdfs:label "ancestor" ;
+    rdfs:comment "Transitive ancestor relationship through parents" ;
+    rdfs:subPropertyOf schema:parent ;
+    a owl:TransitiveProperty .
+
+ 
+# Class Hierarchy (for RDFS reasoning)
+ 
+
+tolkien:Character rdfs:subClassOf schema:Person ;
+    rdfs:label "Character" ;
+    rdfs:comment "Fictional characters are persons" .
+
+tolkien:Location rdfs:subClassOf schema:Place ;
+    rdfs:label "Location" ;
+    rdfs:comment "Locations in Middle-earth are places" .
+
+tolkien:Work rdfs:subClassOf schema:CreativeWork ;
+    rdfs:label "Work" ;
+    rdfs:comment "Tolkien's works are creative works" .
+
+tolkien:Card rdfs:subClassOf schema:Thing ;
+    rdfs:label "Card" ;
+    rdfs:comment "Trading card game cards" .

@@ -1,0 +1,5085 @@
+@prefix schema: <http://schema.org/> .
+@prefix tolkien: <http://localhost:5000/vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:5000/resource/Adanel>
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Belemir> .
+
+<http://localhost:5000/resource/Boromir>
+    schema:birthDate "TA 2978" ;
+    schema:deathDate "February 26 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark (book) Light brown (movie)" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Lagduf>
+    schema:deathDate "March ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Orcs" .
+
+<http://localhost:5000/resource/Tarcil>
+    schema:birthDate "TA 280" ;
+    schema:deathDate "TA 515" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Fire-drake_of_Gondolin>
+    schema:gender "Male" ;
+    tolkien:race "Dragon" .
+
+<http://localhost:5000/resource/Ar-Ad%C3%BBnakh%C3%B4r>
+    schema:birthDate "SA 2709" ;
+    schema:deathDate "SA 2962" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Annael>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Angrod>
+    schema:birthDate "YT" ;
+    schema:deathDate "FA 455" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Eldal%C3%B3t%C3%AB> .
+
+<http://localhost:5000/resource/An%C3%A1rion>
+    schema:birthDate "SA 3219" ;
+    schema:deathDate "SA 3440" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Ar-Pharaz%C3%B4n>
+    schema:birthDate "SA 3118" ;
+    schema:deathDate "Still alive" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Tar-M%C3%ADriel> .
+
+<http://localhost:5000/resource/Ar-Sakalth%C3%B4r>
+    schema:birthDate "SA 2876" ;
+    schema:deathDate "SA 3102" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Ar-Gimilz%C3%B4r>
+    schema:birthDate "SA 2960" ;
+    schema:deathDate "SA 3177" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Inzilb%C3%AAth> .
+
+<http://localhost:5000/resource/Angelimir>
+    schema:birthDate "TA 2866" ;
+    schema:deathDate "TA 2977" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Angbor>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Nurw%C3%AB>
+    schema:birthDate "Perhaps ,Firstborn" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Penlod>
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Pengolodh>
+    schema:birthDate "Early ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:height "Tallest of the Elves of Gondolin" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Tarannon_Falastur>
+    schema:birthDate "TA 654" ;
+    schema:deathDate "TA 913" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" ;
+    schema:spouse <http://localhost:5000/resource/Ber%C3%BAthiel> .
+
+<http://localhost:5000/resource/Tar-Vanimeld%C3%AB>
+    schema:birthDate "SA 2277" ;
+    schema:deathDate "SA 2637" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Herucalmo> .
+
+<http://localhost:5000/resource/Tar-Telperi%C3%ABn>
+    schema:birthDate "SA 1320" ;
+    schema:deathDate "SA 1731" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Telemmait%C3%AB>
+    schema:birthDate "SA 2136" ;
+    schema:deathDate "SA 2526" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-S%C3%BArion>
+    schema:birthDate "SA 1174" ;
+    schema:deathDate "SA 1574" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Palantir>
+    schema:birthDate "SA 3035" ;
+    schema:deathDate "SA 3255" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-M%C3%ADriel>
+    schema:birthDate "SA 3117" ;
+    schema:deathDate "SA 3319" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Ar-Pharaz%C3%B4n> .
+
+<http://localhost:5000/resource/Tar-Minastir>
+    schema:birthDate "SA 1474" ;
+    schema:deathDate "SA 1873" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Elendil>
+    schema:birthDate "SA 350" ;
+    schema:deathDate "SA 751" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Calmacil>
+    schema:birthDate "SA 2516" ;
+    schema:deathDate "SA 2825" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Atanamir>
+    schema:birthDate "SA 1800" ;
+    schema:deathDate "SA 2221" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Meneldur>
+    schema:birthDate "SA 543" ;
+    schema:deathDate "SA 942" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Almarian> .
+
+<http://localhost:5000/resource/Tar-Ardamin>
+    schema:birthDate "SA 2618" ;
+    schema:deathDate "SA 2899" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Ciryatan>
+    schema:birthDate "SA 1634" ;
+    schema:deathDate "SA 2035" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-An%C3%A1rion>
+    schema:birthDate "SA 1003" ;
+    schema:deathDate "SA 1404" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Ancalim%C3%AB>
+    schema:birthDate "SA 873" ;
+    schema:deathDate "SA 1285" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Hallacar> .
+
+<http://localhost:5000/resource/Tar-Ancalimon>
+    schema:birthDate "SA 1986" ;
+    schema:deathDate "SA 2386" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Amandil>
+    schema:birthDate "SA 192" ;
+    schema:deathDate "SA 603" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Tar-Alcarin>
+    schema:birthDate "SA 2406" ;
+    schema:deathDate "SA 2737" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Morwen_Steelsheen>
+    schema:birthDate "TA 2922" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" ;
+    schema:spouse <http://localhost:5000/resource/Thengel> .
+
+<http://localhost:5000/resource/Soronto>
+    schema:birthDate "SA 799" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Tar-Aldarion>
+    schema:birthDate "SA 700" ;
+    schema:deathDate "SA 1098" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Erendis> .
+
+<http://localhost:5000/resource/Finw%C3%AB>
+    schema:birthDate "YT, and perhaps Firstborn" ;
+    schema:deathDate "YT 1495" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Tirion,Formenos" ;
+    schema:spouse <http://localhost:5000/resource/M%C3%ADriel_Serind%C3%AB_then_%2CIndis> .
+
+<http://localhost:5000/resource/Finrod>
+    schema:birthDate "YT 1300" ;
+    schema:deathDate "FA 465" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Loved_%2CAmari%C3%AB_but_they_never_married> .
+
+<http://localhost:5000/resource/Fingon>
+    schema:birthDate "YT during the ,Noontide of Valinor" ;
+    schema:deathDate "FA 472" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Hithlum" .
+
+<http://localhost:5000/resource/Fingolfin>
+    schema:birthDate "YT 1190" ;
+    schema:deathDate "FA 455" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Hithlum,Beleriand" ;
+    schema:spouse <http://localhost:5000/resource/Anair%C3%AB> .
+
+<http://localhost:5000/resource/Finduilas_of_Dol_Amroth>
+    schema:birthDate "TA 2950" ;
+    schema:deathDate "TA 2988" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Denethor_II> .
+
+<http://localhost:5000/resource/Finduilas>
+    schema:birthDate "First Age" ;
+    schema:deathDate "FA 495" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/None%3B_betrothed_to_%2CGwindor%2C_but_never_married.> .
+
+<http://localhost:5000/resource/Findis>
+    schema:birthDate "Years of the Trees" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Findegil>
+    schema:birthDate "Fourth Age" ;
+    schema:deathDate "sometime after ,FO 172" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Finarfin>
+    schema:birthDate "YT 1230" ;
+    schema:deathDate "Still Alive" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Tirion" ;
+    schema:spouse <http://localhost:5000/resource/E%C3%A4rwen> .
+
+<http://localhost:5000/resource/Ferumbras_Took_II>
+    schema:birthDate "TA 2701" ;
+    schema:deathDate "TA 2801" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Bill_Ferny>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown (film)" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Fengel>
+    schema:birthDate "TA 2870" ;
+    schema:deathDate "TA 2953" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Fastred_%28Pelennor_Fields%29>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Fastred>
+    schema:birthDate "TA 2858" ;
+    schema:deathDate "TA 2885" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Fastolph_Bolger>
+    schema:birthDate "SR 1210" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Shire" ;
+    schema:spouse <http://localhost:5000/resource/Pansy_Baggins> .
+
+<http://localhost:5000/resource/Farin>
+    schema:birthDate "TA 2560" ;
+    schema:deathDate "TA 2803" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Faramir_%28son_of_Ondoher%29>
+    schema:birthDate "Mid ,Third Age" ;
+    schema:deathDate "TA 1944" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Faramir>
+    schema:birthDate "TA 2983" ;
+    schema:deathDate "February 26 ,82" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Raven" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Minas Ithil" ;
+    schema:spouse <http://localhost:5000/resource/owyn> .
+
+<http://localhost:5000/resource/Snaga_%28Two_Towers_orc%29>
+    schema:deathDate "February 293019" ;
+    schema:gender "Male" ;
+    tolkien:race "Orcs" .
+
+<http://localhost:5000/resource/Snaga>
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Orcs" .
+
+<http://localhost:5000/resource/Smaug>
+    schema:birthDate "Unknown, first appeared in ,TA 2770" ;
+    schema:deathDate "November 1 ,TA 2941" ;
+    schema:gender "Male" ;
+    tolkien:race "Dragons" ;
+    tolkien:realm "Lonely Mountain" .
+
+<http://localhost:5000/resource/Robin_Smallburrow>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Siriondil>
+    schema:birthDate "TA 570" ;
+    schema:deathDate "TA 830" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Silmari%C3%ABn>
+    schema:birthDate "SA 521" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Elatan> .
+
+<http://localhost:5000/resource/Shelob>
+    schema:birthDate "Unknown, possibly during the ,First Age" ;
+    schema:deathDate "Unknown, possibly TA 3019" ;
+    schema:gender "Female" ;
+    tolkien:height "Large and immense" ;
+    tolkien:race "Great Spiders" ;
+    tolkien:realm "Torech Ungol" .
+
+<http://localhost:5000/resource/Shagrat>
+    schema:birthDate "TA 2050" ;
+    schema:gender "Male" ;
+    tolkien:height "7'1" ;
+    tolkien:race "Black Uruk" ;
+    tolkien:realm "Cirith Ungol" .
+
+<http://localhost:5000/resource/Scatha>
+    schema:deathDate "TA 2000" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "None" ;
+    tolkien:race "Dragons" .
+
+<http://localhost:5000/resource/Sauron>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "March 25 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Various" ;
+    tolkien:height "Various until" ;
+    tolkien:race "Maiar" .
+
+<http://localhost:5000/resource/Saruman>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "3 November ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "White" ;
+    tolkien:race "Maiar" ;
+    tolkien:realm "Isengard,Nan Curunír" .
+
+<http://localhost:5000/resource/Salmar>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/Saradas_Brandybuck>
+    schema:birthDate "SR 1308" ;
+    schema:deathDate "SR 1407" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Sangahyando>
+    schema:birthDate "Mid-,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ted_Sandyman>
+    schema:birthDate "TA 2920" ;
+    schema:deathDate "FO 50" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Salgant>
+    schema:deathDate "Fate officially unknown" ;
+    schema:gender "Male" ;
+    tolkien:height "Short" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Sagroth>
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Saeros>
+    schema:birthDate "YT" ;
+    schema:deathDate "FA 484" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Saelon>
+    schema:birthDate "Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Sador>
+    schema:birthDate "about ,FA 430" ;
+    schema:deathDate "FA 495" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/None_known> .
+
+<http://localhost:5000/resource/Sadoc_Brandybuck>
+    schema:birthDate "SR 1179" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Lotho_Sackville-Baggins>
+    schema:birthDate "TA 2964" ;
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Sandy" ;
+    tolkien:height "1.22m (4'0\")" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Lobelia_Sackville-Baggins>
+    schema:birthDate "TA 2918" ;
+    schema:deathDate "TA 3020" ;
+    schema:gender "Female" ;
+    tolkien:height "1.17m (3'10\")" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Otho_Sackville-Baggins> .
+
+<http://localhost:5000/resource/R%C3%B3mendacil_II>
+    schema:birthDate "TA 1126" ;
+    schema:deathDate "TA 1366" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/R%C3%BAmil_%28Noldo%29>
+    schema:birthDate "YT" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/R%C3%B3mendacil_I>
+    schema:birthDate "TA 310" ;
+    schema:deathDate "TA 541" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/R%C3%ADan_%28Gondor%29>
+    schema:birthDate "c. T.A. 2328" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/R%C3%ADan>
+    schema:birthDate "FA 450" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Huor> .
+
+<http://localhost:5000/resource/Rufus_Burrows>
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Asphodel_Brandybuck> .
+
+<http://localhost:5000/resource/R%C3%BAmil_of_L%C3%B3rien>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Rudigar_Bolger>
+    schema:birthDate "SR 1255" ;
+    schema:deathDate "SR 1348" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Bree" ;
+    schema:spouse <http://localhost:5000/resource/Belba_Baggins> .
+
+<http://localhost:5000/resource/Ro%C3%A4c>
+    schema:birthDate "TA 2788" ;
+    schema:gender "Male" ;
+    tolkien:race "Raven" .
+
+<http://localhost:5000/resource/Rowan_Greenhand>
+    schema:birthDate "TA 2849" ;
+    schema:deathDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Shire" ;
+    schema:spouse <http://localhost:5000/resource/Belba_Baggins> .
+
+<http://localhost:5000/resource/Rog>
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Ragnor>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ragnir>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Radhruin>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Radagast>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "None" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown-gray (films)" ;
+    tolkien:race "Maiar" .
+
+<http://localhost:5000/resource/Odo_Proudfoot>
+    schema:birthDate "TA 2904" ;
+    schema:deathDate "TA 3005" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown Gray (movie)" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Mrs._Proudfoot> .
+
+<http://localhost:5000/resource/Mrs._Proudfoot>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Odo_Proudfoot> .
+
+<http://localhost:5000/resource/Kh%C3%AEm>
+    schema:deathDate "FA 486" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Kham%C3%BBl>
+    schema:birthDate "Second Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "White" ;
+    tolkien:race "Men,Wraith" ;
+    tolkien:realm "Rhûn,Dol Guldur,Sauron" .
+
+<http://localhost:5000/resource/Ivriniel>
+    schema:birthDate "TA 2947" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ivorwen>
+    schema:birthDate "TA 2857" ;
+    schema:deathDate "TA 2929" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Brown (film)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/D%C3%ADrhael> .
+
+<http://localhost:5000/resource/Isilm%C3%AB>
+    schema:birthDate "SA 532" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Isilmo>
+    schema:birthDate "After ,SA 1320" ;
+    schema:deathDate "Before ,SA 1731" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Isildur>
+    schema:birthDate "SA 3209" ;
+    schema:deathDate "TA 2" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Very tall almost 7'1" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor,Gondor" .
+
+<http://localhost:5000/resource/Isengrim_Took_III>
+    schema:birthDate "TA 2832" ;
+    schema:deathDate "TA 2930" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Not_married> .
+
+<http://localhost:5000/resource/Isembold_Took>
+    schema:birthDate "TA 2842" ;
+    schema:deathDate "TA 2946" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Irmo>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" ;
+    schema:spouse <http://localhost:5000/resource/Est%C3%AB> .
+
+<http://localhost:5000/resource/Iorlas>
+    schema:birthDate "b. ,TA 2990" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ioreth>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Inzilb%C3%AAth>
+    schema:birthDate "Late ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Ar-Gimilz%C3%B4r> .
+
+<http://localhost:5000/resource/Ingwion>
+    schema:birthDate "YT" ;
+    schema:deathDate "Unknown, probably still alive" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Probably Golden" ;
+    tolkien:race "Elf" .
+
+<http://localhost:5000/resource/Ingw%C3%AB>
+    schema:birthDate "YT, and perhaps firstborn" ;
+    schema:deathDate "Still Alive" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Probably Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Valinor,Taniquetil" .
+
+<http://localhost:5000/resource/Ingold>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Indor>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 495" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Indis>
+    schema:deathDate "Still Alive" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Tirion" ;
+    schema:spouse <http://localhost:5000/resource/Finw%C3%AB> .
+
+<http://localhost:5000/resource/Imraz%C3%B4r>
+    schema:birthDate "TA 1950" ;
+    schema:deathDate "TA 2076" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Mithrellas> .
+
+<http://localhost:5000/resource/Imrahil>
+    schema:birthDate "TA 2955" ;
+    schema:deathDate "FO 34" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Imlach>
+    schema:birthDate "around FA 325" ;
+    schema:deathDate "First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Iminy%C3%AB>
+    schema:birthDate "Unknown, Awakened in the ,Years of the Trees" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Imin> .
+
+<http://localhost:5000/resource/Imin>
+    schema:birthDate "Unknown, Awakened in the ,Years of the Trees" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Iminy%C3%AB> .
+
+<http://localhost:5000/resource/Eru_Il%C3%BAvatar>
+    schema:gender "Male" ;
+    tolkien:hairColor "Varies, White" ;
+    tolkien:height "Varies" ;
+    tolkien:race "God" ;
+    tolkien:realm "Timeless Halls" .
+
+<http://localhost:5000/resource/Ilmar%C3%AB>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:gender "Female" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/Idril>
+    schema:birthDate "YT 1469" ;
+    schema:deathDate "Still Alive" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Tuor> .
+
+<http://localhost:5000/resource/Ib%C3%BBn>
+    schema:deathDate "FA 489" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possibly_none> .
+
+<http://localhost:5000/resource/H%C3%BArin_of_Emyn_Arnen>
+    schema:birthDate "Mid-,Third Age" ;
+    schema:deathDate "Mid-,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/H%C3%BArin_II>
+    schema:birthDate "TA 2515" ;
+    schema:deathDate "TA 2628" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/H%C3%BArin_I>
+    schema:birthDate "TA 2124" ;
+    schema:deathDate "TA 2244" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/H%C3%BArin>
+    schema:birthDate "FA 441" ;
+    schema:deathDate "FA 502" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden, grey (in old age)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Morwen_Eledhwen> .
+
+<http://localhost:5000/resource/H%C3%A1ma_%28Helm%27s_son%29>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Winter of ,TA 2759" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/H%C3%A1ma>
+    schema:birthDate "TA 2975" ;
+    schema:deathDate "March 3, or ,4 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Reddish brown (movie)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possibly_none> .
+
+<http://localhost:5000/resource/Hyarmendacil_II>
+    schema:birthDate "TA 1391" ;
+    schema:deathDate "TA 1621" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Hyarmendacil_I>
+    schema:birthDate "TA 899" ;
+    schema:deathDate "TA 1149" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Huor>
+    schema:birthDate "FA 442" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tallest of all mortal men save his son Tuor only" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/R%C3%ADan> .
+
+<http://localhost:5000/resource/Hunthor>
+    schema:birthDate "Late ,FA" ;
+    schema:deathDate "FA 499" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hundar>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hundad>
+    schema:birthDate "Mid ,FA" ;
+    schema:deathDate "Mid FA" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Huan>
+    schema:birthDate "First Age" ;
+    schema:deathDate "FA 466" ;
+    schema:gender "Male" ;
+    tolkien:height "Horse-sized" ;
+    tolkien:race "Wolfhound" .
+
+<http://localhost:5000/resource/Tobias_Hornblower>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Late ,TA 3018" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Shire" .
+
+<http://localhost:5000/resource/Horn>
+    schema:birthDate "Possibly late ,Third Age" ;
+    schema:deathDate "March 15 ,TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Blond (Video game)" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/E%C3%B6nw%C3%AB>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/E%C3%B6l>
+    schema:birthDate "YT" ;
+    schema:deathDate "FA 400" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Nan Elmoth" ;
+    schema:spouse <http://localhost:5000/resource/Aredhel> .
+
+<http://localhost:5000/resource/E%C3%A4rwen>
+    schema:birthDate "Years of the Trees" ;
+    schema:deathDate "Still alive" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Star-like" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Finarfin> .
+
+<http://localhost:5000/resource/E%C3%A4rnur>
+    schema:birthDate "TA 1928" ;
+    schema:deathDate "TA 2050" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/E%C3%A4rnil_II>
+    schema:birthDate "TA 1883" ;
+    schema:deathDate "TA 2043" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/E%C3%A4rnil_I>
+    schema:birthDate "TA 736" ;
+    schema:deathDate "TA 936" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/E%C3%A4rendur_of_N%C3%BAmenor>
+    schema:birthDate "SA 361" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/E%C3%A4rendur_of_Arnor>
+    schema:birthDate "TA 640" ;
+    schema:deathDate "TA 861" ;
+    schema:gender "Male" .
+
+<http://localhost:5000/resource/E%C3%A4rendur_%28Lord_of_And%C3%BAni%C3%AB%29>
+    schema:birthDate "Late ,Second Age" ;
+    schema:deathDate "Late Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/E%C3%A4rendil_of_Gondor>
+    schema:birthDate "TA 48" ;
+    schema:deathDate "TA 324" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/E%C3%A4rendil>
+    schema:birthDate "FA 503" ;
+    schema:deathDate "Still Alive" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Half-elven" ;
+    schema:spouse <http://localhost:5000/resource/Elwing> .
+
+<http://localhost:5000/resource/Est%C3%AB>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:race "Ainur" ;
+    schema:spouse <http://localhost:5000/resource/Irmo> .
+
+<http://localhost:5000/resource/Estelmo>
+    schema:birthDate "Late ,Second Age" ;
+    schema:deathDate "Early ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Erkenbrand>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Erestor>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Erendis>
+    schema:birthDate "SA 771" ;
+    schema:deathDate "SA 985" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Tar-Aldarion> .
+
+<http://localhost:5000/resource/Erellont>
+    schema:birthDate "unknown" ;
+    schema:deathDate "unknown" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/unknown> .
+
+<http://localhost:5000/resource/Erchirion>
+    schema:birthDate "TA 2990" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Eradan>
+    schema:birthDate "TA 1999" ;
+    schema:deathDate "TA 2116" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/owyn>
+    schema:birthDate "TA 2995" ;
+    schema:deathDate "FO" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Pale gold" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Faramir> .
+
+<http://localhost:5000/resource/Eorl_the_Young>
+    schema:birthDate "TA 2485" ;
+    schema:deathDate "TA 2545" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Blond" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/omer>
+    schema:birthDate "TA 2990" ;
+    schema:deathDate "FO 63" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dirty blond" ;
+    tolkien:height "Tall-6'6" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" ;
+    schema:spouse <http://localhost:5000/resource/Loth%C3%ADriel_after_the_War_of_the_Ring> .
+
+<http://localhost:5000/resource/Enerdhil>
+    schema:birthDate "Unknown, possibly in the ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Enely%C3%AB>
+    schema:birthDate "Unknown, Awakened in the ,Years of the Trees" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Enel> .
+
+<http://localhost:5000/resource/Enel>
+    schema:birthDate "Unknown, Awakened in the Years of the Trees" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Enely%C3%AB> .
+
+<http://localhost:5000/resource/Emeldir>
+    schema:birthDate "FA 406" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Barahir> .
+
+<http://localhost:5000/resource/Elwing>
+    schema:birthDate "FA 503" ;
+    schema:deathDate "Still Alive" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Half-elven" ;
+    schema:spouse <http://localhost:5000/resource/E%C3%A4rendil> .
+
+<http://localhost:5000/resource/Elur%C3%A9d_and_Elur%C3%ADn>
+    schema:birthDate "FA 500" ;
+    schema:deathDate "FA 506" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Possibly dark" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Elros>
+    schema:birthDate "FA 532" ;
+    schema:deathDate "SA 442" ;
+    schema:gender "Male" ;
+    tolkien:race "Half-elven" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Elrond>
+    schema:birthDate "FA 532" ;
+    schema:deathDate "Still alive; departed to ,Aman, on ,September 29 ,3021" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Half-elven" ;
+    tolkien:realm "Rivendell" ;
+    schema:spouse <http://localhost:5000/resource/Celebr%C3%ADan> .
+
+<http://localhost:5000/resource/Elphir>
+    schema:birthDate "TA 2987" ;
+    schema:deathDate "FO 57" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Elladan_and_Elrohir>
+    schema:birthDate "TA 130" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Elfwine>
+    schema:birthDate "FO 8" ;
+    schema:deathDate "FO 103" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Elfhild>
+    schema:birthDate "TA 2950" ;
+    schema:deathDate "TA 2978" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" ;
+    schema:spouse <http://localhost:5000/resource/Th%C3%A9oden> .
+
+<http://localhost:5000/resource/Elfhelm>
+    schema:birthDate "TA 2985" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Elenw%C3%AB>
+    schema:birthDate "YT" ;
+    schema:deathDate "YT 1500" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Turgon> .
+
+<http://localhost:5000/resource/Elendur_of_Arnor>
+    schema:birthDate "TA 552" ;
+    schema:deathDate "TA 777" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Elendur>
+    schema:birthDate "SA 3299" ;
+    schema:deathDate "TA 2" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Elendil>
+    schema:birthDate "SA 3119" ;
+    schema:deathDate "SA 3441" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown" ;
+    tolkien:height "7' 10\"" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor,Gondor" .
+
+<http://localhost:5000/resource/Elemm%C3%ADr%C3%AB_%28elf%29>
+    schema:deathDate "Presumably still alive" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Elemmakil>
+    schema:deathDate "FA 510,(presumably)" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Eldarion>
+    schema:birthDate "FO 43" ;
+    schema:deathDate "Before ,FO 220" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Reunited Kingdom,Arnor,Gondor" .
+
+<http://localhost:5000/resource/Eldal%C3%B3t%C3%AB>
+    schema:birthDate "YT" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Angrod> .
+
+<http://localhost:5000/resource/Eldacar_%28King_of_Gondor%29>
+    schema:birthDate "TA 1255" ;
+    schema:deathDate "TA 1490" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Eldacar_%28King_of_Arnor%29>
+    schema:birthDate "TA 87" ;
+    schema:deathDate "TA 339" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Elboron>
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Elatan>
+    schema:birthDate "Early ,Second Age" ;
+    schema:deathDate "Early Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Silmari%C3%ABn> .
+
+<http://localhost:5000/resource/Eilinel>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "Between ,FA 455, - ,FA 460" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Gorlim> .
+
+<http://localhost:5000/resource/Eglantine_%28Banks%29_Took>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Late Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Paladin_Took_II> .
+
+<http://localhost:5000/resource/Egalmoth_%28elf%29>
+    schema:deathDate "FA 538" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possibly_none> .
+
+<http://localhost:5000/resource/Egalmoth>
+    schema:birthDate "TA 2626" ;
+    schema:deathDate "TA 2743" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Edrahil>
+    schema:deathDate "FA 465" ;
+    schema:gender "Male" ;
+    tolkien:race "Elf" .
+
+<http://localhost:5000/resource/Ecthelion_of_the_Fountain>
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Ecthelion_II>
+    schema:birthDate "TA 2886" ;
+    schema:deathDate "TA 2984" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ecthelion_I>
+    schema:birthDate "TA 2600" ;
+    schema:deathDate "TA 2698" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Possibly_none> .
+
+<http://localhost:5000/resource/D%C3%BAnhere>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/D%C3%ADs>
+    schema:birthDate "TA 2760" ;
+    schema:deathDate "After ,TA 2941" ;
+    schema:gender "Female" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/D%C3%ADrhavel>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/D%C3%ADrhael>
+    schema:birthDate "TA 2838" ;
+    schema:deathDate "After ,TA 2929" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown (film)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Ivorwen> .
+
+<http://localhost:5000/resource/D%C3%A9orwine>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/D%C3%A9or>
+    schema:birthDate "TA 2644" ;
+    schema:deathDate "TA 2718" ;
+    schema:gender "Male" ;
+    tolkien:race "Men,Rohirrim" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/D%C3%A9agol>
+    schema:birthDate "Between TA 2400 and ,TA 2430" ;
+    schema:deathDate "TA 2463" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark-brown" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Borlas>
+    schema:birthDate "TA 3011" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Borlad>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Pelendur>
+    schema:birthDate "TA 1879" ;
+    schema:deathDate "TA 1998" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Pallando>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/Otho_Sackville-Baggins>
+    schema:birthDate "TA 2910" ;
+    schema:deathDate "TA 3012" ;
+    schema:gender "Male" ;
+    tolkien:height "1.22m (4'0\")" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Lobelia_Sackville-Baggins> .
+
+<http://localhost:5000/resource/Ostoher>
+    schema:birthDate "TA 222" ;
+    schema:deathDate "TA 492" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Oss%C3%AB>
+    schema:birthDate "Before the creation ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" ;
+    schema:spouse <http://localhost:5000/resource/Uinen> .
+
+<http://localhost:5000/resource/Orophin>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Oropher>
+    schema:birthDate "First Age" ;
+    schema:deathDate "SA 3434" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Woodland Realm" .
+
+<http://localhost:5000/resource/Orom%C3%AB>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:height "Varies" ;
+    tolkien:race "Ainur" ;
+    schema:spouse <http://localhost:5000/resource/V%C3%A1na> .
+
+<http://localhost:5000/resource/Oromendil>
+    schema:birthDate "SA 382" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Orodreth_%28Steward%29>
+    schema:birthDate "TA 2576" ;
+    schema:deathDate "TA 2685" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Orodreth>
+    schema:birthDate "YT" ;
+    schema:deathDate "FA 495 ,Battle of Tumhalad" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Nargothrond" .
+
+<http://localhost:5000/resource/Ori>
+    schema:birthDate "TA 2865" ;
+    schema:deathDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Orcobal>
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:race "Orcs" .
+
+<http://localhost:5000/resource/Orchaldor>
+    schema:birthDate "Sometime before ,SA 799" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Ailinel> .
+
+<http://localhost:5000/resource/Ondoher>
+    schema:birthDate "TA 1787" ;
+    schema:deathDate "TA 1944" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Olw%C3%AB>
+    schema:birthDate "Possibly Firstborn" ;
+    schema:deathDate "Still Alive" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Silver" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Tol Eressëa,Alqualondë" .
+
+<http://localhost:5000/resource/Old_Noakes>
+    schema:birthDate "TA 2923" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Ohtar>
+    schema:birthDate "Late ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/N%C3%BAneth>
+    schema:birthDate "Early ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Beregar> .
+
+<http://localhost:5000/resource/N%C3%BAmendil>
+    schema:birthDate "Late Second Age" ;
+    schema:deathDate "SA 3065" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/N%C3%A1r>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Late Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/N%C3%A1li>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/N%C3%A1in_II>
+    schema:birthDate "TA 2338" ;
+    schema:deathDate "TA 2585" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Grey Mountains" .
+
+<http://localhost:5000/resource/N%C3%A1in_I>
+    schema:birthDate "TA 1832" ;
+    schema:deathDate "TA 1981" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Khazad-dûm" .
+
+<http://localhost:5000/resource/N%C3%A1in_%28father_of_D%C3%A1in_II_Ironfoot%29>
+    schema:birthDate "TA 2665" ;
+    schema:deathDate "TA 2799" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Hob_Hayward>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Shire" .
+
+<http://localhost:5000/resource/Hob_Gammidge>
+    schema:birthDate "TA 2846" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Rowan> .
+
+<http://localhost:5000/resource/Hirluin>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hirgon>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Herumor_%28Fourth_Age%29>
+    schema:birthDate "FO 41" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Herumor>
+    schema:birthDate "Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Herucalmo>
+    schema:birthDate "SA 2286" ;
+    schema:deathDate "SA 2657" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Tar-Vanimeld%C3%AB> .
+
+<http://localhost:5000/resource/Herubrand>
+    schema:birthDate "Late-,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Herion>
+    schema:birthDate "TA 2037" ;
+    schema:deathDate "TA 2148" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hendor>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Herefara>
+    schema:birthDate "Late-,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Gray" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Henderch>
+    schema:birthDate "Early ,Second Age" ;
+    schema:deathDate "unknown" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Helm_Hammerhand>
+    schema:birthDate "TA 2691" ;
+    schema:deathDate "TA 2759" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Hatholdir>
+    schema:birthDate "Sometime before ,SA 799" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hathol>
+    schema:birthDate "F.A. 365" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hathaldir>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hareth>
+    schema:birthDate "FA 419" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Galdor> .
+
+<http://localhost:5000/resource/Harding>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hardang>
+    schema:birthDate "FA 470" ;
+    schema:deathDate "FA 501" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Handir>
+    schema:birthDate "FA 441" ;
+    schema:deathDate "FA 495" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Brethil" ;
+    schema:spouse <http://localhost:5000/resource/Beldis> .
+
+<http://localhost:5000/resource/Hamfast_of_Gamwich>
+    schema:birthDate "TA 2760" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Halmir>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hallatan>
+    schema:birthDate "SA 711" ;
+    schema:deathDate "Mid ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hallas_%28Steward%29>
+    schema:birthDate "TA 2480" ;
+    schema:deathDate "TA 2605" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hallacar>
+    schema:birthDate "SA 852" ;
+    schema:deathDate "SA 1211" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Tar-Ancalim%C3%AB> .
+
+<http://localhost:5000/resource/Haleth_%28Helm%27s_son%29>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Winter of ,TA 2758" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Haleth>
+    schema:birthDate "FA 341" ;
+    schema:deathDate "FA 420" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Haldir_%28Lorien%29>
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Haldir_%28Haladin%29>
+    schema:birthDate "FA 413" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Gl%C3%B3redhel> .
+
+<http://localhost:5000/resource/Halbarad>
+    schema:birthDate "TA 2916" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hador>
+    schema:birthDate "FA 390" ;
+    schema:deathDate "FA 455" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Gildis> .
+
+<http://localhost:5000/resource/G%C3%A1rulf>
+    schema:birthDate "Late-,Third Age" ;
+    schema:deathDate "February 28 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Hador_%28Steward%29>
+    schema:birthDate "TA 2245" ;
+    schema:deathDate "TA 2395" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/D%C3%A1in_II_Ironfoot>
+    schema:birthDate "TA 2767" ;
+    schema:deathDate "March 17 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:height "4'5 - 5' (Estimate)" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Lonely Mountain" .
+
+<http://localhost:5000/resource/D%C3%A1in_I>
+    schema:birthDate "TA 2440" ;
+    schema:deathDate "TA 2589" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Grey Mountains" .
+
+<http://localhost:5000/resource/Dwalin>
+    schema:birthDate "TA 2772" ;
+    schema:deathDate "FO 91" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Durin%27s_Bane>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "January 253019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Mane of red flames" ;
+    tolkien:height "Slightly larger and taller than a Man (book), 20 feet (movie)" ;
+    tolkien:race "Maiar,Balrog" .
+
+<http://localhost:5000/resource/Durin_VII>
+    schema:birthDate "FO 2" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Khazad-dum" .
+
+<http://localhost:5000/resource/Duinhir>
+    schema:birthDate "Late-,Third Age" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark (Decipher Card)" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Duilin>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Draugluin>
+    schema:deathDate "FA 465" ;
+    schema:gender "Male" ;
+    tolkien:race "Werewolves" .
+
+<http://localhost:5000/resource/Dorlas>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 499" ;
+    schema:gender "Males" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Dori>
+    schema:birthDate "TA 2827" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Gray (film)" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Dodinas_Brandybuck>
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Dior_%28Steward%29>
+    schema:birthDate "TA 2328" ;
+    schema:deathDate "TA 2435" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Possibly_none> .
+
+<http://localhost:5000/resource/Dior>
+    schema:birthDate "FA 470," ;
+    schema:deathDate "FA 506," ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Possibly dark" ;
+    tolkien:race "Half-elven" ;
+    tolkien:realm "Doriath" ;
+    schema:spouse <http://localhost:5000/resource/Nimloth> .
+
+<http://localhost:5000/resource/Dinodas_Brandybuck>
+    schema:birthDate "SR 1316" ;
+    schema:deathDate "SR 1410" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Diamond_Took>
+    schema:birthDate "TA 2995" ;
+    schema:deathDate "Before ,FO 63" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Brown (film)" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Peregrin_Took> .
+
+<http://localhost:5000/resource/Dervorin>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Derufin>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Mid ,March ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Denethor_II>
+    schema:birthDate "TA 2930" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark, grey (in old age)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Finduilas> .
+
+<http://localhost:5000/resource/Denethor_I>
+    schema:birthDate "TA 2375" ;
+    schema:deathDate "TA 2477" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Denethor_%28First_Age%29>
+    schema:birthDate "YT" ;
+    schema:deathDate "YT 1497" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Ossiriand" .
+
+<http://localhost:5000/resource/Damrod>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Dairuin>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Daeron>
+    schema:birthDate "YT" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/C%C3%ADrdan>
+    schema:birthDate "YT, 1050. Age = 11,484.9 Sun Years or 1,198.6 Valian Years as of FO 121 (death of Arwen)." ;
+    schema:deathDate "Still alive, sailed into the ,West, sometime during the ,Fourth Age last of all elves to leave ,Middle-earth,." ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Silver, bearded" ;
+    tolkien:height "Very tall" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Presumably_none> .
+
+<http://localhost:5000/resource/Curufin>
+    schema:birthDate "During the ,Noontide of Valinor" ;
+    schema:deathDate "FA 506" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Himlad" .
+
+<http://localhost:5000/resource/in_%28King_of_Durin%27s_Folk%29>
+    schema:birthDate "TA 2238" ;
+    schema:deathDate "TA 2488" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Grey Mountains" .
+
+<http://localhost:5000/resource/in>
+    schema:birthDate "TA 2774" ;
+    schema:deathDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/mar>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:height "Various" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/bal>
+    schema:birthDate "Early ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/rim%C3%AB>
+    schema:birthDate "YT" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/rild%C3%AB>
+    schema:birthDate "SA 700" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/othain>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/omund>
+    schema:birthDate "TA 2961" ;
+    schema:deathDate "TA 3002" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Blond" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Th%C3%A9odwyn> .
+
+<http://localhost:5000/resource/ofor>
+    schema:birthDate "c. ,TA 2544" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Zam%C3%AEn>
+    schema:birthDate "Early ,Second Age" ;
+    schema:deathDate "Early Second Age" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "White or grey" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Y%C3%A1vien>
+    schema:birthDate "SA 371" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Yavanna>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:height "Varies" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Pastures of Yavanna" ;
+    schema:spouse <http://localhost:5000/resource/Aul%C3%AB> .
+
+<http://localhost:5000/resource/W%C3%ADdfara>
+    schema:birthDate "Late-,Third Age" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Wulf_I>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 2759" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Borlach>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Borin>
+    schema:birthDate "TA 2450" ;
+    schema:deathDate "TA 2711" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarven" .
+
+<http://localhost:5000/resource/Bombur>
+    schema:birthDate "TA 2834" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Ginger" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Tom_Bombadil>
+    schema:birthDate "Unknown, before the coming of Melkor" ;
+    schema:deathDate "Unknown, possibly immortal" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown" ;
+    tolkien:realm "Old Forest" ;
+    schema:spouse <http://localhost:5000/resource/Goldberry> .
+
+<http://localhost:5000/resource/Wilibald_Bolger>
+    schema:birthDate "TA 2904" ;
+    schema:deathDate "TA 3000" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Prisca_Baggins> .
+
+<http://localhost:5000/resource/Rosamunda_%28Took%29_Bolger>
+    schema:birthDate "TA 2938" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Odovacar_Bolger> .
+
+<http://localhost:5000/resource/Odovacar_Bolger>
+    schema:birthDate "TA 2935" ;
+    schema:deathDate "FO 10" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Rosamunda_Took> .
+
+<http://localhost:5000/resource/Jessamine_%28Boffin%29_Bolger>
+    schema:birthDate "TA 2897" ;
+    schema:deathDate "Late ,Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Herugar_Bolger> .
+
+<http://localhost:5000/resource/Fredegar_Bolger>
+    schema:birthDate "TA 2980" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/unknown%2C_possibly_unmarried> .
+
+<http://localhost:5000/resource/Filibert_Bolger>
+    schema:birthDate "TA 2942" ;
+    schema:deathDate "FO 22" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown (movie)" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Poppy_Chubb-Baggins> .
+
+<http://localhost:5000/resource/Bolg>
+    schema:deathDate "TA 2941" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "None" ;
+    tolkien:height "8,4  Body weight = 190kg" ;
+    tolkien:race "Goblin,Orc" .
+
+<http://localhost:5000/resource/Bofur>
+    schema:birthDate "TA 2843" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark Brown (films)" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Tosto_Boffin>
+    schema:birthDate "TA 2988" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Rollo_Boffin>
+    schema:birthDate "TA 2860" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Lavender_Grubb> .
+
+<http://localhost:5000/resource/Otto_Boffin>
+    schema:birthDate "TA 2812" ;
+    schema:deathDate "TA 2900" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Lavender_Grubb> .
+
+<http://localhost:5000/resource/Jago_Boffin>
+    schema:birthDate "TA 2894" ;
+    schema:deathDate "TA 2986" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Ivy_%28Goodenough%29_Boffin>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Late Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Buffo_Boffin> .
+
+<http://localhost:5000/resource/Hugo_Boffin>
+    schema:birthDate "TA 2854" ;
+    schema:deathDate "TA 2945" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Donnamira_Took> .
+
+<http://localhost:5000/resource/Griffo_Boffin>
+    schema:birthDate "TA 2946" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Daisy_Baggins> .
+
+<http://localhost:5000/resource/Gerda_%28Boffin%29_Bolger>
+    schema:birthDate "TA 2904" ;
+    schema:deathDate "TA 3004" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Adalbert_Bolger> .
+
+<http://localhost:5000/resource/Folco_Boffin>
+    schema:birthDate "TA 2978" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Druda_Burrows_Boffin>
+    schema:birthDate "before ,TA 2860" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Rollo_Boffin> .
+
+<http://localhost:5000/resource/Daisy_%28Baggins%29_Boffin>
+    schema:birthDate "TA 2950" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Griffo_Boffin> .
+
+<http://localhost:5000/resource/Buffo_Boffin>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Ivy_Goodenough> .
+
+<http://localhost:5000/resource/Bosco_Boffin>
+    schema:birthDate "TA 2767" ;
+    schema:deathDate "TA 2858" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Basso_Boffin>
+    schema:birthDate "TA 2769" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Donnamira_%28Took%29_Boffin>
+    schema:birthDate "TA 2856" ;
+    schema:deathDate "TA 2948" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Hugo_Boffin> .
+
+<http://localhost:5000/resource/Bob>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Blanco>
+    schema:birthDate "TA 1560" ;
+    schema:deathDate "Sometime after ,TA 1601" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Bladorthin>
+    schema:deathDate "Late Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Lake-town,Dale,Rhûn,Dorwinion" .
+
+<http://localhost:5000/resource/Black_Serpent>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Bilbo_Baggins>
+    schema:birthDate "22 September ,TA 2890" ;
+    schema:deathDate "Unknown (Last sighting 29 SeptemberTA 3021,) (,SR 1421,)" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown, later white" ;
+    tolkien:height "1.25m (4'1\")" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Bifur>
+    schema:birthDate "TA 2814" ;
+    schema:deathDate "UnknownFourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black/ Grey (film)" ;
+    tolkien:height "4'5\" (film)" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Ber%C3%BAthiel>
+    schema:birthDate "Early  ,Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" ;
+    schema:spouse <http://localhost:5000/resource/Tarannon_Falastur> .
+
+<http://localhost:5000/resource/Bergil>
+    schema:birthDate "TA 3009" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beren_%28Steward%29>
+    schema:birthDate "TA 2655" ;
+    schema:deathDate "TA 2763" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beren>
+    schema:birthDate "FA 432" ;
+    schema:deathDate "FA 466" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/L%C3%BAthien_Tin%C3%BAviel> .
+
+<http://localhost:5000/resource/Berelach>
+    schema:birthDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beren_%28Belemir%27s_son%29>
+    schema:birthDate "Mid ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Nori>
+    schema:birthDate "TA 2837" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Nolondil>
+    schema:birthDate "SA 222" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Nob>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Ni%C3%ABnor>
+    schema:birthDate "FA 473" ;
+    schema:deathDate "FA 499" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/T%C3%BArin_Turambar> .
+
+<http://localhost:5000/resource/Nina_Lightfoot>
+    schema:birthDate "SR 1261" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Shire" ;
+    schema:spouse <http://localhost:5000/resource/Theobald_Bolger> .
+
+<http://localhost:5000/resource/Nimrodel>
+    schema:birthDate "YT" ;
+    schema:deathDate "TA 1981" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Possibly golden" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Loved_%2CAmroth> .
+
+<http://localhost:5000/resource/Nimloth_%28elf%29>
+    schema:birthDate "Unknown, possibly sometime during the ,Years of the Trees" ;
+    schema:deathDate "FA 506" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Doriath" ;
+    schema:spouse <http://localhost:5000/resource/Dior_Eluch%C3%ADl> .
+
+<http://localhost:5000/resource/Nienna>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Valinor,Halls of Nienna" .
+
+<http://localhost:5000/resource/Niel%C3%ADqui>
+    schema:birthDate "unknown" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:height "Various" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/Nessani%C3%AB>
+    schema:birthDate "SA 840" ;
+    schema:deathDate "Mid ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Nessa>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:height "Varies" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Valinor" ;
+    schema:spouse <http://localhost:5000/resource/Tulkas> .
+
+<http://localhost:5000/resource/Nerdanel>
+    schema:birthDate "YT, during the ,Noontide of Valinor" ;
+    schema:deathDate "Still alive" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Reddish brown" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/F%C3%ABanor> .
+
+<http://localhost:5000/resource/Nellas>
+    schema:gender "Female" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Naugladur>
+    schema:deathDate "FA 503" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Narmacil_II>
+    schema:birthDate "TA 1684" ;
+    schema:deathDate "TA 1856" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Narmacil_I>
+    schema:birthDate "TA 1049" ;
+    schema:deathDate "TA 1294" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possibly_none_as_he_had_no_children> .
+
+<http://localhost:5000/resource/Nahar>
+    tolkien:race "Horse" .
+
+<http://localhost:5000/resource/M%C3%AEm>
+    schema:birthDate "Early ,First Age" ;
+    schema:deathDate "FA 502" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Muzgash>
+    schema:deathDate "March ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Orc" .
+
+<http://localhost:5000/resource/M%C3%ADriel>
+    schema:deathDate "YT 1170" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Silver" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Finw%C3%AB> .
+
+<http://localhost:5000/resource/Mouth_of_Sauron>
+    schema:birthDate "First Age" ;
+    schema:deathDate "Probably died on ,March 25TA 3019, during destruction of ,Mordor" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Most likely black or none" ;
+    tolkien:height "6' 7\" (2.01 m)" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Morw%C3%AB>
+    schema:birthDate "Perhaps ,Firstborn" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Morwen_%28Gondor%29>
+    schema:birthDate "Late 26th century ,Third Age" ;
+    schema:deathDate "Late ,Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Morwen>
+    schema:birthDate "FA 443" ;
+    schema:deathDate "FA 500" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark, grey in old age" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/H%C3%BArin_Thalion> .
+
+<http://localhost:5000/resource/Mithrellas>
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Imraz%C3%B4r> .
+
+<http://localhost:5000/resource/Minardil>
+    schema:birthDate "TA 1454" ;
+    schema:deathDate "TA 1634" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Minohtar>
+    schema:birthDate "Mid ,Third Age" ;
+    schema:deathDate "July 13 ,1944" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Merimas_Brandybuck>
+    schema:birthDate "SR 1381" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Meril-i-Turinqi>
+    schema:birthDate "YT" ;
+    schema:deathDate "Unknown, presumably still alive" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Tol Eressëa" .
+
+<http://localhost:5000/resource/Meneldor>
+    schema:gender "Male" ;
+    tolkien:race "Eagles" .
+
+<http://localhost:5000/resource/Meneldil>
+    schema:birthDate "SA 3318" ;
+    schema:deathDate "TA 158" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Melkor>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Any size by choice" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Utumno,Angband,Middle-earth,Beleriand" .
+
+<http://localhost:5000/resource/Melian>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Did not die being a ,Maia returned to ,Valinor, after the death of her husband Thingol" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Doriath" ;
+    schema:spouse <http://localhost:5000/resource/Thingol> .
+
+<http://localhost:5000/resource/Meleth>
+    schema:birthDate "Around FA 450" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Agathor> .
+
+<http://localhost:5000/resource/Mauh%C3%BAr>
+    schema:birthDate "3019" ;
+    schema:deathDate "February 29 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black (film)" ;
+    tolkien:race "Uruk-hai" ;
+    tolkien:realm "Isengard,Saruman" .
+
+<http://localhost:5000/resource/Master_of_Laketown>
+    schema:birthDate "TA 2890" ;
+    schema:deathDate "TA 2941" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Auburn (film)" ;
+    tolkien:height "Tall (6'4\")" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Lake-town" .
+
+<http://localhost:5000/resource/Marroc_Brandybuck>
+    schema:birthDate "SR 1182" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Marmadas_Brandybuck>
+    schema:birthDate "SR 1343" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Marhwini>
+    schema:birthDate "Mid-,Third Age" ;
+    schema:deathDate "Mid-Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Marhari>
+    schema:birthDate "Mid ,Third Age" ;
+    schema:deathDate "TA 1856" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Marcho>
+    schema:birthDate "TA 1557" ;
+    schema:deathDate "Sometime after ,TA 1601" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Mardil_Voronw%C3%AB>
+    schema:birthDate "TA 1960" ;
+    schema:deathDate "TA 2080" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Marach>
+    schema:birthDate "FA 282" ;
+    schema:deathDate "FA 376" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Manw%C3%AB>
+    schema:birthDate "Before the Creation of Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Arda,Valinor" ;
+    schema:spouse <http://localhost:5000/resource/Varda> .
+
+<http://localhost:5000/resource/Manwendil>
+    schema:birthDate "After ,SA 61" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Possible_unnamed_wife> .
+
+<http://localhost:5000/resource/Manthor>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Mandos>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" ;
+    schema:spouse <http://localhost:5000/resource/Vair%C3%AB> .
+
+<http://localhost:5000/resource/G%C3%A1lm%C3%B3d>
+    schema:birthDate "TA 2940" ;
+    schema:deathDate "TA 3015" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gwindor>
+    schema:birthDate "Unknown, possibly during the ,First Age" ;
+    schema:deathDate "FA 495" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Became grey in captivity" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/None%2C_betrothed_to_%2CFinduilas> .
+
+<http://localhost:5000/resource/Gwaihir>
+    schema:gender "Male" ;
+    tolkien:race "Great Eagles" .
+
+<http://localhost:5000/resource/Guthl%C3%A1f>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Blond" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gundor>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 456" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Guilin>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Gr%C3%B3r>
+    schema:birthDate "TA 2563" ;
+    schema:deathDate "TA 2805" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Gr%C3%B3in>
+    schema:birthDate "TA 2671" ;
+    schema:deathDate "TA 2923" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Grithnir>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 474" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Grishn%C3%A1kh>
+    schema:deathDate "February 29 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Orc" .
+
+<http://localhost:5000/resource/Grimbold>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Grimbeorn>
+    schema:birthDate "Unknown, probably several years or so after the ,Battle of Five Armies" ;
+    schema:deathDate "Unknown, early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall (in Man-form)" ;
+    tolkien:race "Men,Skin-changer" .
+
+<http://localhost:5000/resource/Rose_Greenhand>
+    schema:birthDate "TA 2862" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Cotman_Cotton> .
+
+<http://localhost:5000/resource/Holman_Greenhand>
+    schema:birthDate "TA 2810" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Hending_Greenhand>
+    schema:birthDate "TA 2859" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Halfred_Greenhand>
+    schema:birthDate "TA 2851" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Erling_Greenhand>
+    schema:birthDate "TA 2854" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Great_Goblin>
+    schema:deathDate "July ,2941" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Grey/white strands of hair (film)" ;
+    tolkien:height "About nine feet (film)" ;
+    tolkien:race "Orcs" .
+
+<http://localhost:5000/resource/Gorlim>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men,Wraith" ;
+    schema:spouse <http://localhost:5000/resource/Eilinel> .
+
+<http://localhost:5000/resource/Gram>
+    schema:birthDate "TA 2668" ;
+    schema:deathDate "TA 2741" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Gothmog_%28Lieutenant_of_Morgul%29>
+    schema:deathDate "March 15, 3019 (film)" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "white/gray, possibly light brown (film)" ;
+    tolkien:height "5'9\" - 6'4\" (film)" ;
+    tolkien:race "Orc" ;
+    tolkien:realm "Minas Morgul,the Witch-King" .
+
+<http://localhost:5000/resource/Gothmog>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:race "Maiar,Balrogs" .
+
+<http://localhost:5000/resource/Gostir>
+    schema:gender "Male" ;
+    tolkien:race "Dragons" .
+
+<http://localhost:5000/resource/Gormadoc_%22Deepdelver%22_Brandybuck>
+    schema:birthDate "SR 1134" ;
+    schema:deathDate "SR 1236" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Buckland" ;
+    schema:spouse <http://localhost:5000/resource/Malva_Headstrong> .
+
+<http://localhost:5000/resource/Gorhendad_%28Oldbuck%29_Brandybuck>
+    schema:birthDate "TA 2274" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Gorbulas_Brandybuck>
+    schema:birthDate "TA 2908" ;
+    schema:deathDate "Before ,TA 3001" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Gorbag>
+    schema:deathDate "March 14 ,3019, slain by ,Shagrat" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "black" ;
+    tolkien:height "medium" ;
+    tolkien:race "Uruk-hai,Orc" ;
+    tolkien:realm "Cirith Ungol" .
+
+<http://localhost:5000/resource/Gollum>
+    schema:birthDate "TA 2430" ;
+    schema:deathDate "March 25 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Golfimbul>
+    schema:birthDate "Unknown, before ,TA 2700" ;
+    schema:deathDate "TA 2747" ;
+    schema:gender "Male" ;
+    tolkien:race "Orc,Goblin" ;
+    tolkien:realm "Mount Gram" .
+
+<http://localhost:5000/resource/Hanna_%28Goldworthy%29_Brandybuck>
+    schema:gender "Female" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Madoc_Brandybuck> .
+
+<http://localhost:5000/resource/Goldwine>
+    schema:birthDate "TA 2619" ;
+    schema:deathDate "TA 2699" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Golasgil>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Harry_Goatleaf>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Presumably sometime after ,TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gl%C3%B3redhel>
+    schema:birthDate "FA 415" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Blonde" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Haldir> .
+
+<http://localhost:5000/resource/Gl%C3%B3in_%28King_of_Durin%27s_Folk%29>
+    schema:birthDate "TA 2136" ;
+    schema:deathDate "TA 2385" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Grey Mountains" .
+
+<http://localhost:5000/resource/Gl%C3%B3in>
+    schema:birthDate "TA 2783" ;
+    schema:deathDate "FO 15" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Red, later White" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Gl%C3%A9owine>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Glorfindel>
+    schema:birthDate "Possibly ,YT" ;
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Glirhuin>
+    schema:birthDate "Unknown, late fifth or sixth century ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Glaurung>
+    schema:birthDate "Presumably after Morgoth's return to Angband" ;
+    schema:deathDate "FA 501" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "None" ;
+    tolkien:height "Gigantic" ;
+    tolkien:race "Dragons" .
+
+<http://localhost:5000/resource/Girion>
+    schema:birthDate "TA 2732" ;
+    schema:deathDate "TA 2770" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gimli>
+    schema:birthDate "TA 2879" ;
+    schema:deathDate "Unknown (Departed to ,Aman ,FO 120,)" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Auburn" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Gimilzagar>
+    schema:birthDate "SA 2630" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gimilkh%C3%A2d>
+    schema:birthDate "SA 3044" ;
+    schema:deathDate "SA 3243" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gilraen>
+    schema:birthDate "TA 2907" ;
+    schema:deathDate "TA 3007" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Blonde (film)" ;
+    tolkien:height "Unknown (book) 1.66m (5'5\") (film)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Arathorn_II> .
+
+<http://localhost:5000/resource/Gilmith>
+    schema:birthDate "TA 2000" ;
+    schema:gender "Female" ;
+    tolkien:race "Half-elven" .
+
+<http://localhost:5000/resource/Gilfanon>
+    schema:deathDate "Presumably still alive" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Gildor_Inglorion>
+    schema:deathDate "Possible sailed West" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves,Noldor" .
+
+<http://localhost:5000/resource/Gildor_%28Edain%29>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gil-galad>
+    schema:birthDate "FA 450" ;
+    schema:deathDate "SA 3441" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Possibly golden (book) Dark brown (movie)" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Havens of Sirion,Lindon" .
+
+<http://localhost:5000/resource/Gildis>
+    schema:birthDate "First Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Hador%2C_L%C3%B3rindol> .
+
+<http://localhost:5000/resource/Gh%C3%A2n-buri-Gh%C3%A2n>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Short" ;
+    tolkien:race "Drúedain" .
+
+<http://localhost:5000/resource/Gelmir_%28of_Angrod%27s_kin%29>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Gethron>
+    schema:birthDate "Mid ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gelmir>
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Tolman_Cotton>
+    schema:birthDate "TA 2941" ;
+    schema:deathDate "FO 20" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Lily_Brown> .
+
+<http://localhost:5000/resource/Rosie_Cotton>
+    schema:birthDate "TA 2984" ;
+    schema:deathDate "FO 61" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Light brown (film)" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Sam_Gamgee> .
+
+<http://localhost:5000/resource/Marigold_%28Gamgee%29_Cotton>
+    schema:birthDate "TA 2983" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Tolman_Cotton> .
+
+<http://localhost:5000/resource/Lily_Cotton>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Farmer_Cotton> .
+
+<http://localhost:5000/resource/Bowman_Cotton>
+    schema:birthDate "TA 2886" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Tolman_Cotton_Jr.>
+    schema:birthDate "TA 2980" ;
+    schema:deathDate "FO 60" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Marigold_Cotton> .
+
+<http://localhost:5000/resource/Ciryon>
+    schema:birthDate "SA 3379" ;
+    schema:deathDate "TA 2" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possibly_known> .
+
+<http://localhost:5000/resource/Ciryatur>
+    schema:birthDate "Mid ,Second Age" ;
+    schema:deathDate "After ,SA 1700" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ciryandil>
+    schema:birthDate "TA 820" ;
+    schema:deathDate "TA 1015" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Cirion>
+    schema:birthDate "TA 2449" ;
+    schema:deathDate "TA 2567" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Falco_Chubb-Baggins>
+    schema:birthDate "TA 2903" ;
+    schema:deathDate "TA 2999" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Ceorl>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Cemendur_%28son_of_Axantur%29>
+    schema:birthDate "SA 575" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Cemendur>
+    schema:birthDate "SA 3399" ;
+    schema:deathDate "TA 238" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Celepharn>
+    schema:birthDate "TA 979" ;
+    schema:deathDate "TA 1191" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Celegorm>
+    schema:birthDate "During in the ,Noontide of Valinor" ;
+    schema:deathDate "FA 506" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Fair" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Celebr%C3%ADan>
+    schema:birthDate "Between the years ,SA 350, and SA 400" ;
+    schema:deathDate "Still alive; Departed to ,Aman, in ,TA 2510" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Possibly silver" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Elrond> .
+
+<http://localhost:5000/resource/Celebrindor>
+    schema:birthDate "TA 1062" ;
+    schema:deathDate "TA 1272" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Celebrimbor>
+    schema:birthDate "YT" ;
+    schema:deathDate "SA 1697 ,War of the Elves and Sauron" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Eregion" .
+
+<http://localhost:5000/resource/Celeborn>
+    schema:birthDate "YT" ;
+    schema:deathDate "Still alive, departed over the sea in the early Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Silver" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Eregion,Lothlórien,Caras Galadhon" ;
+    schema:spouse <http://localhost:5000/resource/Galadriel> .
+
+<http://localhost:5000/resource/Castamir_the_Usurper>
+    schema:birthDate "TA 1259" ;
+    schema:deathDate "TA 1447" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Carcharoth>
+    schema:birthDate "Before the Creation of ,Arda" ;
+    schema:deathDate "FA 466" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black with red stripes" ;
+    tolkien:height "Gigantic" ;
+    tolkien:race "Werewolves" ;
+    tolkien:realm "Angband" .
+
+<http://localhost:5000/resource/Caranthir>
+    schema:birthDate "During the ,Noontide of Valinor" ;
+    schema:deathDate "FA 506" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Calmacil>
+    schema:birthDate "TA 1058" ;
+    schema:deathDate "TA 1304" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Caliondo>
+    schema:birthDate "SA 512" ;
+    schema:deathDate "SA 900" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Calimehtar>
+    schema:birthDate "TA 1736" ;
+    schema:deathDate "TA 1936" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/B%C3%B3r>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/B%C3%ABor>
+    schema:birthDate "FA 262" ;
+    schema:deathDate "FA 355" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Barliman_Butterbur>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown (movie)" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Gr%C3%ADma_Wormtongue>
+    schema:birthDate "TA 2974" ;
+    schema:deathDate "November 3 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Witch-king_of_Angmar>
+    schema:birthDate "Mid-,Second Age" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown, graying, later white" ;
+    tolkien:height "7' 1\" (2.13 metres)" ;
+    tolkien:race "Men,Wraith" ;
+    tolkien:realm "Angmar,Minas Morgul,Osgiliath" .
+
+<http://localhost:5000/resource/Wiseman_Gamwich>
+    schema:birthDate "TA 2800" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Willie_Banks>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "Early ,TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    tolkien:realm "Bree" .
+
+<http://localhost:5000/resource/Watcher_in_the_Water>
+    schema:birthDate "Possibly pre First Age" ;
+    schema:deathDate "Unknown; possibly still alive" ;
+    schema:gender "Most likely male" ;
+    tolkien:hairColor "None" ;
+    tolkien:height "Huge" ;
+    tolkien:race "Urulóki" ;
+    tolkien:realm "Doors of Durin" ;
+    schema:spouse <http://localhost:5000/resource/Most_likely_none> .
+
+<http://localhost:5000/resource/Walda>
+    schema:birthDate "TA 2780" ;
+    schema:deathDate "TA 2851" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/V%C3%ABantur>
+    schema:birthDate "SA 425" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Voronw%C3%AB>
+    schema:birthDate "First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/None_known> .
+
+<http://localhost:5000/resource/Vorondil>
+    schema:birthDate "TA 1919" ;
+    schema:deathDate "TA 2029" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Vidumavi>
+    schema:birthDate "Before ,TA 1255" ;
+    schema:deathDate "TA 1344" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Valacar> .
+
+<http://localhost:5000/resource/Vidugavia>
+    schema:birthDate "Mid-,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rhovanion" .
+
+<http://localhost:5000/resource/Vardilm%C3%AB>
+    schema:birthDate "SA 203" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Vardamir_N%C3%B3limon>
+    schema:birthDate "SA 61" ;
+    schema:deathDate "SA 471" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Varda>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Arda" ;
+    schema:spouse <http://localhost:5000/resource/Manw%C3%AB> .
+
+<http://localhost:5000/resource/Valandur>
+    schema:birthDate "TA 462" ;
+    schema:deathDate "TA 652" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Valandil_of_And%C3%BAni%C3%AB>
+    schema:birthDate "Early ,Second Age" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Valandil>
+    schema:birthDate "SA 3430" ;
+    schema:deathDate "TA 249" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Valacar>
+    schema:birthDate "TA 1194" ;
+    schema:deathDate "TA 1432" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" ;
+    schema:spouse <http://localhost:5000/resource/Vidumavi> .
+
+<http://localhost:5000/resource/Vair%C3%AB_%28Elf%29>
+    schema:birthDate "YT" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Lindo> .
+
+<http://localhost:5000/resource/Vair%C3%AB>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Valinor,Halls of Mandos" ;
+    schema:spouse <http://localhost:5000/resource/Mandos> .
+
+<http://localhost:5000/resource/Urthel>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ungoliant>
+    schema:deathDate "Possibly end of ,First Age" ;
+    schema:gender "Female" ;
+    tolkien:height "Enormous" ;
+    tolkien:race "Great Spiders" .
+
+<http://localhost:5000/resource/Ulwarth>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ulmo>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Valinor,Ulmonan" .
+
+<http://localhost:5000/resource/Ulfast>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ulfang>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Uldor>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ulbar>
+    schema:birthDate "Early ,Second Age" ;
+    schema:deathDate "Mid Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Uinen>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    schema:spouse <http://localhost:5000/resource/Oss%C3%AB> .
+
+<http://localhost:5000/resource/Ugl%C3%BAk>
+    schema:birthDate "3019" ;
+    schema:deathDate "February 293019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark (movie)" ;
+    tolkien:height "6' 6\" (movie)" ;
+    tolkien:race "Uruk-hai" ;
+    tolkien:realm "Isengard" .
+
+<http://localhost:5000/resource/Ufthak>
+    schema:deathDate "3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Orc" ;
+    tolkien:realm "Cirith Ungol" .
+
+<http://localhost:5000/resource/T%C3%BArin_II>
+    schema:birthDate "TA 2815" ;
+    schema:deathDate "TA 2914" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/T%C3%BArin_I>
+    schema:birthDate "TA 2165" ;
+    schema:deathDate "TA 2278" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/T%C3%BArin>
+    schema:birthDate "FA 464" ;
+    schema:deathDate "FA 499" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Nienor> .
+
+<http://localhost:5000/resource/Turgon_%28Steward%29>
+    schema:birthDate "TA 2855" ;
+    schema:deathDate "TA 2953" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Turgon>
+    schema:birthDate "YT 1300" ;
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Nevrast,Gondolin" ;
+    schema:spouse <http://localhost:5000/resource/Elenw%C3%AB> .
+
+<http://localhost:5000/resource/Turambar>
+    schema:birthDate "TA 397" ;
+    schema:deathDate "TA 667" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Tuor>
+    schema:birthDate "FA 472" ;
+    schema:deathDate "None; sailed into the West and was accounted amongst the Eldar" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Idril_Celebrindal> .
+
+<http://localhost:5000/resource/Tulkastor>
+    schema:birthDate "YT" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Tulkas>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Ainur" ;
+    tolkien:realm "Valinor,House of Tulkas" ;
+    schema:spouse <http://localhost:5000/resource/Nessa> .
+
+<http://localhost:5000/resource/Treebeard>
+    schema:birthDate "YT" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Leaf, twig and moss like" ;
+    tolkien:height "15'4" ;
+    tolkien:race "Ents,Onodrim" ;
+    schema:spouse <http://localhost:5000/resource/Fimbrethil> .
+
+<http://localhost:5000/resource/Sigismond_Took>
+    schema:birthDate "TA 2890" ;
+    schema:deathDate "TA 2981" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Rosa_%28Baggins%29_Took>
+    schema:birthDate "SR 1256" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Hildigrim_Took> .
+
+<http://localhost:5000/resource/Beregond_%28Captain%29>
+    schema:birthDate "TA 2976" ;
+    schema:deathDate "Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beregond>
+    schema:birthDate "TA 2700" ;
+    schema:deathDate "TA 2811" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Bereg>
+    schema:birthDate "FA 340" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beorn>
+    schema:deathDate "Before the ,War of the Ring" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Skin-changer" .
+
+<http://localhost:5000/resource/Belen>
+    schema:birthDate "FA 292" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Belemir>
+    schema:birthDate "FA 339" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Adanel> .
+
+<http://localhost:5000/resource/Belegund>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Belegorn>
+    schema:birthDate "TA 2074" ;
+    schema:deathDate "TA 2204" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beleg_of_Arnor>
+    schema:birthDate "TA 811" ;
+    schema:deathDate "TA 1029" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor,Arthedain" .
+
+<http://localhost:5000/resource/Beleg>
+    schema:deathDate "FA 489" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Belecthor_II>
+    schema:birthDate "TA 2752" ;
+    schema:deathDate "TA 2872" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Belecthor_I>
+    schema:birthDate "TA 2545" ;
+    schema:deathDate "TA 2655" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beldis>
+    schema:birthDate "Mid-,First Age" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Brown" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Handir> .
+
+<http://localhost:5000/resource/Beldir>
+    schema:birthDate "FA 316" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Beechbone>
+    schema:deathDate "March 3 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Leafy-hair" ;
+    tolkien:height "Very tall" ;
+    tolkien:race "Ents" .
+
+<http://localhost:5000/resource/Bard_II>
+    schema:birthDate "TA 2985" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Male" ;
+    tolkien:height "6'2\"" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Dale,Lake-town" .
+
+<http://localhost:5000/resource/Bard>
+    schema:birthDate "TA 2898" ;
+    schema:deathDate "TA 2977" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black (films)" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Dale" .
+
+<http://localhost:5000/resource/Baranor>
+    schema:birthDate "FA 317" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Baran>
+    schema:birthDate "FA 289" ;
+    schema:deathDate "FA 380" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Estolad" .
+
+<http://localhost:5000/resource/Barahir_%28Steward%29>
+    schema:birthDate "TA 2290" ;
+    schema:deathDate "TA 2412" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Barahir>
+    schema:birthDate "FA 402" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Possibly dark" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Emeldir> .
+
+<http://localhost:5000/resource/Baragund>
+    schema:birthDate "FA 420" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Balin>
+    schema:birthDate "TA 2763" ;
+    schema:deathDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "White" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Bain>
+    schema:birthDate "TA 2925" ;
+    schema:deathDate "TA 3007" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown (film)" ;
+    tolkien:height "1.76m / 5'9\" (film)" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Dale" .
+
+<http://localhost:5000/resource/Porto_Baggins>
+    schema:birthDate "TA 2948" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Ponto_Baggins_II>
+    schema:birthDate "TA 2946" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Ponto_Baggins>
+    schema:birthDate "TA 2816" ;
+    schema:deathDate "TA 2911" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Mimosa_Bunce> .
+
+<http://localhost:5000/resource/Peony_%28Baggins%29_Burrows>
+    schema:birthDate "TA 2950" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Milo_Burrows> .
+
+<http://localhost:5000/resource/Malvegil>
+    schema:birthDate "TA 1144" ;
+    schema:deathDate "TA 1349" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Malva_%22Headstrong%22_Brandybuck>
+    schema:gender "Female" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Gormadoc_Brandybuck> .
+
+<http://localhost:5000/resource/Mallor>
+    schema:birthDate "TA 895" ;
+    schema:deathDate "TA 1110" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain,Arnor" .
+
+<http://localhost:5000/resource/Malbeth_the_Seer>
+    schema:birthDate "Mid ,Third Age" ;
+    schema:deathDate "Mid Third Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark, later grey" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possible_none> .
+
+<http://localhost:5000/resource/Malach>
+    schema:birthDate "FA 307" ;
+    schema:deathDate "FA 398" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Meldis> .
+
+<http://localhost:5000/resource/Mairen>
+    schema:birthDate "SA 377" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Mahtan>
+    schema:birthDate "UnknownYT" ;
+    schema:deathDate "Still alive" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown with copperlike-red" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Magor>
+    schema:birthDate "F.A. 341" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Maglor>
+    schema:birthDate "During the ,Noontide of Valinor" ;
+    schema:deathDate "Fate unknown" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Farmer_Maggot>
+    schema:birthDate "TA 2948" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Maeglin>
+    schema:birthDate "FA 320" ;
+    schema:deathDate "FA 510" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Black" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Maedhros>
+    schema:birthDate "During the ,Noontide of Valinor" ;
+    schema:deathDate "FA 587" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark red" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Mablung_the_Ranger>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Mablung>
+    schema:deathDate "FA 502" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/L%C3%BAthien>
+    schema:birthDate "YT 1200" ;
+    schema:deathDate "FA 503" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Black" ;
+    tolkien:race "Elves,Maiar" ;
+    schema:spouse <http://localhost:5000/resource/Beren_Erchamion> .
+
+<http://localhost:5000/resource/L%C3%B3ni>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Brytta_L%C3%A9ofa>
+    schema:birthDate "TA 2752" ;
+    schema:deathDate "TA 2842" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/L%C3%A9od>
+    schema:birthDate "TA 2459" ;
+    schema:deathDate "TA 2501" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Lungorthin>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "First Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Mane of red flame" ;
+    tolkien:race "Balrog" .
+
+<http://localhost:5000/resource/Lugdush>
+    schema:birthDate ",3019" ;
+    schema:deathDate "February 293019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "6'1 (film)" ;
+    tolkien:race "Uruk-hai" .
+
+<http://localhost:5000/resource/Loth%C3%ADriel>
+    schema:birthDate "TA 2999" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" ;
+    schema:spouse <http://localhost:5000/resource/omer> .
+
+<http://localhost:5000/resource/Lorgan>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Lind%C3%B3ri%C3%AB>
+    schema:birthDate "Late ,Second Age" ;
+    schema:deathDate "Late Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown_husband> .
+
+<http://localhost:5000/resource/Lindo>
+    schema:birthDate "YT" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Vair%C3%AB> .
+
+<http://localhost:5000/resource/Lindiss%C3%AB>
+    schema:birthDate "SA 551" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Lindir>
+    schema:deathDate "Possibly departed to ,Aman" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown (films)" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Letter_211>
+    schema:birthDate "SR 1313" ;
+    schema:deathDate "Between SR 1401-1418" ;
+    tolkien:height "3'8'" ;
+    schema:spouse <http://localhost:5000/resource/Lilah_Took> .
+
+<http://localhost:5000/resource/Lenw%C3%AB>
+    schema:birthDate "YT" ;
+    schema:deathDate "YT (possibly)" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Legolas_%28elf_of_Gondolin%29>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Legolas>
+    schema:deathDate "Still alive, departed to ,Aman ,FO 120" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Uncertain (book), Blonde (films)" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Larnach>
+    schema:birthDate "Late ,First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Landroval>
+    schema:birthDate "Possibly ,First Age" ;
+    schema:deathDate "Possibly still alive" ;
+    schema:gender "Male" ;
+    tolkien:race "Eagle" .
+
+<http://localhost:5000/resource/Lalaith>
+    schema:birthDate "FA 466" ;
+    schema:deathDate "FA 469" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Blonde" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Elanor_Gardner>
+    schema:birthDate "March 253021" ;
+    schema:deathDate "Early ,Fourth Age" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Blonde or Golden" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Fastred_of_Greenholm> .
+
+<http://localhost:5000/resource/Gandalf>
+    schema:birthDate "Before the the Shaping of Arda" ;
+    schema:deathDate "January 253019 ,Battle of the Peak immortal" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Grey, later white" ;
+    tolkien:race "Maiar" .
+
+<http://localhost:5000/resource/Gamling>
+    schema:birthDate "Possibly late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Possibly blond" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Samwise_Gamgee>
+    schema:birthDate "April 6 ,2980" ;
+    schema:deathDate "Still alive, after going to the ,Undying Lands, in ,FO 61" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Blond (movie)" ;
+    tolkien:height "1.22m (4'0\")" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Rosie_Cotton> .
+
+<http://localhost:5000/resource/May_Gamgee>
+    schema:birthDate "TA 2976" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Hamson_Gamgee>
+    schema:birthDate "TA 2965" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Hamfast_Gamgee>
+    schema:birthDate "TA 2926" ;
+    schema:deathDate "FO 7 (SR 1428)" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown, later gray" ;
+    tolkien:height "1.2m (3'11\")" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Bell_Goodchild> .
+
+<http://localhost:5000/resource/Halfred_Gamgee>
+    schema:birthDate "TA 2969" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Frodo_Gardner>
+    schema:birthDate "FO 2" ;
+    schema:deathDate "FO" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Daisy_Gamgee_I>
+    schema:birthDate "TA 2972" ;
+    schema:deathDate "FO 54" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Galion>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Galdor_of_the_Tree>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Galdor_of_the_Havens>
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden (movie)" ;
+    tolkien:height "6'3 (movie)" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Galdor>
+    schema:birthDate "FA 417" ;
+    schema:deathDate "FA 462" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Hareth> .
+
+<http://localhost:5000/resource/Galadriel>
+    schema:birthDate "YT 1362" ;
+    schema:deathDate "Still alive: Departed over the sea on ,September 29 ,3021" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Eregion,Lothlórien,Caras Galadhon" ;
+    schema:spouse <http://localhost:5000/resource/Celeborn> .
+
+<http://localhost:5000/resource/Galathil>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Galador>
+    schema:birthDate "TA 2004" ;
+    schema:deathDate "TA 2129" ;
+    schema:gender "Male" ;
+    tolkien:race "Half-elven" .
+
+<http://localhost:5000/resource/F%C3%ADriel>
+    schema:birthDate "TA 1896" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" ;
+    schema:spouse <http://localhost:5000/resource/Arvedui> .
+
+<http://localhost:5000/resource/F%C3%ADli_and_K%C3%ADli>
+    schema:birthDate "TA 2859" ;
+    schema:deathDate "November 23TA 2941" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Yellow" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/F%C3%ABanor>
+    schema:birthDate "YT 1169" ;
+    schema:deathDate "YT 1497" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Raven" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Tirion,Formenos" ;
+    schema:spouse <http://localhost:5000/resource/Nerdanel> .
+
+<http://localhost:5000/resource/Fundin>
+    schema:birthDate "TA 2662" ;
+    schema:deathDate "TA 2799" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Fuinur>
+    schema:birthDate "Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Fr%C3%B3r>
+    schema:birthDate "TA 2552" ;
+    schema:deathDate "TA 2589" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Fr%C3%A9awine>
+    schema:birthDate "TA 2594" ;
+    schema:deathDate "TA 2680" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Fr%C3%A9al%C3%A1f_Hildeson>
+    schema:birthDate "TA 2726" ;
+    schema:deathDate "TA 2798" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Fr%C3%A9a>
+    schema:birthDate "TA 2570" ;
+    schema:deathDate "TA 2659" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Fr%C3%A1r>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "November 102994" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarf" .
+
+<http://localhost:5000/resource/Frumgar>
+    schema:birthDate "TA 1940" ;
+    schema:deathDate "TA 2001" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Frerin>
+    schema:birthDate "TA 2751" ;
+    schema:deathDate "TA 2799" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Freca>
+    schema:birthDate "TA 2698" ;
+    schema:deathDate "TA 2754" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Fram>
+    schema:birthDate "TA 1967" ;
+    schema:deathDate "Unknown, sometime after ,TA 2000" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_probably_as_he_had_descendants> .
+
+<http://localhost:5000/resource/Forweg>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Fair" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_probably_none> .
+
+<http://localhost:5000/resource/Fortinbras_Took_I>
+    schema:birthDate "TA 2745" ;
+    schema:deathDate "TA 2848" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Forthwini>
+    schema:birthDate "Mid ,Third Age" ;
+    schema:deathDate "TA 1944" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_but_possible_since_he_had_descendants> .
+
+<http://localhost:5000/resource/Forlong>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/unknown> .
+
+<http://localhost:5000/resource/Folcwine>
+    schema:birthDate "TA 2830" ;
+    schema:deathDate "TA 2903" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Folcred>
+    schema:birthDate "TA 2858" ;
+    schema:deathDate "TA 2885" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Folca>
+    schema:birthDate "TA 2804" ;
+    schema:deathDate "TA 2864" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Fl%C3%B3i>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Minto_Burrows>
+    schema:birthDate "TA 2996" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Milo_Burrows>
+    schema:birthDate "SR 1347" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Peony_Baggins> .
+
+<http://localhost:5000/resource/Bucca_of_the_Marish>
+    schema:birthDate "TA 1930" ;
+    schema:deathDate "TA 2031" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Sapphira_%28Brockhouse%29_Boffin>
+    schema:birthDate "TA 2857" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Uffo_Boffin> .
+
+<http://localhost:5000/resource/Bregor>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "Late First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Asphodel_%28Brandybuck%29_Burrows>
+    schema:birthDate "TA 2913" ;
+    schema:deathDate "TA 3012" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Rufus_Burrows> .
+
+<http://localhost:5000/resource/Bregolas>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 455" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Brego>
+    schema:birthDate "TA 2512" ;
+    schema:deathDate "TA 2570" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Bregalad>
+    schema:birthDate "TA 2519" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Leafy-hair" ;
+    tolkien:race "Ents" .
+
+<http://localhost:5000/resource/Primula_%28Brandybuck%29_Baggins>
+    schema:birthDate "TA 2920" ;
+    schema:deathDate "TA 2980" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Drogo_Baggins> .
+
+<http://localhost:5000/resource/Mirabella_%28Took%29_Brandybuck>
+    schema:birthDate "TA 2860" ;
+    schema:deathDate "TA 2960" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Gorbadoc_Brandybuck> .
+
+<http://localhost:5000/resource/Seredic_Brandybuck>
+    schema:birthDate "TA 2948" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Hilda_Bracegirdle> .
+
+<http://localhost:5000/resource/Meriadoc_Brandybuck>
+    schema:birthDate "TA 2982" ;
+    schema:deathDate "FO 65" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden yellow (film)" ;
+    tolkien:height "1.38m (4'6\")" ;
+    tolkien:race "Hobbit" ;
+    schema:spouse <http://localhost:5000/resource/Estella_%28Bolger%29_Brandybuck> .
+
+<http://localhost:5000/resource/Mentha_Brandybuck>
+    schema:birthDate "TA 2983" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark Brown" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Melilot_Brandybuck>
+    schema:birthDate "SR 1385" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Madoc_Brandybuck>
+    schema:birthDate "SR 1175" ;
+    schema:deathDate "SR 1277" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" ;
+    tolkien:realm "Buckland" ;
+    schema:spouse <http://localhost:5000/resource/Hanna_Goldworthy> .
+
+<http://localhost:5000/resource/Estella_%28Bolger%29_Brandybuck>
+    schema:birthDate "TA 2985" ;
+    schema:deathDate "Before ,FO 63" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark Blonde" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Meriadoc_Brandybuck> .
+
+<http://localhost:5000/resource/Hilda_Brandybuck>
+    schema:birthDate "TA 2954" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Seredic_Brandybuck> .
+
+<http://localhost:5000/resource/Esmeralda_Brandybuck>
+    schema:birthDate "TA 2936" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Saradoc_Brandybuck> .
+
+<http://localhost:5000/resource/Celandine_Brandybuck>
+    schema:birthDate "TA 2994" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Amaranth_Brandybuck>
+    schema:birthDate "TA 2904" ;
+    schema:deathDate "TA 2998" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Adaldrida_%28Bolger%29_Brandybuck>
+    schema:birthDate "TA 2818" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Marmadoc_Brandybuck> .
+
+<http://localhost:5000/resource/Brandir>
+    schema:birthDate "First Age" ;
+    schema:deathDate "FA 499" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Brand>
+    schema:birthDate "TA 2957" ;
+    schema:deathDate "March 17 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Dale,Laketown" .
+
+<http://localhost:5000/resource/Primrose_Bracegirdle>
+    schema:birthDate "TA 2865" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Blanco_Bracegirdle> .
+
+<http://localhost:5000/resource/Bruno_Bracegirdle>
+    schema:birthDate "TA 2913" ;
+    schema:deathDate "TA 3010" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Blanco_Bracegirdle>
+    schema:birthDate "TA 2865" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Primrose_Boffin> .
+
+<http://localhost:5000/resource/Borthand>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Borondir>
+    schema:birthDate "Late ,Third Age" ;
+    schema:deathDate "April 15 ,2510" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Boron>
+    schema:birthDate "First Age" ;
+    schema:deathDate "First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Boromir_%28Steward%29>
+    schema:birthDate "TA 2410" ;
+    schema:deathDate "TA 2489" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Boromir_%28House_of_B%C3%ABor%29>
+    schema:birthDate "FA 338" ;
+    schema:deathDate "FA 432" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Peregrin_Took>
+    schema:birthDate "TA 2990" ;
+    schema:deathDate "FO 65" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Almost golden" ;
+    tolkien:height "1.34m (4'5\")" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Diamond_of_Long_Cleeve> .
+
+<http://localhost:5000/resource/Pearl_Took>
+    schema:birthDate "TA 2975" ;
+    schema:deathDate "before ,FO 63" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Paladin_Took_II>
+    schema:birthDate "TA 2933" ;
+    schema:deathDate "FO 13" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Eglantine_Banks> .
+
+<http://localhost:5000/resource/Isembard_Took>
+    schema:birthDate "TA 2847" ;
+    schema:deathDate "TA 2946, (SR 1346" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Hildigrim_Took>
+    schema:birthDate "SR 1240" ;
+    schema:deathDate "SR 1341" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Rosa_Baggins> .
+
+<http://localhost:5000/resource/Hildifons_Took>
+    schema:birthDate "TA 2844" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Hildibrand_Took>
+    schema:birthDate "TA 2849" ;
+    schema:deathDate "TA 2934" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Gerontius_Took>
+    schema:birthDate "TA 2790" ;
+    schema:deathDate "TA 2920" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Adamanta_Chubb> .
+
+<http://localhost:5000/resource/Ferumbras_III_Took>
+    schema:birthDate "TA 2916" ;
+    schema:deathDate "TA 3015" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Adelard_Took>
+    schema:birthDate "TA 2928" ;
+    schema:deathDate "FO 2" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Adamanta_%28Chubb%29_Took>
+    schema:birthDate "TA 2817" ;
+    schema:deathDate "TA 2923" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Gerontius_%22The_Old%22_Took> .
+
+<http://localhost:5000/resource/Adalgrim_Took>
+    schema:birthDate "TA 2880" ;
+    schema:deathDate "TA 2982" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Bandobras_Took>
+    schema:birthDate "TA 2701" ;
+    schema:deathDate "TA 2800" ;
+    schema:gender "Male" ;
+    tolkien:height "1.35m (4'5\")" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Isumbras_Took_III>
+    schema:birthDate "TA 2666" ;
+    schema:deathDate "TA 2759" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Isengrim_Took_II>
+    schema:birthDate "TA 2620" ;
+    schema:deathDate "TA 2722" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Fortinbras_Took_II>
+    schema:birthDate "TA 2878" ;
+    schema:deathDate "TA 2980" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Lalia_Clayhanger> .
+
+<http://localhost:5000/resource/Isumbras_Took_I>
+    schema:birthDate "TA 2295" ;
+    schema:deathDate "TA 2398" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Faramir_Took_I>
+    schema:birthDate "FO 10" ;
+    schema:deathDate "FO 112" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Goldilocks_Gardner> .
+
+<http://localhost:5000/resource/Tom%2C_Bert%2C_and_William>
+    schema:birthDate "Third Age, or before" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "None" ;
+    tolkien:height "About 13'" ;
+    tolkien:race "Stone-trolls" .
+
+<http://localhost:5000/resource/Tind%C3%B3miel>
+    schema:birthDate "After ,SA 61" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Tilion>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/Th%C3%A9odred>
+    schema:birthDate "TA 2978" ;
+    schema:deathDate "February 25 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Th%C3%A9oden>
+    schema:birthDate "TA 2948 ,Gondor" ;
+    schema:deathDate "March 15 ,3019" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "White with braids (book) Blonde (films)" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Elfhild> .
+
+<http://localhost:5000/resource/Thuringwethil>
+    schema:deathDate "FA 465" ;
+    schema:gender "Female" ;
+    tolkien:race "Vampire" .
+
+<http://localhost:5000/resource/Thr%C3%B3r>
+    schema:birthDate "TA 2542" ;
+    schema:deathDate "TA 2790" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Grey-white" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Grey Mountains,Lonely Mountain" .
+
+<http://localhost:5000/resource/Thr%C3%A1in_II>
+    schema:birthDate "TA 2644" ;
+    schema:deathDate "TA 2850" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Lonely Mountain" .
+
+<http://localhost:5000/resource/Thranduil>
+    schema:birthDate "First Age" ;
+    schema:deathDate "Presumably departed to ,Aman" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Woodland Realm,Mirkwood" .
+
+<http://localhost:5000/resource/Thorondor>
+    schema:birthDate "Before the Creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:height "30" ;
+    tolkien:race "Great Eagles" .
+
+<http://localhost:5000/resource/Thr%C3%A1in_I>
+    schema:birthDate "TA 1934" ;
+    schema:deathDate "TA 2190" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Khazad-dûm" .
+
+<http://localhost:5000/resource/Thorondir>
+    schema:birthDate "TA 2782" ;
+    schema:deathDate "TA 2882" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Thorin_III_Stonehelm>
+    schema:birthDate "TA 2866" ;
+    schema:deathDate "FO 137,(aged 280)" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Lonely Mountain,Iron Hills" .
+
+<http://localhost:5000/resource/Thorin_II_Oakenshield>
+    schema:birthDate "TA 2746" ;
+    schema:deathDate "November 23, TA 2941" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Ered Luin" .
+
+<http://localhost:5000/resource/Thorin_I>
+    schema:birthDate "TA 2035" ;
+    schema:deathDate "TA 2289" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" ;
+    tolkien:realm "Lonely Mountain,Grey Mountains" .
+
+<http://localhost:5000/resource/Thingol>
+    schema:birthDate "YT 1050" ;
+    schema:deathDate "FA 502" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Silver" ;
+    tolkien:height "Tallest of the Elven-folk, 8'2\"" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Doriath" ;
+    schema:spouse <http://localhost:5000/resource/Melian> .
+
+<http://localhost:5000/resource/Thengel>
+    schema:birthDate "TA 2905" ;
+    schema:deathDate "TA 2980" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" ;
+    schema:spouse <http://localhost:5000/resource/Morwen_Steelsheen> .
+
+<http://localhost:5000/resource/The_King_of_the_Dead>
+    schema:birthDate "Second Age" ;
+    schema:deathDate "Sometime after the ,War of the Last Alliance" ;
+    schema:gender "Male" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Men,Undead" ;
+    tolkien:realm "White Mountains,Paths of the Dead" .
+
+<http://localhost:5000/resource/Telemnar>
+    schema:birthDate "TA 1516" ;
+    schema:deathDate "TA 1636" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Telchar>
+    schema:birthDate "First Age" ;
+    schema:deathDate "First Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Tati%C3%AB>
+    schema:birthDate "Unknown, awakened in the ,Years of the Trees" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Tata> .
+
+<http://localhost:5000/resource/Telumehtar>
+    schema:birthDate "TA 1632" ;
+    schema:deathDate "TA 1850" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Tata>
+    schema:birthDate "Unknown, awakened in the ,Years of the Trees" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Tati%C3%AB> .
+
+<http://localhost:5000/resource/Tarondor_of_Arnor>
+    schema:birthDate "TA 372" ;
+    schema:deathDate "TA 602" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Targon>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Longo_Baggins>
+    schema:birthDate "TA 2860" ;
+    schema:deathDate "TA 2950" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Camellia_%28Sackville%29_Baggins> .
+
+<http://localhost:5000/resource/Laura_%28Grubb%29_Baggins>
+    schema:birthDate "TA 2814" ;
+    schema:deathDate "TA 2916" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Mungo_Baggins> .
+
+<http://localhost:5000/resource/Tarondor>
+    schema:birthDate "TA 1577" ;
+    schema:deathDate "TA 1798" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Tarciryan>
+    schema:birthDate "After ,TA 654" ;
+    schema:deathDate "Before ,TA 913" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Mungo_Baggins>
+    schema:birthDate "TA 2807" ;
+    schema:deathDate "TA 2900" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Laura_Grubb> .
+
+<http://localhost:5000/resource/Frodo_Baggins>
+    schema:birthDate "22 September ,TA 2968" ;
+    schema:deathDate "Unknown (Last sighting ,September 29 ,3021,) (,SR 1421,)" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Brown" ;
+    tolkien:height "1.06m (3'6\")" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Fosco_Baggins>
+    schema:birthDate "TA 2864" ;
+    schema:deathDate "TA 2960" ;
+    schema:gender "male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Ruby_Bolger> .
+
+<http://localhost:5000/resource/Dudo_Baggins>
+    schema:birthDate "TA 2911" ;
+    schema:deathDate "TA 3009" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" .
+
+<http://localhost:5000/resource/Drogo_Baggins>
+    schema:birthDate "TA 2908" ;
+    schema:deathDate "TA 2980" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Primula_Brandybuck> .
+
+<http://localhost:5000/resource/Bungo_Baggins>
+    schema:birthDate "TA 2846" ;
+    schema:deathDate "TA 2926" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Berylla_%28Boffin%29_Baggins>
+    schema:birthDate "TA 2772" ;
+    schema:deathDate "TA 2871" ;
+    schema:gender "Female" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Balbo_Baggins> .
+
+<http://localhost:5000/resource/Belladonna_%28Took%29_Baggins>
+    schema:birthDate "TA 2852" ;
+    schema:deathDate "TA 2934" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Black" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Bungo_Baggins> .
+
+<http://localhost:5000/resource/Balbo_Baggins>
+    schema:birthDate "TA 2767" ;
+    schema:deathDate "TA 2858" ;
+    schema:gender "Male" ;
+    tolkien:race "Hobbits" ;
+    schema:spouse <http://localhost:5000/resource/Berylla_%28Boffin%29_Baggins> .
+
+<http://localhost:5000/resource/Angelica_Baggins>
+    schema:birthDate "TA 2981" ;
+    schema:deathDate "Early-,Fourth Age" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Blonde" ;
+    tolkien:race "Hobbit" .
+
+<http://localhost:5000/resource/Azog>
+    schema:deathDate "TA 2799" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "none" ;
+    tolkien:height "8'5" ;
+    tolkien:race "Orcs" ;
+    tolkien:realm "Moria,Mount Gundabad" .
+
+<http://localhost:5000/resource/Azagh%C3%A2l>
+    schema:birthDate "FA 214" ;
+    schema:deathDate "FA 473" ;
+    schema:gender "Male" ;
+    tolkien:race "Dwarves" .
+
+<http://localhost:5000/resource/Axantur>
+    schema:birthDate "SA 395" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aul%C3%AB>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur" ;
+    schema:spouse <http://localhost:5000/resource/Yavanna> .
+
+<http://localhost:5000/resource/Aulendil_%28Vardamir%27s_son%29>
+    schema:birthDate "SA 213" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Atanatar_II>
+    schema:birthDate "TA 977" ;
+    schema:deathDate "TA 1226" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Atanatar_I>
+    schema:birthDate "TA 480" ;
+    schema:deathDate "TA 748" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Atanalcar>
+    schema:birthDate "After ,SA 61" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Possible_unnamed_wife> .
+
+<http://localhost:5000/resource/Arwen>
+    schema:birthDate "TA 241" ;
+    schema:deathDate "FO 121" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Black" ;
+    tolkien:race "Half-elven,Men" ;
+    tolkien:realm "Reunited Kingdom" ;
+    schema:spouse <http://localhost:5000/resource/Aragorn_II_Elessar> .
+
+<http://localhost:5000/resource/Arveleg_II>
+    schema:birthDate "TA 1633" ;
+    schema:deathDate "TA 1813" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain,Arnor" .
+
+<http://localhost:5000/resource/Arveleg_I>
+    schema:birthDate "TA 1309" ;
+    schema:deathDate "TA 1409" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor,Arthedain" .
+
+<http://localhost:5000/resource/Arvegil>
+    schema:birthDate "TA 1553" ;
+    schema:deathDate "TA 1743" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain,Arnor" .
+
+<http://localhost:5000/resource/Arvedui>
+    schema:birthDate "TA 1864" ;
+    schema:deathDate "TA 1975" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" ;
+    schema:spouse <http://localhost:5000/resource/F%C3%ADriel> .
+
+<http://localhost:5000/resource/Arthad>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 460" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Arminas>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Arien>
+    schema:birthDate "Before the creation of ,Arda" ;
+    schema:deathDate "Immortal" ;
+    schema:gender "Female" ;
+    tolkien:race "Ainur" .
+
+<http://localhost:5000/resource/Argonui>
+    schema:birthDate "TA 2757" ;
+    schema:deathDate "TA 2912" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Argon>
+    schema:birthDate "Years of the Trees" ;
+    schema:deathDate "YT 1500, or ,FA 1 ,Battle of the Lammoth" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Possibly dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Argeleb_II>
+    schema:birthDate "TA 1473" ;
+    schema:deathDate "TA 1670" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Argeleb_I>
+    schema:birthDate "TA 1226" ;
+    schema:deathDate "TA 1356" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain,Arnor" .
+
+<http://localhost:5000/resource/Aredhel>
+    schema:birthDate "YT 1362" ;
+    schema:deathDate "FA 400" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "Tall" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/E%C3%B6l> .
+
+<http://localhost:5000/resource/Ardamir_%28son_of_Axantur%29>
+    schema:birthDate "SA 562" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Arciryas>
+    schema:birthDate "After ,TA 1684" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aravorn>
+    schema:birthDate "TA 2497" ;
+    schema:deathDate "TA 2654" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aravir>
+    schema:birthDate "TA 2156" ;
+    schema:deathDate "TA 2319" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Araval>
+    schema:birthDate "TA 1711" ;
+    schema:deathDate "TA 1891" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain,Arnor" .
+
+<http://localhost:5000/resource/Arathorn_II>
+    schema:birthDate "TA 2873" ;
+    schema:deathDate "TA 2933" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark (film)" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Gilraen> .
+
+<http://localhost:5000/resource/Arathorn_I>
+    schema:birthDate "TA 2693" ;
+    schema:deathDate "TA 2848" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aratan>
+    schema:birthDate "SA 3339" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "TA 2" ;
+    schema:spouse <http://localhost:5000/resource/Unknown%2C_possibly_known> .
+
+<http://localhost:5000/resource/Arassuil>
+    schema:birthDate "TA 2628" ;
+    schema:deathDate "TA 2784" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Araphor>
+    schema:birthDate "TA 1391" ;
+    schema:deathDate "TA 1589" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Arantar>
+    schema:birthDate "TA 185" ;
+    schema:deathDate "TA 435" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arnor" .
+
+<http://localhost:5000/resource/Araphant>
+    schema:birthDate "TA 1789" ;
+    schema:deathDate "TA 1964" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Aranw%C3%AB>
+    schema:gender "Male" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Aranuir>
+    schema:birthDate "TA 2084" ;
+    schema:deathDate "TA 2247" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aranarth>
+    schema:birthDate "TA 1938" ;
+    schema:deathDate "TA 2106" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Arahael>
+    schema:birthDate "TA 2012" ;
+    schema:deathDate "TA 2177" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Arahad_II>
+    schema:birthDate "TA 2563" ;
+    schema:deathDate "TA 2719" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Arahad_I>
+    schema:birthDate "TA 2365" ;
+    schema:deathDate "TA 2523" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aragost>
+    schema:birthDate "TA 2431" ;
+    schema:deathDate "TA 2588" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aragorn_II_Elessar>
+    schema:birthDate "March 1 ,2931" ;
+    schema:deathDate "FO 120" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:height "198cm (6'6\")" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Reunited Kingdom,Arnor,Gondor" ;
+    schema:spouse <http://localhost:5000/resource/Arwen> .
+
+<http://localhost:5000/resource/Aragorn_I>
+    schema:birthDate "TA 2227" ;
+    schema:deathDate "TA 2327" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Araglas>
+    schema:birthDate "TA 2296" ;
+    schema:deathDate "TA 2455" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Arador>
+    schema:birthDate "TA 2820" ;
+    schema:deathDate "TA 2930" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark, then grey (film)" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ar-Zimrath%C3%B4n>
+    schema:birthDate "SA 2798" ;
+    schema:deathDate "SA 3033" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" .
+
+<http://localhost:5000/resource/Angamait%C3%AB>
+    schema:birthDate "Mid-,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Andr%C3%B3g>
+    schema:birthDate "FA 440" ;
+    schema:deathDate "FA 489" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Andreth>
+    schema:birthDate "FA 361" ;
+    schema:deathDate "FA 455" ;
+    schema:gender "Female" ;
+    tolkien:hairColor "Dark brown" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Loved_%2CAegnor%2C_but_they_never_married> .
+
+<http://localhost:5000/resource/Ancalagon>
+    schema:birthDate "Possibly before the Creation of Arda" ;
+    schema:deathDate "FA 587" ;
+    schema:gender "Male" ;
+    tolkien:height "As tall as a mountain" ;
+    tolkien:race "Dragons" .
+
+<http://localhost:5000/resource/Anborn>
+    schema:birthDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Anardil>
+    schema:birthDate "TA 136" ;
+    schema:deathDate "TA 411" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Anair%C3%AB>
+    schema:birthDate "YT" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Fingolfin> .
+
+<http://localhost:5000/resource/Amrothos>
+    schema:birthDate "TA 2994" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Amroth>
+    schema:deathDate "TA 1981" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Lórien" ;
+    schema:spouse <http://localhost:5000/resource/Nimrodel> .
+
+<http://localhost:5000/resource/Amrod>
+    schema:birthDate "Years of the Trees" ;
+    schema:deathDate "YT 1497 ,Losgar" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark red" ;
+    tolkien:race "Elves" .
+
+<http://localhost:5000/resource/Amras>
+    schema:birthDate "Years of the Trees" ;
+    schema:deathDate "FA 538" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Dark red" ;
+    tolkien:race "Elf" ;
+    tolkien:realm "Estolad" .
+
+<http://localhost:5000/resource/Amlaith>
+    schema:birthDate "TA 726" ;
+    schema:deathDate "TA 946" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Arthedain" .
+
+<http://localhost:5000/resource/Amd%C3%ADr>
+    schema:birthDate "Sometime during ,Years of the Trees, or the ,First Age" ;
+    schema:deathDate "SA 3434" ;
+    schema:gender "Male" ;
+    tolkien:race "Elves" ;
+    tolkien:realm "Lórien" .
+
+<http://localhost:5000/resource/Amari%C3%AB>
+    schema:birthDate "YT" ;
+    schema:deathDate "Still alive" ;
+    schema:gender "Female" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Loved_%2CFinrod%2C_but_it_is_unknown_whether_they_married> .
+
+<http://localhost:5000/resource/Amandil>
+    schema:birthDate "Late ,Second Age" ;
+    schema:deathDate "Sailed West either SA 3310 fate unknown" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Alphros>
+    schema:birthDate "TA 3017" ;
+    schema:deathDate "FO 95" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Almiel>
+    schema:birthDate "Between ,SA 700, and ,SA 750" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Ailinel>
+    schema:birthDate "Between ,SA 700, and ,SA 750" ;
+    schema:deathDate "Early ,Second Age" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Orchaldor> .
+
+<http://localhost:5000/resource/Almarian>
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Númenor" ;
+    schema:spouse <http://localhost:5000/resource/Tar-Meneldur> .
+
+<http://localhost:5000/resource/Algund>
+    schema:birthDate "Late ,First Age" ;
+    schema:deathDate "FA 489" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/None_known> .
+
+<http://localhost:5000/resource/Aldor>
+    schema:birthDate "TA 2544" ;
+    schema:deathDate "TA 2645" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Rohan" .
+
+<http://localhost:5000/resource/Aldamir>
+    schema:birthDate "TA 1330" ;
+    schema:deathDate "TA 1540" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" ;
+    tolkien:realm "Gondor" .
+
+<http://localhost:5000/resource/Alatar>
+    schema:birthDate "Before the creation of Arda" ;
+    schema:gender "Male" ;
+    tolkien:race "Ainur,Maiar" .
+
+<http://localhost:5000/resource/Aglahad>
+    schema:birthDate "TA 2827" ;
+    schema:deathDate "TA 2932" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Aerin>
+    schema:birthDate "Mid ,First Age" ;
+    schema:deathDate "FA 495" ;
+    schema:gender "Female" ;
+    tolkien:race "Men" ;
+    schema:spouse <http://localhost:5000/resource/Brodda> .
+
+<http://localhost:5000/resource/Aegnor>
+    schema:birthDate "YT during the ,Noontide of Valinor" ;
+    schema:deathDate "FA 455" ;
+    schema:gender "Male" ;
+    tolkien:hairColor "Golden" ;
+    tolkien:race "Elves" ;
+    schema:spouse <http://localhost:5000/resource/Loved_%2CAndreth_but_remained_unmarried> .
+
+<http://localhost:5000/resource/Adrahil_II>
+    schema:birthDate "TA 2917" ;
+    schema:deathDate "TA 3010" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+
+<http://localhost:5000/resource/Adrahil_I>
+    schema:birthDate "Before ,TA 1944" ;
+    schema:deathDate "Late ,Third Age" ;
+    schema:gender "Male" ;
+    tolkien:race "Men" .
+

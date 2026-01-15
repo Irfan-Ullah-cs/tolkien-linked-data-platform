@@ -1,0 +1,232 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix :       <http://localhost:5000/shapes/> .
+
+
+# INFOBOX CHARACTER TEMPLATE → Person/Character Shape
+# Based on: https://tolkiengateway.net/wiki/Template:Infobox_character
+
+:CharacterShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Person ;
+    rdfs:label "Character Shape" ;
+    rdfs:comment "Validates entities based on the Infobox Character template" ;
+    
+    # Optional: Character name (derived from title if not in infobox)
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:description "Character name from infobox or title" ;
+    ] ;
+    
+    # Optional properties from infobox character template
+    sh:property [
+        sh:path schema:image ;
+        sh:nodeKind sh:IRI ;
+        sh:description "Character image URL" ;
+    ] ;
+    sh:property [
+        sh:path schema:birthDate ;
+        sh:datatype xsd:string ;
+        sh:description "Birth date (may contain wiki markup)" ;
+    ] ;
+    sh:property [
+        sh:path schema:deathDate ;
+        sh:datatype xsd:string ;
+        sh:description "Death date (may contain wiki markup)" ;
+    ] ;
+    sh:property [
+        sh:path schema:gender ;
+        sh:datatype xsd:string ;
+        sh:description "Gender of character" ;
+    ] ;
+    sh:property [
+        sh:path schema:spouse ;
+        sh:description "Spouse relationship (Person or literal)" ;
+    ] ;
+    sh:property [
+        sh:path schema:parent ;
+        sh:description "Parent relationship (Person or literal)" ;
+    ] ;
+    sh:property [
+        sh:path schema:children ;
+        sh:description "Children relationship (Person or literal)" ;
+    ] ;
+    sh:property [
+        sh:path schema:homeLocation ;
+        sh:description "Home location of character" ;
+    ] ;
+    sh:property [
+        sh:path schema:memberOf ;
+        sh:description "Organizations the character belongs to" ;
+    ] .
+
+
+# INFOBOX LOCATION TEMPLATE → Place/Location Shape
+# Based on Tolkien Gateway infobox location template
+
+
+:LocationShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Place ;
+    rdfs:label "Location Shape" ;
+    rdfs:comment "Validates entities based on the Infobox Location template" ;
+    
+    # Optional: Location name (derived from title if not in infobox)
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:description "Location name from infobox or title" ;
+    ] ;
+    
+    # Optional properties from infobox location template
+    sh:property [
+        sh:path schema:image ;
+        sh:nodeKind sh:IRI ;
+        sh:description "Location image URL" ;
+    ] ;
+    sh:property [
+        sh:path schema:description ;
+        sh:nodeKind sh:IRIOrLiteral ;
+        sh:description "Location description" ;
+    ] ;
+    sh:property [
+        sh:path schema:containedInPlace ;
+        sh:description "Parent location (e.g., city within region)" ;
+    ] .
+
+
+# INFOBOX WORK TEMPLATE → CreativeWork/Book/Work Shape
+# Based on Tolkien Gateway infobox work template
+
+
+:WorkShape
+    a sh:NodeShape ;
+    sh:targetClass schema:CreativeWork ;
+    rdfs:label "Work Shape" ;
+    rdfs:comment "Validates entities based on the Infobox Work template" ;
+    
+    # Optional: Work title (derived from title if not in infobox)
+    sh:property [
+        sh:path schema:name ;
+        sh:description "Work title from infobox or title" ;
+    ] ;
+    
+    # Optional properties from infobox work template
+    sh:property [
+        sh:path schema:author ;
+        sh:description "Author of the work" ;
+    ] ;
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:datatype xsd:string ;
+        sh:description "Publication date" ;
+    ] ;
+    sh:property [
+        sh:path schema:publisher ;
+        sh:description "Publisher of the work" ;
+    ] ;
+    sh:property [
+        sh:path schema:bookFormat ;
+        sh:description "Format of the book" ;
+    ] ;
+    sh:property [
+        sh:path schema:numberOfPages ;
+        sh:datatype xsd:string ;
+        sh:description "Number of pages" ;
+    ] .
+
+
+# CARD INTEGRATION → Card Shape
+# Based on MECCG cards.json structure
+
+
+:CardShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Card ;
+    rdfs:label "Card Shape" ;
+    rdfs:comment "Validates MECCG card entities" ;
+    
+    # Required: Every card must have identifier and name
+    sh:property [
+        sh:path schema:identifier ;
+        sh:minCount 1 ;
+        sh:description "Card identifier from MECCG database" ;
+    ] ;
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:description "Card name" ;
+    ] ;
+    
+    # Optional: Link to canonical entity
+    sh:property [
+        sh:path schema:about ;
+        sh:nodeKind sh:IRI ;
+        sh:description "Links card to canonical entity in KG" ;
+    ] ;
+    sh:property [
+        sh:path schema:isPartOf ;
+        sh:description "Card set membership" ;
+    ] .
+
+
+# ORGANIZATION SHAPE
+# For groups, kingdoms, armies, etc.
+
+
+:OrganizationShape
+    a sh:NodeShape ;
+    sh:targetClass schema:Organization ;
+    rdfs:label "Organization Shape" ;
+    rdfs:comment "Validates organization entities" ;
+    
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+        sh:description "Organization name (derived from title if not in infobox)" ;
+    ] .
+
+
+# EXTERNAL LINKING
+# Validates owl:sameAs links to DBpedia/Wikidata
+
+
+:ExternalLinkShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf owl:sameAs ;
+    rdfs:label "External Link Shape" ;
+    rdfs:comment "Validates external knowledge graph links" ;
+    
+    sh:property [
+        sh:path owl:sameAs ;
+        sh:nodeKind sh:IRI ;
+        sh:pattern "^https?://" ;
+        sh:description "External link must be valid HTTP(S) URI" ;
+    ] .
+
+
+# MULTILINGUAL LABELS
+# Validates language-tagged labels
+
+
+:MultilingualLabelShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf rdfs:label ;
+    rdfs:label "Multilingual Label Shape" ;
+    rdfs:comment "Ensures labels have language tags" ;
+    sh:severity sh:Info ;
+    
+    sh:property [
+        sh:path rdfs:label ;
+        sh:or (
+            [ sh:datatype rdf:langString ]
+            [ sh:datatype xsd:string ]
+        ) ;
+        sh:description "Labels should preferably have language tags" ;
+    ] .

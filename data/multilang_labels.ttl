@@ -1,0 +1,1184 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://localhost:5000/resource/%C3%89omer>
+    rdfs:label "Éomer"@de ;
+    rdfs:label "Éomer"@es ;
+    rdfs:label "Éomer"@fr ;
+    rdfs:label "Éomer"@it ;
+    rdfs:label "Éomer"@pl ;
+    rdfs:label "Éomer"@pt-br ;
+    rdfs:label "Эомер"@ru ;
+    rdfs:label "Éomer"@sk ;
+    rdfs:label "Еомер"@uk .
+
+<http://localhost:5000/resource/%C3%89omund>
+    rdfs:label "Éomund"@ca ;
+    rdfs:label "Éomund"@de ;
+    rdfs:label "Éomund"@es ;
+    rdfs:label "Éomund"@fr ;
+    rdfs:label "Éomund"@it ;
+    rdfs:label "Éomund"@pl ;
+    rdfs:label "Эомунд"@ru .
+
+<http://localhost:5000/resource/%C3%89othain>
+    rdfs:label "Éothain (Éored)"@de .
+
+<http://localhost:5000/resource/%C3%89othain_%28film_character%29>
+    rdfs:label "Éothain"@de ;
+    rdfs:label "Éothain (Rohirrim)"@it ;
+    rdfs:label "Éothain (postać filmowa)"@pl .
+
+<http://localhost:5000/resource/%C3%89owyn>
+    rdfs:label "Éowyn"@de ;
+    rdfs:label "Éowyn"@es ;
+    rdfs:label "Éowyn"@fr ;
+    rdfs:label "Éowyn"@it ;
+    rdfs:label "Éowina"@pl ;
+    rdfs:label "Éowyn"@pt-br ;
+    rdfs:label "Эовин"@ru ;
+    rdfs:label "Éowyn"@sk ;
+    rdfs:label "Éowyn"@tr ;
+    rdfs:label "Еовин"@uk .
+
+<http://localhost:5000/resource/%C3%8Drild%C3%AB>
+    rdfs:label "Írildë"@de ;
+    rdfs:label "Írildë"@pl .
+
+<http://localhost:5000/resource/%C3%8Drim%C3%AB>
+    rdfs:label "Írimë"@it ;
+    rdfs:label "Írimë"@pl ;
+    rdfs:label "Иримэ"@ru ;
+    rdfs:label "Іріме"@uk .
+
+<http://localhost:5000/resource/%C3%8Ebal>
+    rdfs:label "Îbal"@de ;
+    rdfs:label "Îbal"@it ;
+    rdfs:label "Ибал"@ru .
+
+<http://localhost:5000/resource/%C3%93in>
+    rdfs:label "Óin"@ca ;
+    rdfs:label "Óin (Sohn von Gróin)"@de ;
+    rdfs:label "Óin"@es ;
+    rdfs:label "Óin"@fr ;
+    rdfs:label "Óin"@it ;
+    rdfs:label "Óin"@nl ;
+    rdfs:label "Óin"@pl ;
+    rdfs:label "Óin"@pt-br ;
+    rdfs:label "Оин"@ru ;
+    rdfs:label "Оїн"@uk ;
+    rdfs:label "歐音"@zh .
+
+<http://localhost:5000/resource/%C3%93in_%28King_of_Durin%27s_Folk%29>
+    rdfs:label "Óin (Sohn von Glóin)"@de ;
+    rdfs:label "Óin (roi)"@fr ;
+    rdfs:label "Óin (Re dei Lungobarbi)"@it ;
+    rdfs:label "Óin, Koning van Durins Volk"@nl ;
+    rdfs:label "Óin (Król Plemienia Durina)"@pl ;
+    rdfs:label "Оин, сын Глоина"@ru .
+
+<http://localhost:5000/resource/%C3%93mar>
+    rdfs:label "Ómar"@it .
+
+<http://localhost:5000/resource/Adalbert_Bolger>
+    rdfs:label "Adalbert Bolger"@de ;
+    rdfs:label "Adalbert Bolger"@fr ;
+    rdfs:label "Adalberto Bolgeri"@it ;
+    rdfs:label "Adalbert Bolger"@pl ;
+    rdfs:label "Адалберт Болджер"@ru .
+
+<http://localhost:5000/resource/Adalgar_Bolger>
+    rdfs:label "Adalgar Bolger"@de ;
+    rdfs:label "Adalgario Bolgeri"@it ;
+    rdfs:label "Adalgar Bolger"@pl ;
+    rdfs:label "Адалгар Болджер"@ru .
+
+<http://localhost:5000/resource/Adalgrim_Took>
+    rdfs:label "Adalgrim Tuk"@de ;
+    rdfs:label "Adalgrim Touque"@fr ;
+    rdfs:label "Adalgrim Tuc"@it ;
+    rdfs:label "Adalgrim Tuk"@pl ;
+    rdfs:label "Адалгрим Тук"@ru .
+
+<http://localhost:5000/resource/Adam_Brown>
+    rdfs:label "Adam Brown"@de ;
+    rdfs:label "Adam Brown"@es ;
+    rdfs:label "Adam Brown"@fr ;
+    rdfs:label "Adam Brown"@pl ;
+    rdfs:label "Адам Браун"@ru .
+
+<http://localhost:5000/resource/Adanel>
+    rdfs:label "Adanel"@de ;
+    rdfs:label "Adanel"@it ;
+    rdfs:label "Adanela"@pl ;
+    rdfs:label "Аданэль"@ru .
+
+<http://localhost:5000/resource/Adelard_Took>
+    rdfs:label "Adelard Tuk"@de ;
+    rdfs:label "Adelardo Tuc"@it ;
+    rdfs:label "Adelard Toek"@nl ;
+    rdfs:label "Adelard Tuk"@pl ;
+    rdfs:label "Аделард Тук"@ru .
+
+<http://localhost:5000/resource/Adrahil_I>
+    rdfs:label "Adrahil I."@de ;
+    rdfs:label "Adrahil I"@nl ;
+    rdfs:label "Adrahil (Gondor)"@pl ;
+    rdfs:label "Adrahil"@pt-br ;
+    rdfs:label "Адрахиль I"@ru .
+
+<http://localhost:5000/resource/Adrahil_II>
+    rdfs:label "Adrahil II."@de ;
+    rdfs:label "Adrahil II"@es ;
+    rdfs:label "Adrahil II"@fr ;
+    rdfs:label "Adrahil II"@it ;
+    rdfs:label "Adrahil II"@nl ;
+    rdfs:label "Adrahil (Dol Amroth)"@pl ;
+    rdfs:label "Адрахиль II"@ru .
+
+<http://localhost:5000/resource/Aegnor>
+    rdfs:label "Aegnor"@ca ;
+    rdfs:label "Aegnor"@de ;
+    rdfs:label "Aegnor"@es ;
+    rdfs:label "Aegnor"@fr ;
+    rdfs:label "Aegnor"@it ;
+    rdfs:label "Aegnor"@pl ;
+    rdfs:label "Аэгнор"@ru .
+
+<http://localhost:5000/resource/Aerandir>
+    rdfs:label "Aerandir"@de ;
+    rdfs:label "Aerandir"@es ;
+    rdfs:label "Aerandir"@it ;
+    rdfs:label "Äerandir"@pl .
+
+<http://localhost:5000/resource/Aerin>
+    rdfs:label "Aerin"@de ;
+    rdfs:label "Aerin"@fr ;
+    rdfs:label "Aerin"@it ;
+    rdfs:label "Aerina"@pl ;
+    rdfs:label "Аэрин"@ru .
+
+<http://localhost:5000/resource/Aganda%C3%BBr>
+    rdfs:label "Agandaûr"@de ;
+    rdfs:label "Agandaûr"@es ;
+    rdfs:label "Agandaûr"@it ;
+    rdfs:label "Agandaûr"@pl ;
+    rdfs:label "Агандаур"@ru .
+
+<http://localhost:5000/resource/Agathor>
+    rdfs:label "Agathor"@es ;
+    rdfs:label "Agathor"@pl ;
+    rdfs:label "Агатор"@ru .
+
+<http://localhost:5000/resource/Aghan>
+    rdfs:label "Aghan"@de ;
+    rdfs:label "Aghan"@pl .
+
+<http://localhost:5000/resource/Aglahad>
+    rdfs:label "Aglahad"@de ;
+    rdfs:label "Aglahad"@es ;
+    rdfs:label "Aglahad"@it ;
+    rdfs:label "Aglahad"@nl ;
+    rdfs:label "Aglahad"@pl ;
+    rdfs:label "Аглахад"@ru .
+
+<http://localhost:5000/resource/Aidan_Turner>
+    rdfs:label "Aidan Turner"@de ;
+    rdfs:label "Aidan Turner"@es ;
+    rdfs:label "Aidan Turner"@fr ;
+    rdfs:label "Aidan Turner"@pl ;
+    rdfs:label "Эйдан Тёрнер"@ru .
+
+<http://localhost:5000/resource/Ailinel>
+    rdfs:label "Ailinel"@de ;
+    rdfs:label "Ailinel"@it ;
+    rdfs:label "Ailinel"@nl ;
+    rdfs:label "Ailinel"@pl ;
+    rdfs:label "Айлинель"@ru .
+
+<http://localhost:5000/resource/Ainairos>
+    rdfs:label "Айнайрос"@ru .
+
+<http://localhost:5000/resource/Alan_Howard>
+    rdfs:label "Alan Howard"@de ;
+    rdfs:label "Alan Howard"@pl .
+
+<http://localhost:5000/resource/Alan_Lee>
+    rdfs:label "Alan Lee"@es ;
+    rdfs:label "Alan Lee"@fr ;
+    rdfs:label "Alan Lee"@it ;
+    rdfs:label "Alan Lee"@pl ;
+    rdfs:label "Алан Ли"@ru .
+
+<http://localhost:5000/resource/Alatar>
+    rdfs:label "Alatar"@de ;
+    rdfs:label "Alatar"@fr ;
+    rdfs:label "Alatar"@it ;
+    rdfs:label "Alatar"@pl ;
+    rdfs:label "Алатар"@ru ;
+    rdfs:label "Alatar"@sk .
+
+<http://localhost:5000/resource/Albert_Dreary>
+    rdfs:label "Albert Dreary"@pl .
+
+<http://localhost:5000/resource/Aldamir>
+    rdfs:label "Aldamir"@de ;
+    rdfs:label "Aldamir"@es ;
+    rdfs:label "Aldamir"@it ;
+    rdfs:label "Aldamir"@pl ;
+    rdfs:label "Алдамир"@ru ;
+    rdfs:label "Альдамір"@uk .
+
+<http://localhost:5000/resource/Aldor>
+    rdfs:label "Aldor (Sohn von Brego)"@de ;
+    rdfs:label "Aldor"@fr ;
+    rdfs:label "Aldor"@it ;
+    rdfs:label "Aldor Stary"@pl ;
+    rdfs:label "Алдор"@ru ;
+    rdfs:label "Альдор Старий"@uk .
+
+<http://localhost:5000/resource/Aldor_%28film_character%29>
+    rdfs:label "Aldor (Rohan)"@de ;
+    rdfs:label "Aldor"@pl ;
+    rdfs:label "Алдор (Две крепости)"@ru .
+
+<http://localhost:5000/resource/Alexandra_Astin>
+    rdfs:label "Alexandra Astin"@de .
+
+<http://localhost:5000/resource/Algund>
+    rdfs:label "Algund"@de ;
+    rdfs:label "Algund"@fr ;
+    rdfs:label "Algund"@it ;
+    rdfs:label "Algund"@pl ;
+    rdfs:label "Алгунд"@ru .
+
+<http://localhost:5000/resource/Alistair_Browning>
+    rdfs:label "Alistair Browning"@de .
+
+<http://localhost:5000/resource/Alm%C3%A1riel>
+    rdfs:label "Almáriel"@pl .
+
+<http://localhost:5000/resource/Almarian>
+    rdfs:label "Almarian"@de ;
+    rdfs:label "Almarian"@it ;
+    rdfs:label "Almarian"@pl ;
+    rdfs:label "Алмариан"@ru .
+
+<http://localhost:5000/resource/Almiel>
+    rdfs:label "Almiel"@de ;
+    rdfs:label "Almiel"@it ;
+    rdfs:label "Almiel"@pl ;
+    rdfs:label "Алмиэль"@ru .
+
+<http://localhost:5000/resource/Alphros>
+    rdfs:label "Alphros"@de ;
+    rdfs:label "Alphros"@es ;
+    rdfs:label "Alphros"@it ;
+    rdfs:label "Alphros"@nl ;
+    rdfs:label "Alphros"@pl ;
+    rdfs:label "Алфрос"@ru .
+
+<http://localhost:5000/resource/Amandil>
+    rdfs:label "Amandil"@de ;
+    rdfs:label "Amandil"@es ;
+    rdfs:label "Amandil"@fr ;
+    rdfs:label "Amandil"@it ;
+    rdfs:label "Amandil"@pl ;
+    rdfs:label "Амандиль"@ru ;
+    rdfs:label "Аманділ"@uk .
+
+<http://localhost:5000/resource/Amaranth_Brandybuck>
+    rdfs:label "Amaranth Brandybock"@de ;
+    rdfs:label "Amaranth Brandebouc"@fr ;
+    rdfs:label "Amaranto Brandibuck"@it ;
+    rdfs:label "Amaranth Brandybuck"@pl ;
+    rdfs:label "Амарант Брендибак"@ru .
+
+<http://localhost:5000/resource/Amd%C3%ADr>
+    rdfs:label "Amdír"@de ;
+    rdfs:label "Amdír"@es ;
+    rdfs:label "Amdír"@fr ;
+    rdfs:label "Amdír"@it ;
+    rdfs:label "Amdir"@pl ;
+    rdfs:label "Амдир"@ru .
+
+<http://localhost:5000/resource/Amlach>
+    rdfs:label "Amlach"@de ;
+    rdfs:label "Amlach"@it ;
+    rdfs:label "Amlach"@pl ;
+    rdfs:label "Амлах"@ru .
+
+<http://localhost:5000/resource/Amlaith>
+    rdfs:label "Amlaith von Fornost"@de ;
+    rdfs:label "Amlaith"@es ;
+    rdfs:label "Amlaith"@it ;
+    rdfs:label "Amlaith"@pl ;
+    rdfs:label "Амлайт"@ru .
+
+<http://localhost:5000/resource/Amras>
+    rdfs:label "Amras"@de ;
+    rdfs:label "Amras"@es ;
+    rdfs:label "Amras"@fr ;
+    rdfs:label "Amras"@it ;
+    rdfs:label "Amras"@nl ;
+    rdfs:label "Amras"@pl ;
+    rdfs:label "Амрас"@ru .
+
+<http://localhost:5000/resource/Amrod>
+    rdfs:label "Amrod"@de ;
+    rdfs:label "Amrod"@es ;
+    rdfs:label "Amrod"@fr ;
+    rdfs:label "Amrod"@it ;
+    rdfs:label "Amrod"@pl ;
+    rdfs:label "Амрод"@ru .
+
+<http://localhost:5000/resource/Amroth>
+    rdfs:label "Amroth"@de ;
+    rdfs:label "Amroth"@es ;
+    rdfs:label "Amroth"@it ;
+    rdfs:label "Amroth"@pl ;
+    rdfs:label "Амрот"@ru .
+
+<http://localhost:5000/resource/Amrothos>
+    rdfs:label "Amrothos"@de ;
+    rdfs:label "Amrothos"@es ;
+    rdfs:label "Amrothos"@it ;
+    rdfs:label "Amrothos"@pl ;
+    rdfs:label "Амротос"@ru .
+
+<http://localhost:5000/resource/An%C3%A1rion>
+    rdfs:label "Anàrion"@ca ;
+    rdfs:label "Anárion"@de ;
+    rdfs:label "Anárion"@es ;
+    rdfs:label "Anárion"@fr ;
+    rdfs:label "Anárion"@it ;
+    rdfs:label "Anárion"@pl ;
+    rdfs:label "Anárion"@pt-br ;
+    rdfs:label "Анарион"@ru ;
+    rdfs:label "Anárion"@tr ;
+    rdfs:label "Анаріон"@uk .
+
+<http://localhost:5000/resource/Anair%C3%AB>
+    rdfs:label "Anairë"@ca ;
+    rdfs:label "Anairë"@de ;
+    rdfs:label "Anairë"@es ;
+    rdfs:label "Anairë"@fr ;
+    rdfs:label "Anairë"@it ;
+    rdfs:label "Anairë"@pl ;
+    rdfs:label "Анайрэ"@ru .
+
+<http://localhost:5000/resource/Anborn>
+    rdfs:label "Anborn"@de ;
+    rdfs:label "Anborn"@es ;
+    rdfs:label "Anborn"@fr ;
+    rdfs:label "Anborn"@nl ;
+    rdfs:label "Anborn"@pl ;
+    rdfs:label "Анборн"@ru ;
+    rdfs:label "Анборн"@uk .
+
+<http://localhost:5000/resource/Andr%C3%B3g>
+    rdfs:label "Andróg"@de ;
+    rdfs:label "Andróg"@es ;
+    rdfs:label "Andróg"@fr ;
+    rdfs:label "Andróg"@it ;
+    rdfs:label "Andróg"@pl ;
+    rdfs:label "Андрог"@ru .
+
+<http://localhost:5000/resource/Andreth>
+    rdfs:label "Andreth"@de ;
+    rdfs:label "Andreth"@fr ;
+    rdfs:label "Andreth"@it ;
+    rdfs:label "Andretha"@pl ;
+    rdfs:label "Андрет"@ru .
+
+<http://localhost:5000/resource/Andriel>
+    rdfs:label "Andriel"@de ;
+    rdfs:label "Andriel"@es ;
+    rdfs:label "Andriel"@it ;
+    rdfs:label "Andriel"@pl ;
+    rdfs:label "Андриель"@ru .
+
+<http://localhost:5000/resource/Andv%C3%ADr>
+    rdfs:label "Andvír"@it ;
+    rdfs:label "Andvír"@pl ;
+    rdfs:label "Андвир"@ru .
+
+<http://localhost:5000/resource/Andwise_Roper>
+    rdfs:label "Andweis Seiler"@de ;
+    rdfs:label "Andwise Cordier"@fr ;
+    rdfs:label "Andvise Cordaio"@it ;
+    rdfs:label "Andwise Powroźnik"@pl .
+
+<http://localhost:5000/resource/Andy_Serkis>
+    rdfs:label "Andy Serkis"@de ;
+    rdfs:label "Andy Serkis"@es ;
+    rdfs:label "Andy Serkis"@fr ;
+    rdfs:label "Andy Serkis"@it ;
+    rdfs:label "Andy Serkis"@pl ;
+    rdfs:label "Andy Serkis"@pt-br ;
+    rdfs:label "Энди Сёркис"@ru .
+
+<http://localhost:5000/resource/Angamait%C3%AB>
+    rdfs:label "Angamaitë"@de ;
+    rdfs:label "Angamaitë"@it ;
+    rdfs:label "Angamaitë"@nl ;
+    rdfs:label "Angamaitë"@pl ;
+    rdfs:label "Ангамайтэ"@ru .
+
+<http://localhost:5000/resource/Angbor>
+    rdfs:label "Angbor"@de ;
+    rdfs:label "Angbor"@es ;
+    rdfs:label "Angbor"@fr ;
+    rdfs:label "Angbor"@it ;
+    rdfs:label "Angbor"@pl ;
+    rdfs:label "Ангбор"@ru .
+
+<http://localhost:5000/resource/Angelica_Baggins>
+    rdfs:label "Angelica Beutlin"@de ;
+    rdfs:label "Angelica Baggins"@it ;
+    rdfs:label "Angelica Balings"@nl ;
+    rdfs:label "Angelika Baggins"@pl .
+
+<http://localhost:5000/resource/Angelimir>
+    rdfs:label "Angelimir"@de ;
+    rdfs:label "Angelimir"@es ;
+    rdfs:label "Angelimir"@it ;
+    rdfs:label "Angelimir"@nl ;
+    rdfs:label "Angelimar"@pl ;
+    rdfs:label "Ангелимир"@ru .
+
+<http://localhost:5000/resource/Angrim>
+    rdfs:label "Angrim"@de ;
+    rdfs:label "Angrim"@pl ;
+    rdfs:label "Ангрим"@ru .
+
+<http://localhost:5000/resource/Angrod>
+    rdfs:label "Àngrod"@ca ;
+    rdfs:label "Angrod"@de ;
+    rdfs:label "Angrod"@es ;
+    rdfs:label "Angrod"@fr ;
+    rdfs:label "Angrod"@it ;
+    rdfs:label "Angrod"@pl ;
+    rdfs:label "Ангрод"@ru .
+
+<http://localhost:5000/resource/Angus_McBride>
+    rdfs:label "Angus McBride"@it .
+
+<http://localhost:5000/resource/Annael>
+    rdfs:label "Annael"@de ;
+    rdfs:label "Annael"@es ;
+    rdfs:label "Annael"@fr ;
+    rdfs:label "Annael"@it ;
+    rdfs:label "Annael"@pl ;
+    rdfs:label "Аннаэль"@ru .
+
+<http://localhost:5000/resource/Anson_Roper>
+    rdfs:label "Ansen Seiler"@de ;
+    rdfs:label "Anson Cordaio"@it ;
+    rdfs:label "Anson Powroźnik"@pl .
+
+<http://localhost:5000/resource/Antony_Sher>
+    rdfs:label "Antony Sher"@de .
+
+<http://localhost:5000/resource/Ar-Ad%C3%BBnakh%C3%B4r>
+    rdfs:label "Ar-Adûnakhôr"@de ;
+    rdfs:label "Ar-Adûnakhôr"@it ;
+    rdfs:label "Ar-Adûnakhôr"@pl ;
+    rdfs:label "Ар-Адунахор"@ru .
+
+<http://localhost:5000/resource/Ar-Gimilz%C3%B4r>
+    rdfs:label "Ar-Gimilzôr"@de ;
+    rdfs:label "Ar-Gimilzôr"@it ;
+    rdfs:label "Ar-Gimilzôr"@pl ;
+    rdfs:label "Ар-Гимильзор"@ru .
+
+<http://localhost:5000/resource/Ar-Pharaz%C3%B4n>
+    rdfs:label "Ar-Pharazôn"@de ;
+    rdfs:label "Ar-Pharazôn"@es ;
+    rdfs:label "Ar-Pharazôn"@fr ;
+    rdfs:label "Ar-Pharazôn"@it ;
+    rdfs:label "Ar-Pharazôn"@pl ;
+    rdfs:label "Ar-Pharazôn"@pt-br ;
+    rdfs:label "Ар-Фаразон"@ru .
+
+<http://localhost:5000/resource/Ar-Sakalth%C3%B4r>
+    rdfs:label "Ar-Sakalthôr"@de ;
+    rdfs:label "Ar-Sakalthôr"@it ;
+    rdfs:label "Ar-Sakalthôr"@pl ;
+    rdfs:label "Ар-Сакалтор"@ru .
+
+<http://localhost:5000/resource/Ar-Zimrath%C3%B4n>
+    rdfs:label "Ar-Zimrathôn"@de ;
+    rdfs:label "Ar-Zimrathôn"@it ;
+    rdfs:label "Ar-Zimrathôn"@pl ;
+    rdfs:label "Ар-Зимратон"@ru .
+
+<http://localhost:5000/resource/Arador>
+    rdfs:label "Arador"@de ;
+    rdfs:label "Arador"@es ;
+    rdfs:label "Arador"@fr ;
+    rdfs:label "Arador"@it ;
+    rdfs:label "Arador"@nl ;
+    rdfs:label "Arador I"@pl ;
+    rdfs:label "Arador"@pt-br ;
+    rdfs:label "Арадор"@ru .
+
+<http://localhost:5000/resource/Araglas>
+    rdfs:label "Araglas"@de ;
+    rdfs:label "Araglas"@es ;
+    rdfs:label "Araglas"@it ;
+    rdfs:label "Araglas"@pl ;
+    rdfs:label "Араглас"@ru .
+
+<http://localhost:5000/resource/Aragorn_I>
+    rdfs:label "Aragorn I."@de ;
+    rdfs:label "Aragorn I"@es ;
+    rdfs:label "Aragorn I"@it ;
+    rdfs:label "Aragorn I"@pl ;
+    rdfs:label "Арагорн I"@ru .
+
+<http://localhost:5000/resource/Aragorn_II>
+    rdfs:label "Aragorn II. Elessar"@cs ;
+    rdfs:label "Aragorn II."@de ;
+    rdfs:label "Aragorn II"@es ;
+    rdfs:label "Aragorn II"@fi ;
+    rdfs:label "Aragorn"@fr ;
+    rdfs:label "אראגורן השני אלסאר"@he ;
+    rdfs:label "Aragorn II Elessar"@it ;
+    rdfs:label "Aragorn"@nl ;
+    rdfs:label "Aragorn II"@pl ;
+    rdfs:label "Aragorn II Elessar"@pt-br ;
+    rdfs:label "Арагорн II Элессар"@ru ;
+    rdfs:label "Aragorn II Elessar"@tr ;
+    rdfs:label "Араґорн ІІ Елессар"@uk ;
+    rdfs:label "亞拉岡"@zh .
+
+<http://localhost:5000/resource/Aragost>
+    rdfs:label "Aragost"@de ;
+    rdfs:label "Aragost"@es ;
+    rdfs:label "Aragost"@it ;
+    rdfs:label "Aragost"@pl ;
+    rdfs:label "Арагост"@ru .
+
+<http://localhost:5000/resource/Arahad_I>
+    rdfs:label "Arahad I."@de ;
+    rdfs:label "Arahad I"@es ;
+    rdfs:label "Arahad I"@it ;
+    rdfs:label "Arahad I"@pl ;
+    rdfs:label "Арахад I"@ru .
+
+<http://localhost:5000/resource/Arahad_II>
+    rdfs:label "Arahad II."@de ;
+    rdfs:label "Arahad II"@es ;
+    rdfs:label "Arahad II"@fr ;
+    rdfs:label "Arahad II"@it ;
+    rdfs:label "Arahad II"@pl ;
+    rdfs:label "Арахад II"@ru .
+
+<http://localhost:5000/resource/Arahael>
+    rdfs:label "Arahael"@de ;
+    rdfs:label "Arahael"@es ;
+    rdfs:label "Arahael"@it ;
+    rdfs:label "Arahael"@pl ;
+    rdfs:label "Арахаэль"@ru .
+
+<http://localhost:5000/resource/Aranarth>
+    rdfs:label "Aranarth"@de ;
+    rdfs:label "Aranarth"@es ;
+    rdfs:label "Aranarth"@it ;
+    rdfs:label "Aranarth"@pl ;
+    rdfs:label "Аранарт"@ru .
+
+<http://localhost:5000/resource/Arantar>
+    rdfs:label "Arantar"@de ;
+    rdfs:label "Arantar"@es ;
+    rdfs:label "Arantar"@it ;
+    rdfs:label "Arantar"@pl ;
+    rdfs:label "Арантар"@ru .
+
+<http://localhost:5000/resource/Aranuir>
+    rdfs:label "Aranuir"@de ;
+    rdfs:label "Aranuir"@es ;
+    rdfs:label "Aranuir"@it ;
+    rdfs:label "Aranuir"@pl ;
+    rdfs:label "Арануир"@ru .
+
+<http://localhost:5000/resource/Aranw%C3%AB>
+    rdfs:label "Aranwë"@de ;
+    rdfs:label "Aranwë"@it ;
+    rdfs:label "Aranwë"@pl ;
+    rdfs:label "Аранвэ"@ru .
+
+<http://localhost:5000/resource/Araphant>
+    rdfs:label "Araphant"@de ;
+    rdfs:label "Araphant"@es ;
+    rdfs:label "Araphant"@it ;
+    rdfs:label "Araphant"@pl ;
+    rdfs:label "Арафант"@ru .
+
+<http://localhost:5000/resource/Araphor>
+    rdfs:label "Araphor"@de ;
+    rdfs:label "Araphor"@es ;
+    rdfs:label "Araphor"@fr ;
+    rdfs:label "Araphor"@it ;
+    rdfs:label "Araphor"@pl ;
+    rdfs:label "Арафор"@ru .
+
+<http://localhost:5000/resource/Arassuil>
+    rdfs:label "Arassuil"@de ;
+    rdfs:label "Arassuil"@es ;
+    rdfs:label "Arassuil"@it ;
+    rdfs:label "Arassuil"@pl ;
+    rdfs:label "Арассуиль"@ru .
+
+<http://localhost:5000/resource/Aratan>
+    rdfs:label "Aratan"@de ;
+    rdfs:label "Aratan"@it ;
+    rdfs:label "Aratan"@pl ;
+    rdfs:label "Аратан"@ru ;
+    rdfs:label "Аратан"@uk .
+
+<http://localhost:5000/resource/Arathorn_I>
+    rdfs:label "Arathorn I."@de ;
+    rdfs:label "Arathorn I"@es ;
+    rdfs:label "Arathorn I"@it ;
+    rdfs:label "Arathorn I"@pl ;
+    rdfs:label "Араторн I"@ru .
+
+<http://localhost:5000/resource/Arathorn_II>
+    rdfs:label "Arathorn II."@de ;
+    rdfs:label "Arathorn II"@es ;
+    rdfs:label "Arathorn II"@fr ;
+    rdfs:label "Arathorn II"@it ;
+    rdfs:label "Arathorn II"@nl ;
+    rdfs:label "Arathorn II"@pl ;
+    rdfs:label "Arathorn II"@pt-br ;
+    rdfs:label "Араторн II"@ru ;
+    rdfs:label "Arathorn II"@tr ;
+    rdfs:label "Араторн II"@uk .
+
+<http://localhost:5000/resource/Araval>
+    rdfs:label "Araval"@de ;
+    rdfs:label "Araval"@es ;
+    rdfs:label "Araval"@it ;
+    rdfs:label "Araval"@pl ;
+    rdfs:label "Аравал"@ru .
+
+<http://localhost:5000/resource/Aravir>
+    rdfs:label "Aravir"@de ;
+    rdfs:label "Aravir"@es ;
+    rdfs:label "Aravir"@it ;
+    rdfs:label "Aravir"@pl ;
+    rdfs:label "Аравир"@ru .
+
+<http://localhost:5000/resource/Aravorn>
+    rdfs:label "Aravorn"@de ;
+    rdfs:label "Aravorn"@es ;
+    rdfs:label "Aravorn"@it ;
+    rdfs:label "Aravorn"@pl ;
+    rdfs:label "Араворн"@ru .
+
+<http://localhost:5000/resource/Arciryas>
+    rdfs:label "Arciryas"@de ;
+    rdfs:label "Arciryas"@pl ;
+    rdfs:label "Аркирьяс"@ru ;
+    rdfs:label "Аркір'яс"@uk .
+
+<http://localhost:5000/resource/Aredhel>
+    rdfs:label "Aredhel"@ca ;
+    rdfs:label "Aredhel"@de ;
+    rdfs:label "Aredhel"@es ;
+    rdfs:label "Aredhel"@fr ;
+    rdfs:label "Aredhel"@it ;
+    rdfs:label "Aredhela"@pl ;
+    rdfs:label "Аредэль"@ru .
+
+<http://localhost:5000/resource/Argeleb_I>
+    rdfs:label "Argeleb I."@de ;
+    rdfs:label "Argeleb I"@es ;
+    rdfs:label "Argeleb I"@it ;
+    rdfs:label "Argeleb I"@pl ;
+    rdfs:label "Аргелеб I"@ru .
+
+<http://localhost:5000/resource/Argeleb_II>
+    rdfs:label "Argeleb II."@de ;
+    rdfs:label "Argeleb II"@es ;
+    rdfs:label "Argeleb II"@fr ;
+    rdfs:label "Argeleb II"@it ;
+    rdfs:label "Argeleb II"@pl ;
+    rdfs:label "Аргелеб II"@ru .
+
+<http://localhost:5000/resource/Argon>
+    rdfs:label "Argon"@ca ;
+    rdfs:label "Argon"@de ;
+    rdfs:label "Argon"@es ;
+    rdfs:label "Argon"@fr ;
+    rdfs:label "Argon"@it ;
+    rdfs:label "Argon"@pl ;
+    rdfs:label "Аргон"@ru .
+
+<http://localhost:5000/resource/Argonui>
+    rdfs:label "Argonui"@de ;
+    rdfs:label "Argonui"@es ;
+    rdfs:label "Argonui"@it ;
+    rdfs:label "Argonui"@pl ;
+    rdfs:label "Аргонуи"@ru .
+
+<http://localhost:5000/resource/Arien>
+    rdfs:label "Arien"@ca ;
+    rdfs:label "Arien"@de ;
+    rdfs:label "Arien"@es ;
+    rdfs:label "Arien"@fr ;
+    rdfs:label "Arien"@it ;
+    rdfs:label "Ariena"@pl ;
+    rdfs:label "Ариэн"@ru ;
+    rdfs:label "Arien"@sk ;
+    rdfs:label "Арієн"@uk .
+
+<http://localhost:5000/resource/Arminas>
+    rdfs:label "Arminas"@de ;
+    rdfs:label "Arminas"@fr ;
+    rdfs:label "Arminas"@it ;
+    rdfs:label "Arminas"@pl ;
+    rdfs:label "Арминас"@ru .
+
+<http://localhost:5000/resource/Arod>
+    rdfs:label "Arod"@de ;
+    rdfs:label "Arod"@es ;
+    rdfs:label "Arod"@fr ;
+    rdfs:label "Arod"@it ;
+    rdfs:label "Arod"@pl .
+
+<http://localhost:5000/resource/Arondir>
+    rdfs:label "Arondir (Serie)"@de ;
+    rdfs:label "Arondir"@es ;
+    rdfs:label "Arondir"@fr ;
+    rdfs:label "Arondir"@it ;
+    rdfs:label "Arondir"@pl ;
+    rdfs:label "Arondir"@pt-br ;
+    rdfs:label "Арондир"@ru ;
+    rdfs:label "Арондір"@uk .
+
+<http://localhost:5000/resource/Arroch>
+    rdfs:label "Arroch"@pl ;
+    rdfs:label "Аррох"@ru .
+
+<http://localhost:5000/resource/Artamir>
+    rdfs:label "Artamir"@de ;
+    rdfs:label "Artamir"@fr ;
+    rdfs:label "Artamir"@it ;
+    rdfs:label "Artamir"@pl ;
+    rdfs:label "Артамир"@ru ;
+    rdfs:label "Артамір"@uk .
+
+<http://localhost:5000/resource/Arthad>
+    rdfs:label "Arthad"@de ;
+    rdfs:label "Arthad"@it ;
+    rdfs:label "Артад"@ru .
+
+<http://localhost:5000/resource/Arvedui>
+    rdfs:label "Arvedui"@de ;
+    rdfs:label "Arvedui"@es ;
+    rdfs:label "Arvedui"@fr ;
+    rdfs:label "Arvedui"@it ;
+    rdfs:label "Arvedui"@pl ;
+    rdfs:label "Арведуи"@ru .
+
+<http://localhost:5000/resource/Arvegil>
+    rdfs:label "Arvegil"@de ;
+    rdfs:label "Arvegil"@es ;
+    rdfs:label "Arvegil"@fr ;
+    rdfs:label "Arvegil"@it ;
+    rdfs:label "Arvegil"@pl ;
+    rdfs:label "Арвегиль"@ru .
+
+<http://localhost:5000/resource/Arveleg_I>
+    rdfs:label "Arveleg I."@de ;
+    rdfs:label "Arveleg I"@es ;
+    rdfs:label "Arveleg Ier"@fr ;
+    rdfs:label "Arveleg I"@it ;
+    rdfs:label "Arveleg I"@pl ;
+    rdfs:label "Арвелег I"@ru .
+
+<http://localhost:5000/resource/Arveleg_II>
+    rdfs:label "Arveleg II."@de ;
+    rdfs:label "Arveleg II"@es ;
+    rdfs:label "Arveleg II"@it ;
+    rdfs:label "Arveleg II"@pl ;
+    rdfs:label "Арвелег II"@ru .
+
+<http://localhost:5000/resource/Arwen>
+    rdfs:label "Arwen"@ca ;
+    rdfs:label "Arwen"@de ;
+    rdfs:label "Arwen"@es ;
+    rdfs:label "Arwen"@fr ;
+    rdfs:label "Arwen"@it ;
+    rdfs:label "Arwen"@nl ;
+    rdfs:label "Arwena"@pl ;
+    rdfs:label "Arwen"@pt-br ;
+    rdfs:label "Арвен"@ru ;
+    rdfs:label "Арвен"@uk .
+
+<http://localhost:5000/resource/Asfaloth>
+    rdfs:label "Asfaloth"@de ;
+    rdfs:label "Asfaloth"@fr ;
+    rdfs:label "Asfaloth"@it ;
+    rdfs:label "Asfaloth"@nl ;
+    rdfs:label "Asfaloth"@pl ;
+    rdfs:label "Асфалот"@ru ;
+    rdfs:label "Асфалот"@uk .
+
+<http://localhost:5000/resource/Asgon>
+    rdfs:label "Asgon"@de ;
+    rdfs:label "Asgon"@fr ;
+    rdfs:label "Asgon"@pl ;
+    rdfs:label "Асгон"@ru .
+
+<http://localhost:5000/resource/Atanalcar>
+    rdfs:label "Atanalcar"@de ;
+    rdfs:label "Atanalcar"@fr ;
+    rdfs:label "Atanalcar"@pl ;
+    rdfs:label "Атаналкар"@ru .
+
+<http://localhost:5000/resource/Atanatar_I>
+    rdfs:label "Atanatar I."@de ;
+    rdfs:label "Atanatar I"@es ;
+    rdfs:label "Atanatar Ier"@fr ;
+    rdfs:label "Atanatar I"@it ;
+    rdfs:label "Atanatar I"@pl ;
+    rdfs:label "Атанатар I"@ru ;
+    rdfs:label "Атанатар I"@uk .
+
+<http://localhost:5000/resource/Atanatar_II>
+    rdfs:label "Atanatar II. Alcarin"@de ;
+    rdfs:label "Atanatar II"@es ;
+    rdfs:label "Atanatar II"@fr ;
+    rdfs:label "Atanatar II"@it ;
+    rdfs:label "Atanatar II"@pl ;
+    rdfs:label "Атанатар II"@ru ;
+    rdfs:label "Атанатар II"@uk .
+
+<http://localhost:5000/resource/Aul%C3%AB>
+    rdfs:label "Aulë"@de ;
+    rdfs:label "Aulë"@es ;
+    rdfs:label "Aulë"@fr ;
+    rdfs:label "Aulë"@it ;
+    rdfs:label "Aulë"@pl ;
+    rdfs:label "Aulë"@pt-br ;
+    rdfs:label "Аулэ"@ru ;
+    rdfs:label "Aulë"@sk ;
+    rdfs:label "Ауле"@uk .
+
+<http://localhost:5000/resource/Axantur>
+    rdfs:label "Axantur"@de ;
+    rdfs:label "Axantur"@pl ;
+    rdfs:label "Аксантур"@ru .
+
+<http://localhost:5000/resource/Azagh%C3%A2l>
+    rdfs:label "Azaghâl"@de ;
+    rdfs:label "Azaghâl"@es ;
+    rdfs:label "Azaghâl"@fr ;
+    rdfs:label "Azaghâl"@it ;
+    rdfs:label "Azaghâl"@nl ;
+    rdfs:label "Azaghâl"@pl ;
+    rdfs:label "Азагал"@ru ;
+    rdfs:label "Azaghâl"@sk .
+
+<http://localhost:5000/resource/Azog>
+    rdfs:label "Azog"@ca ;
+    rdfs:label "Azog"@de ;
+    rdfs:label "Azog"@es ;
+    rdfs:label "Azog"@fr ;
+    rdfs:label "Azog"@it ;
+    rdfs:label "Azog"@nl ;
+    rdfs:label "Azog"@pl ;
+    rdfs:label "Азог"@ru ;
+    rdfs:label "Azog"@sk ;
+    rdfs:label "Azog"@tr .
+
+<http://localhost:5000/resource/B%C3%ABor>
+    rdfs:label "Beor der Alte"@de ;
+    rdfs:label "Balan"@es ;
+    rdfs:label "Bëor"@fr ;
+    rdfs:label "Bëor il Vecchio"@it ;
+    rdfs:label "Bëor de Oude"@nl ;
+    rdfs:label "Bëor"@pl ;
+    rdfs:label "Беор"@ru .
+
+<http://localhost:5000/resource/B%C3%B3r>
+    rdfs:label "Bór"@de ;
+    rdfs:label "Bór"@it ;
+    rdfs:label "Bór"@pl ;
+    rdfs:label "Бор"@ru .
+
+<http://localhost:5000/resource/Bain>
+    rdfs:label "Bain"@de ;
+    rdfs:label "Bain"@es ;
+    rdfs:label "Bain"@fr ;
+    rdfs:label "Bain"@it ;
+    rdfs:label "Bain"@nl ;
+    rdfs:label "Bain"@pl ;
+    rdfs:label "Bain"@pt-br ;
+    rdfs:label "Баин"@ru .
+
+<http://localhost:5000/resource/Balbo_Baggins>
+    rdfs:label "Balbo Beutlin"@de ;
+    rdfs:label "Balbo Baggins"@it ;
+    rdfs:label "Balbo Baggins"@pl ;
+    rdfs:label "Бальбо Бэггинс"@ru ;
+    rdfs:label "Бальбо Торбин"@uk .
+
+<http://localhost:5000/resource/Balcmeg>
+    rdfs:label "Balcmeg"@de ;
+    rdfs:label "Balcmeg"@it ;
+    rdfs:label "Балькмэг"@ru .
+
+<http://localhost:5000/resource/Baldor>
+    rdfs:label "Baldor"@de ;
+    rdfs:label "Baldor"@fr ;
+    rdfs:label "Baldor"@it ;
+    rdfs:label "Baldor"@pl ;
+    rdfs:label "Балдор"@ru ;
+    rdfs:label "Бальдор"@uk .
+
+<http://localhost:5000/resource/Balin>
+    rdfs:label "Balin"@de ;
+    rdfs:label "Balin"@es ;
+    rdfs:label "Balin"@fr ;
+    rdfs:label "באלין"@he ;
+    rdfs:label "Balin"@it ;
+    rdfs:label "Balin"@nl ;
+    rdfs:label "Balin"@pl ;
+    rdfs:label "Balin"@pt-br ;
+    rdfs:label "Балин"@ru ;
+    rdfs:label "Balin"@sk ;
+    rdfs:label "Балін"@uk ;
+    rdfs:label "巴林"@zh .
+
+<http://localhost:5000/resource/Bandobras_Took>
+    rdfs:label "Bandobras Tuk"@de ;
+    rdfs:label "Bandobras Tuk"@es ;
+    rdfs:label "Bandobras Touque"@fr ;
+    rdfs:label "Bandobras \"Ruggitoro\" Tuc"@it ;
+    rdfs:label "Bandobras Tuk"@pl ;
+    rdfs:label "Бандобрас Тук"@ru .
+
+<http://localhost:5000/resource/Barach>
+    rdfs:label "Barach"@de ;
+    rdfs:label "Barach"@pl ;
+    rdfs:label "Барах"@ru .
+
+<http://localhost:5000/resource/Baragund>
+    rdfs:label "Baragund"@de ;
+    rdfs:label "Baragund"@fr ;
+    rdfs:label "Baragund"@it ;
+    rdfs:label "Baragund"@pl ;
+    rdfs:label "Барагунд"@ru .
+
+<http://localhost:5000/resource/Barahir>
+    rdfs:label "Barahir"@cs ;
+    rdfs:label "Barahir"@de ;
+    rdfs:label "Barahir"@es ;
+    rdfs:label "Barahir"@fr ;
+    rdfs:label "Barahir (Prima Era)"@it ;
+    rdfs:label "Barahir"@nl ;
+    rdfs:label "Barahir"@pl ;
+    rdfs:label "Барахир"@ru .
+
+<http://localhost:5000/resource/Baran>
+    rdfs:label "Baran"@de ;
+    rdfs:label "Baran"@it ;
+    rdfs:label "Baran"@nl ;
+    rdfs:label "Baran"@pl ;
+    rdfs:label "Баран"@ru .
+
+<http://localhost:5000/resource/Bard>
+    rdfs:label "Bard l'Arquer"@ca ;
+    rdfs:label "Bard I."@de ;
+    rdfs:label "Bardo"@es ;
+    rdfs:label "Bard"@fr ;
+    rdfs:label "Bard"@it ;
+    rdfs:label "Bard"@nl ;
+    rdfs:label "Bard I Łucznik"@pl ;
+    rdfs:label "Бард Лучник"@ru ;
+    rdfs:label "Бард"@uk .
+
+<http://localhost:5000/resource/Bard_II>
+    rdfs:label "Bard II."@de ;
+    rdfs:label "Bardo II"@es ;
+    rdfs:label "Bard II"@fr ;
+    rdfs:label "Bard II"@it ;
+    rdfs:label "Bard II"@pl ;
+    rdfs:label "Бард II"@ru .
+
+<http://localhost:5000/resource/Barliman_Butterbur>
+    rdfs:label "Gerstenmann Butterblume"@de ;
+    rdfs:label "Prosper Poiredebeurré"@fr ;
+    rdfs:label "Omorzo Cactaceo"@it ;
+    rdfs:label "Gersteman Boterbloem"@nl ;
+    rdfs:label "Barliman Butterbur"@pl ;
+    rdfs:label "Барлиман Баттербур"@ru ;
+    rdfs:label "Ячмінь Кремена"@uk .
+
+<http://localhost:5000/resource/Barry_Humphries>
+    rdfs:label "Barry Humphries"@de ;
+    rdfs:label "Barry Humphries"@es ;
+    rdfs:label "Barry Humphries"@pl ;
+    rdfs:label "Барри Хамфрис"@ru .
+
+<http://localhost:5000/resource/Basso_Boffin>
+    rdfs:label "Basso Boffin"@de ;
+    rdfs:label "Basso Bophin"@fr ;
+    rdfs:label "Basso Boffin"@it ;
+    rdfs:label "Basso Boffin"@pl ;
+    rdfs:label "Бассо Боффин"@ru .
+
+<http://localhost:5000/resource/Beechbone>
+    rdfs:label "Buchenbein"@de ;
+    rdfs:label "Faggiosso"@it ;
+    rdfs:label "Brzozowiec"@pl ;
+    rdfs:label "Буковень"@ru .
+
+<http://localhost:5000/resource/Beldir>
+    rdfs:label "Beldir"@de ;
+    rdfs:label "Beldir"@it ;
+    rdfs:label "Beldir"@nl ;
+    rdfs:label "Beldir"@pl ;
+    rdfs:label "Бельдир"@ru .
+
+<http://localhost:5000/resource/Beldis>
+    rdfs:label "Beldis"@it ;
+    rdfs:label "Beldis"@nl ;
+    rdfs:label "Beldis"@pl ;
+    rdfs:label "Бельдис"@ru .
+
+<http://localhost:5000/resource/Belecthor_I>
+    rdfs:label "Belecthor I."@de ;
+    rdfs:label "Belecthor Ier"@fr ;
+    rdfs:label "Belecthor I"@it ;
+    rdfs:label "Belecthor I"@pl ;
+    rdfs:label "Белектор I"@ru .
+
+<http://localhost:5000/resource/Belecthor_II>
+    rdfs:label "Belecthor II."@de ;
+    rdfs:label "Belecthor II"@fr ;
+    rdfs:label "Belecthor II"@it ;
+    rdfs:label "Belecthor II"@pl ;
+    rdfs:label "Белектор II"@ru .
+
+<http://localhost:5000/resource/Beleg>
+    rdfs:label "Beleg"@de ;
+    rdfs:label "Beleg Arcofirme"@es ;
+    rdfs:label "Beleg Cúthalion"@fr ;
+    rdfs:label "Beleg"@it ;
+    rdfs:label "Beleg Cúthalion"@pl ;
+    rdfs:label "Beleg"@pt-br ;
+    rdfs:label "Белег Куталион"@ru .
+
+<http://localhost:5000/resource/Beleg_of_Arthedain>
+    rdfs:label "Beleg (Arthedain)"@de ;
+    rdfs:label "Beleg (Arthedain)"@es ;
+    rdfs:label "Beleg (Arnor)"@it ;
+    rdfs:label "Beleg"@pl ;
+    rdfs:label "Белег (король Артэдайна)"@ru .
+
+<http://localhost:5000/resource/Belegor>
+    rdfs:label "Belegor"@it .
+
+<http://localhost:5000/resource/Belegorn>
+    rdfs:label "Belegorn"@de ;
+    rdfs:label "Belegorn"@fr ;
+    rdfs:label "Belegorn"@it ;
+    rdfs:label "Belegorn"@pl ;
+    rdfs:label "Белегорн"@ru .
+
+<http://localhost:5000/resource/Belegund>
+    rdfs:label "Belegund"@de ;
+    rdfs:label "Belegund"@fr ;
+    rdfs:label "Belegund"@it ;
+    rdfs:label "Belegund"@pl ;
+    rdfs:label "Белегунд"@ru .
+
+<http://localhost:5000/resource/Belemir>
+    rdfs:label "Belemir"@de ;
+    rdfs:label "Belemir"@it ;
+    rdfs:label "Belemir"@nl ;
+    rdfs:label "Belemir"@pl ;
+    rdfs:label "Белемир"@ru .
+
+<http://localhost:5000/resource/Belen>
+    rdfs:label "Belen"@de ;
+    rdfs:label "Belen"@it ;
+    rdfs:label "Belen"@nl ;
+    rdfs:label "Belen"@pl ;
+    rdfs:label "Белен"@ru .
+
+<http://localhost:5000/resource/Beleram>
+    rdfs:label "Beleram"@de ;
+    rdfs:label "Beleram"@es ;
+    rdfs:label "Beleram"@pl ;
+    rdfs:label "Белерам"@ru .
+
+<http://localhost:5000/resource/Beleth>
+    rdfs:label "Beleth"@de ;
+    rdfs:label "Beleth"@it ;
+    rdfs:label "Beleth"@pl ;
+    rdfs:label "Белет"@ru .
+
+<http://localhost:5000/resource/Benedict_Cumberbatch>
+    rdfs:label "Benedict Cumberbatch"@de ;
+    rdfs:label "Benedict Cumberbatch"@es ;
+    rdfs:label "Benedict Cumberbatch"@fr ;
+    rdfs:label "Benedict Cumberbatch"@it ;
+    rdfs:label "Benedict Cumberbatch"@pl ;
+    rdfs:label "Бенедикт Камбербэтч"@ru .
+
+<http://localhost:5000/resource/Beorn>
+    rdfs:label "Beorn"@de ;
+    rdfs:label "Beorn"@es ;
+    rdfs:label "Beorn"@fr ;
+    rdfs:label "Beorn"@it ;
+    rdfs:label "Beorn"@nl ;
+    rdfs:label "Beorn"@pl ;
+    rdfs:label "Beorn"@pt-br ;
+    rdfs:label "Беорн"@ru .
+
+<http://localhost:5000/resource/Ber%C3%BAthiel>
+    rdfs:label "Berúthiel"@de ;
+    rdfs:label "Berúthiel"@it ;
+    rdfs:label "Berúthiel"@pl ;
+    rdfs:label "Берутиэль"@ru .
+
+<http://localhost:5000/resource/Bereg>
+    rdfs:label "Bereg"@de ;
+    rdfs:label "Bereg"@it ;
+    rdfs:label "Bereg"@nl ;
+    rdfs:label "Bereg"@pl ;
+    rdfs:label "Берег"@ru .
+
+<http://localhost:5000/resource/Beregar>
+    rdfs:label "Beregar"@de ;
+    rdfs:label "Beregar"@pl ;
+    rdfs:label "Берегар"@ru .
+
+<http://localhost:5000/resource/Beregond>
+    rdfs:label "Beregond (Truchsess von Gondor)"@de ;
+    rdfs:label "Beregond"@fr ;
+    rdfs:label "Beregond"@it ;
+    rdfs:label "Beregond (namiestnik Gondoru)"@pl ;
+    rdfs:label "Берегонд (наместник)"@ru .
+
+<http://localhost:5000/resource/Berelach>
+    rdfs:label "Berelach"@pl .
+
+<http://localhost:5000/resource/Beren>
+    rdfs:label "Beren Erchamion"@de ;
+    rdfs:label "Beren"@es ;
+    rdfs:label "Beren"@fr ;
+    rdfs:label "Beren Erchamion"@it ;
+    rdfs:label "Beren"@nl ;
+    rdfs:label "Beren"@pl ;
+    rdfs:label "Beren"@pt-br ;
+    rdfs:label "Берен"@ru ;
+    rdfs:label "Beren"@tr ;
+    rdfs:label "Берен Ерхаміон"@uk .
+

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Search: {{ query }} - Tolkien Knowledge Graph{% endblock %}
+
+{% block extra_style %}
+<style>
+.content-card {
+    background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+    padding: 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    border: 2px solid #3d2f5f;
+}
+.search-header {
+    color: #ffd447;
+    margin-top: 0;
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.result-count {
+    color: #c4b5d6;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.result-item {
+    padding: 16px;
+    border-bottom: 1px solid rgba(61, 47, 95, 0.4);
+    transition: all 0.3s;
+}
+.result-item:last-child {
+    border-bottom: none;
+}
+.result-item:hover {
+    background: rgba(106, 76, 147, 0.2);
+    border-radius: 6px;
+}
+.result-title {
+    font-size: 19px;
+    color: #bb86fc;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Georgia', serif;
+}
+.result-title:hover {
+    color: #ffd447;
+}
+.result-uri {
+    color: #9575cd;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+.no-results {
+    text-align: center;
+    padding: 40px;
+    color: #c4b5d6;
+    font-size: 16px;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="content-card">
+    <h2 class="search-header">Search Results</h2>
+    <p class="result-count">Found {{ results|length }} result(s) for "{{ query }}"</p>
+    
+    {% if results %}
+    <div style="margin-top:22px;">
+        {% for result in results %}
+        <div class="result-item">
+            <a href="{{ result.entity }}" class="result-title">{{ result.label }}</a>
+            <span class="result-uri">{{ result.entity }}</span>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="no-results">
+        <p>No entities found matching your search.</p>
+        <p style="margin-top:15px;">
+            <a href="/" style="color:#ffd447; text-decoration:none; font-weight:600;">← Return to Home</a>
+        </p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

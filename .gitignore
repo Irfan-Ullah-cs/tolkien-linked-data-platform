@@ -1,0 +1,17 @@
+﻿# Large data files
+data/tolkien_complete.ttl
+tools/
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
