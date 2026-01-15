@@ -50,7 +50,7 @@ This project creates a rich, interconnected semantic dataset of Tolkien's Middle
       <p align="center"><i>Home Page</i></p>
     </td>
     <td width="50%">
-      <img src="screenshots/search.png" alt="Search">
+      <img src="screenshots/Search.png" alt="Search">
       <p align="center"><i>Search Result</i></p>
     </td>
   </tr>
@@ -154,7 +154,7 @@ The knowledge graph integrates four primary data sources:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Irfan-Ullah-cs/tolkien-linked-data-platform.git
+git clone https://github.com/yourusername/tolkien-linked-data-platform.git
 cd tolkien-linked-data-platform
 ```
 
@@ -180,22 +180,17 @@ pip install -r requirements.txt
 
 Download Fuseki from [Apache Jena website](https://jena.apache.org/download/) and extract to `tools/` directory.
 
-**5. Install and  Start Fuseki server**
-
+**5. Start Fuseki server**
 
 ```bash
-cd apache-jena-fuseki-5.6.0
+cd tools/apache-jena-fuseki-5.6.0/
 ./fuseki-server.bat  # Windows
 ./fuseki-server      # Unix/MacOS
 ```
 
-Create the tolkien dataset
-
-select Persistent dataset (TDB2) 
-
 **6. Load data**
-**6.1 unzip data/tokien_complete.zip
-**6.2 Load data/tokien_complete.ttl to Fuesiki 
+
+### Load data/tokien_complete to Fuesiki 
 
 **7. Start Flask application**
 
@@ -233,7 +228,7 @@ tolkien-linked-data-platform/
 └── README.md
 ```
 
-**Note:** The `data/ttl/` and `data/cache/` directories are excluded from version control due to size however the data part you wil find one single ttl file in zip folder, unzip it in same directory and start working further.
+**Note:** The `data/ttl/` and `data/cache/` directories are excluded from version control due to size. 
 
 ---
 
@@ -317,7 +312,7 @@ Academic project for coursework at École des Mines de Saint-Étienne.
 
 ## Acknowledgments
 
-- **Antoine Zimmermann and Victor ** - Course instruction and semantic web guidance
+- **Antoine Zimmermann & Victor Charpenay** - Course instruction and semantic web guidance
 - **Tolkien Gateway community** - Comprehensive wiki content
 - **Apache Jena developers** - RDF triplestore and reasoning tools
 - **RDFLib maintainers** - Python RDF processing library

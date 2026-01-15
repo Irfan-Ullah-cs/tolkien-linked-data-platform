@@ -624,6 +624,91 @@ def page_uri(entity):
     Always serves HTML.
     """
     return serve_html(entity)
+@app.template_filter('urldecode')
+def urldecode_filter(s):
+    return unquote(s)
+@app.route("/sparql", methods=['GET', 'POST'])
+def sparql_interface():
+    """SPARQL query interface"""
+    query = request.form.get('query', '') or request.args.get('query', '')
+    results = None
+    error = None
+    execution_time = 0
+    
+    if query:
+        try:
+            import time
+            start_time = time.time()
+            
+            resp = requests.post(
+                FUSEKI_SPARQL,
+                data={"query": query},
+                headers={"Accept": "application/sparql-results+json"},
+                timeout=30
+            )
+            
+            execution_time = round((time.time() - start_time) * 1000, 2)
+            
+            if resp.status_code == 200:
+                results = resp.json()
+            else:
+                error = f"Query failed with status {resp.status_code}: {resp.text}"
+        except Exception as e:
+            error = str(e)
+    
+    # Example queries
+    examples = [
+        {
+            "name": "Find All Persons",
+            "query": """PREFIX schema: <http://schema.org/>
+SELECT ?person ?name WHERE {
+  ?person a schema:Person ;
+          schema:name ?name .
+} LIMIT 20"""
+        },
+        {
+            "name": "Family Relationships",
+            "query": """PREFIX schema: <http://schema.org/>
+SELECT ?person ?name ?parent ?parentName WHERE {
+  ?person schema:name ?name ;
+          schema:parent ?parent .
+  ?parent schema:name ?parentName .
+} LIMIT 20"""
+        },
+        {
+            "name": "Places in Middle-earth",
+            "query": """PREFIX schema: <http://schema.org/>
+SELECT ?place ?name ?container WHERE {
+  ?place a schema:Place ;
+         schema:name ?name ;
+         schema:containedInPlace ?container .
+} LIMIT 20"""
+        },
+        {
+            "name": "External Alignments",
+            "query": """PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <http://schema.org/>
+SELECT ?entity ?name ?external WHERE {
+  ?entity a schema:Person ;
+          schema:name ?name ;
+          owl:sameAs ?external .
+} LIMIT 20"""
+        },
+        {
+            "name": "Count Entities by Type",
+            "query": """PREFIX schema: <http://schema.org/>
+SELECT ?type (COUNT(?entity) as ?count) WHERE {
+  ?entity a ?type .
+} GROUP BY ?type ORDER BY DESC(?count)"""
+        }
+    ]
+    
+    return render_template('sparql.html', 
+                         query=query, 
+                         results=results, 
+                         error=error,
+                         execution_time=execution_time,
+                         examples=examples)
 
 
 def serve_rdf(entity):

@@ -1,0 +1,360 @@
+{% extends "base.html" %}
+
+{% block title %}SPARQL Query Interface - Tolkien Knowledge Graph{% endblock %}
+
+{% block extra_style %}
+<style>
+    .sparql-container {
+        max-width: 1400px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    
+    .content-card {
+        background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+        padding: 30px 35px;
+        border-radius: 8px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        border: 2px solid #3d2f5f;
+        margin-bottom: 20px;
+    }
+    
+    .sparql-header {
+        color: #ffd447;
+        margin-top: 0;
+        font-family: 'Georgia', serif;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        margin-bottom: 10px;
+    }
+    
+    .sparql-subheader {
+        color: #c4b5d6;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .section-title {
+        color: #ffd447;
+        font-family: 'Georgia', serif;
+        font-size: 20px;
+        margin: 0 0 20px 0;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    
+    .query-editor {
+        width: 100%;
+        min-height: 250px;
+        font-family: 'Courier New', monospace;
+        font-size: 13px;
+        padding: 15px;
+        border: 2px solid #3d2f5f;
+        border-radius: 6px;
+        resize: vertical;
+        background: #0a0d16;
+        color: #c4b5d6;
+    }
+    
+    .query-editor:focus {
+        outline: none;
+        border-color: #bb86fc;
+        background: #0f1419;
+    }
+    
+    .query-controls {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+        align-items: center;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        border: 2px solid #3d2f5f;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-weight: 600;
+    }
+    
+    .btn-primary {
+        background: linear-gradient(to bottom, #6a4c93, #3d2f5f);
+        color: #ffd447;
+    }
+    
+    .btn-primary:hover {
+        background: linear-gradient(to bottom, #7a5ca3, #4d3f6f);
+        box-shadow: 0 4px 12px rgba(106, 76, 147, 0.4);
+        border-color: #bb86fc;
+    }
+    
+    .btn-secondary {
+        background: #1a1f3a;
+        color: #c4b5d6;
+    }
+    
+    .btn-secondary:hover {
+        background: #252b47;
+        border-color: #9575cd;
+    }
+    
+    .execution-info {
+        flex: 1;
+        text-align: right;
+        font-size: 13px;
+        color: #9575cd;
+    }
+    
+    .examples-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+    
+    .example-btn {
+        padding: 14px;
+        background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+        border: 2px solid #3d2f5f;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-align: left;
+        font-size: 13px;
+        color: #c4b5d6;
+        font-weight: 600;
+    }
+    
+    .example-btn:hover {
+        background: rgba(106, 76, 147, 0.2);
+        color: #bb86fc;
+        border-color: #bb86fc;
+        box-shadow: 0 4px 12px rgba(106, 76, 147, 0.3);
+    }
+    
+    .info-box {
+        background: linear-gradient(to bottom, #1a1f3a, #0f1419);
+        color: #c4b5d6;
+        padding: 15px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        border: 2px solid #3d2f5f;
+    }
+    
+    .info-box strong {
+        color: #ffd447;
+    }
+    
+    .results-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #3d2f5f;
+    }
+    
+    .results-title {
+        color: #ffd447;
+        font-family: 'Georgia', serif;
+        font-size: 20px;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    
+    .results-count {
+        font-size: 14px;
+        color: #9575cd;
+    }
+    
+    .results-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        font-size: 13px;
+        background: #0a0d16;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    
+    .results-table th {
+        background: #1a1f3a;
+        color: #ffd447;
+        padding: 12px;
+        text-align: left;
+        font-weight: 600;
+        border-bottom: 2px solid #3d2f5f;
+    }
+    
+    .results-table td {
+        padding: 10px 12px;
+        border-bottom: 1px solid rgba(61, 47, 95, 0.4);
+        color: #c4b5d6;
+    }
+    
+    .results-table tr:hover {
+        background: rgba(106, 76, 147, 0.2);
+    }
+    
+    .results-table a {
+        color: #bb86fc;
+        text-decoration: none;
+    }
+    
+    .results-table a:hover {
+        color: #ffd447;
+    }
+    
+    .error-box {
+        background: #3a1a1f;
+        color: #ffcdd2;
+        padding: 15px;
+        border-radius: 6px;
+        margin-top: 15px;
+        border: 2px solid #5f2f3d;
+    }
+    
+    .success-box {
+        background: #1a3a1f;
+        color: #c8e6c9;
+        padding: 15px;
+        border-radius: 6px;
+        margin-top: 15px;
+        border: 2px solid #2f5f3d;
+    }
+    
+    .literal-value {
+        color: #a5d6a7;
+    }
+    
+    .uri-value {
+        color: #bb86fc;
+        word-break: break-word;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="sparql-container">
+    <div class="content-card">
+        <h1 class="sparql-header">SPARQL Query Interface</h1>
+        <p class="sparql-subheader">Query the Tolkien Knowledge Graph using SPARQL. Endpoint: http://localhost:3030/tolkien/query</p>
+    </div>
+    
+    <div class="info-box">
+        <strong>Quick Start:</strong> Click an example query below, or write your own SPARQL query in the editor. 
+        The knowledge graph contains 2.7M+ triples about Middle-earth entities, relationships, and external alignments.
+    </div>
+    
+    <div class="content-card">
+        <h2 class="section-title">Example Queries</h2>
+        <div class="examples-grid">
+            {% for example in examples %}
+            <button class="example-btn" onclick="loadExample({{ loop.index0 }})">
+                {{ example.name }}
+            </button>
+            {% endfor %}
+        </div>
+        
+        <h2 class="section-title">Query Editor</h2>
+        <form method="POST" id="queryForm">
+            <textarea name="query" id="queryEditor" class="query-editor" placeholder="Enter your SPARQL query here...">{{ query }}</textarea>
+            <div class="query-controls">
+                <button type="submit" class="btn btn-primary">Execute Query</button>
+                <button type="button" class="btn btn-secondary" onclick="clearQuery()">Clear</button>
+                {% if execution_time %}
+                <div class="execution-info">
+                    Execution time: {{ execution_time }}ms
+                </div>
+                {% endif %}
+            </div>
+        </form>
+    </div>
+    
+    {% if error %}
+    <div class="content-card">
+        <div class="error-box">
+            <strong>Query Error:</strong><br>
+            {{ error }}
+        </div>
+    </div>
+    {% endif %}
+    
+    {% if results %}
+    <div class="content-card">
+        {% if results.results.bindings|length > 0 %}
+        <div class="results-header">
+            <h2 class="results-title">Query Results</h2>
+            <div class="results-count">
+                {{ results.results.bindings|length }} result(s)
+            </div>
+        </div>
+        
+        <div style="overflow-x: auto;">
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        {% for var in results.head.vars %}
+                        <th>{{ var }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for binding in results.results.bindings %}
+                    <tr>
+                        {% for var in results.head.vars %}
+                        <td>
+                            {% if binding[var] %}
+                                {% if binding[var].type == 'uri' %}
+                                    {% if binding[var].value.startswith('http://localhost:5000/resource/') %}
+                                    {% set entity_name = binding[var].value.split('/')[-1] %}
+                                    <a href="/page/{{ entity_name }}" class="uri-value">
+                                        {{ entity_name|urldecode|replace('_', ' ') }}
+                                    </a>
+                                    {% else %}
+                                    <a href="{{ binding[var].value }}" target="_blank" class="uri-value">
+                                        {{ binding[var].value }}
+                                    </a>
+                                    {% endif %}
+                                {% else %}
+                                <span class="literal-value">{{ binding[var].value }}</span>
+                                {% endif %}
+                            {% else %}
+                            <span style="color: #3d2f5f;">-</span>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="success-box">
+            Query executed successfully but returned no results.
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+<script>
+    const examples = {{ examples|tojson }};
+    
+    function loadExample(index) {
+        document.getElementById('queryEditor').value = examples[index].query;
+    }
+    
+    function clearQuery() {
+        document.getElementById('queryEditor').value = '';
+    }
+    
+    // Auto-resize textarea
+    const textarea = document.getElementById('queryEditor');
+    textarea.addEventListener('input', function() {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+    });
+</script>
+{% endblock %}
