@@ -180,10 +180,11 @@ pip install -r requirements.txt
 
 Download Fuseki from [Apache Jena website](https://jena.apache.org/download/) and extract to `tools/` directory.
 
-**5. Start Fuseki server**
+**5. Install and  Start Fuseki server**
+
 
 ```bash
-cd tools/apache-jena-fuseki-5.6.0/
+cd apache-jena-fuseki-5.6.0
 ./fuseki-server.bat  # Windows
 ./fuseki-server      # Unix/MacOS
 ```
