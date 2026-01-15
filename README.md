@@ -50,7 +50,7 @@ This project creates a rich, interconnected semantic dataset of Tolkien's Middle
       <p align="center"><i>Home Page</i></p>
     </td>
     <td width="50%">
-      <img src="screenshots/Search.png" alt="Search">
+      <img src="screenshots/sparql_search.png" alt="sparql_search">
       <p align="center"><i>Search Result</i></p>
     </td>
   </tr>
@@ -178,17 +178,21 @@ pip install -r requirements.txt
 
 **4. Setup Apache Jena Fuseki**
 
-Download Fuseki from [Apache Jena website](https://jena.apache.org/download/) and extract to `tools/` directory.
+Download Fuseki from [Apache Jena website](https://jena.apache.org/download/) and extract.
 
-**5. Start Fuseki server**
+**5. Install and  Start Fuseki server****
 
 ```bash
-cd tools/apache-jena-fuseki-5.6.0/
+cd apache-jena-fuseki-5.6.0/
 ./fuseki-server.bat  # Windows
 ./fuseki-server      # Unix/MacOS
 ```
+Create the tolkien dataset
 
-**6. Load data**
+select Persistent dataset (TDB2) 
+
+**6.1 unzip data/tokien_complete.zip
+**6.2 Load data/tokien_complete.ttl to Fuesiki 
 
 ### Load data/tokien_complete to Fuesiki 
 
@@ -228,7 +232,7 @@ tolkien-linked-data-platform/
 └── README.md
 ```
 
-**Note:** The `data/ttl/` and `data/cache/` directories are excluded from version control due to size. 
+**Note:** The `data/ttl/` and `data/cache/` directories are excluded from version control due to size however the data part you wil find one single ttl file in zip folder, unzip it in same directory and start working further.
 
 ---
 
@@ -321,4 +325,4 @@ Academic project for coursework at École des Mines de Saint-Étienne.
 ---
 
 **Project Maintainer:** Irfan Ullah & Sajid
-**Institution:** École des Mines de Saint-Étienne & University Jean Monnet
+**Inst**Institution:** École des Mines de Saint-Étienne & University Jean Monnet Saint-Étienne
