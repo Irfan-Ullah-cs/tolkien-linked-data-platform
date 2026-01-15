@@ -50,7 +50,7 @@ This project creates a rich, interconnected semantic dataset of Tolkien's Middle
       <p align="center"><i>Home Page</i></p>
     </td>
     <td width="50%">
-      <img src="screenshots/Search.png" alt="Search">
+      <img src="screenshots/search.png" alt="Search">
       <p align="center"><i>Search Result</i></p>
     </td>
   </tr>
