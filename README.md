@@ -186,12 +186,15 @@ Download Fuseki from [Apache Jena website](https://jena.apache.org/download/) an
 cd apache-jena-fuseki-5.6.0/
 ./fuseki-server.bat  # Windows
 ./fuseki-server      # Unix/MacOS
-```
-Create the tolkien dataset
 
-select Persistent dataset (TDB2) 
+```
+
+Create  a dataset name as `tolkien` dataset on Fuesiki
+
+select Persistent dataset (TDB2)
 
 **6.1 unzip data/tokien_complete.zip
+
 **6.2 Load data/tokien_complete.ttl to Fuesiki 
 
 ### Load data/tokien_complete to Fuesiki 
