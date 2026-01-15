@@ -189,15 +189,15 @@ cd apache-jena-fuseki-5.6.0/
 
 ```
 
-Create  a dataset name as `tolkien` dataset on Fuesiki
+Create  a dataset name as `tolkien` dataset on Fuseki
 
 select Persistent dataset (TDB2)
 
 **6.1 unzip data/tokien_complete.zip
 
-**6.2 Load data/tokien_complete.ttl to Fuesiki 
+**6.2 Load data/tokien_complete.ttl to Fuseki 
 
-### Load data/tokien_complete to Fuesiki 
+### Load data/tokien_complete to Fuseki 
 
 **7. Start Flask application**
 
