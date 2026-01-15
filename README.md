@@ -154,7 +154,7 @@ The knowledge graph integrates four primary data sources:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/tolkien-linked-data-platform.git
+git clone https://github.com/Irfan-Ullah-cs/tolkien-linked-data-platform.git
 cd tolkien-linked-data-platform
 ```
 
@@ -189,8 +189,8 @@ cd tools/apache-jena-fuseki-5.6.0/
 ```
 
 **6. Load data**
-
-### Load data/tokien_complete to Fuesiki 
+**6.1 unzip data/tokien_complete.zip
+**6.2 Load data/tokien_complete.ttl to Fuesiki 
 
 **7. Start Flask application**
 
