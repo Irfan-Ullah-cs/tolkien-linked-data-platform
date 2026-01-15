@@ -228,7 +228,7 @@ tolkien-linked-data-platform/
 └── README.md
 ```
 
-**Note:** The `data/ttl/` and `data/cache/` directories are excluded from version control due to size. 
+**Note:** The `data/ttl/` and `data/cache/` directories are excluded from version control due to size however the data part you wil find one single ttl file in zip folder, unzip it in same directory and start working further.
 
 ---
 
@@ -312,7 +312,7 @@ Academic project for coursework at École des Mines de Saint-Étienne.
 
 ## Acknowledgments
 
-- **Antoine Zimmermann** - Course instruction and semantic web guidance
+- **Antoine Zimmermann and Victor ** - Course instruction and semantic web guidance
 - **Tolkien Gateway community** - Comprehensive wiki content
 - **Apache Jena developers** - RDF triplestore and reasoning tools
 - **RDFLib maintainers** - Python RDF processing library
