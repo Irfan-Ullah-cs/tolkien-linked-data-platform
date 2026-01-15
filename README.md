@@ -189,6 +189,10 @@ cd apache-jena-fuseki-5.6.0
 ./fuseki-server      # Unix/MacOS
 ```
 
+Create the tolkien dataset
+
+select Persistent dataset (TDB2) 
+
 **6. Load data**
 **6.1 unzip data/tokien_complete.zip
 **6.2 Load data/tokien_complete.ttl to Fuesiki 
