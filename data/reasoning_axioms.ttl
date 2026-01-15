@@ -4,6 +4,17 @@
 @prefix tolkien: <http://localhost:5000/vocab/> .
 @prefix schema: <http://schema.org/> .
 
+# Card-Entity Relationships
+tolkien:depicts a owl:ObjectProperty ;
+    rdfs:label "depicts" ;
+    rdfs:comment "Represents a card depicting a character, location, or item from Middle-earth" ;
+    rdfs:domain tolkien:Card ;
+    rdfs:range [ owl:unionOf (tolkien:Character tolkien:Location tolkien:Item schema:Person schema:Place) ] .
+
+tolkien:depictedIn owl:inverseOf tolkien:depicts ;
+    rdfs:label "depicted in (inverse)" ;
+    rdfs:comment "If card X depicts character Y, then Y is depicted in card X" .
+
 
 # OWL:SAMEAS - Already transitive and symmetric by OWL spec
 owl:sameAs a owl:SymmetricProperty, owl:TransitiveProperty ;

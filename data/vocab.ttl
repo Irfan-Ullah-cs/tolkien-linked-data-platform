@@ -1,6 +1,8 @@
 @prefix tg: <http://localhost:5000/vocab/> .
 @prefix schema: <http://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 tg:Entity a rdfs:Class .
 
@@ -27,3 +29,48 @@ tg:Product a rdfs:Class ;
 tg:LivingThing a rdfs:Class ;
   rdfs:subClassOf tg:Entity ;
   rdfs:subClassOf schema:Thing .
+  
+# Character-specific properties
+tg:race a owl:ObjectProperty ;
+    rdfs:label "race" ;
+    rdfs:comment "The race or species of a character (e.g., Elf, Dwarf, Hobbit, Man, Maia)" ;
+    rdfs:domain tg:Character ;
+    rdfs:range tg:Race .
+
+tg:realm a owl:ObjectProperty ;
+    rdfs:label "realm" ;
+    rdfs:comment "The kingdom or realm associated with a character or location" ;
+    rdfs:domain [ owl:unionOf (tg:Character tg:Location) ] ;
+    rdfs:range tg:Location .
+
+tg:hairColor a owl:DatatypeProperty ;
+    rdfs:label "hair color" ;
+    rdfs:comment "The hair color of a character" ;
+    rdfs:domain tg:Character ;
+    rdfs:range xsd:string .
+
+tg:height a owl:DatatypeProperty ;
+    rdfs:label "height" ;
+    rdfs:comment "The height of a character or structure" ;
+    rdfs:domain [ owl:unionOf (tg:Character tg:Location) ] ;
+    rdfs:range xsd:string .
+
+# Race class
+tg:Race a rdfs:Class ;
+    rdfs:subClassOf tg:Entity ;
+    rdfs:label "Race" ;
+    rdfs:comment "Species or peoples of Middle-earth (Elves, Dwarves, Hobbits, Men, Maiar, etc.)" .
+
+# Card-Entity Relationships
+tg:depicts a owl:ObjectProperty ;
+    rdfs:label "depicts" ;
+    rdfs:comment "Represents a card depicting a character, location, or item from Middle-earth" ;
+    rdfs:domain tg:Card ;
+    rdfs:range [ owl:unionOf (tg:Character tg:Location tg:Item) ] .
+
+tg:depictedIn a owl:ObjectProperty ;
+    owl:inverseOf tg:depicts ;
+    rdfs:label "depicted in" ;
+    rdfs:comment "Inverse of depicts - indicates which cards depict this entity" ;
+    rdfs:domain [ owl:unionOf (tg:Character tg:Location tg:Item) ] ;
+    rdfs:range tg:Card .

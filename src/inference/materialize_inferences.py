@@ -42,6 +42,21 @@ def materialize_inverse_parent_children():
     resp = requests.post(FUSEKI_UPDATE, data={"update": query}, timeout=60)
     return resp.status_code in [200, 204]
 
+def materialize_inverse_depicts_depictedIn():
+    """Infer depictedIn from depicts"""
+    query = """
+    PREFIX tolkien: <http://localhost:5000/vocab/>
+    INSERT {
+        ?character tolkien:depictedIn ?card .
+    }
+    WHERE {
+        ?card tolkien:depicts ?character .
+        FILTER NOT EXISTS { ?character tolkien:depictedIn ?card }
+    }
+    """
+    resp = requests.post(FUSEKI_UPDATE, data={"update": query}, timeout=60)
+    return resp.status_code in [200, 204]
+
 def materialize_symmetric_relatedTo():
     """Infer symmetric relatedTo relationships"""
     query = """
@@ -142,6 +157,19 @@ def main():
         after = count_triples()
         added = after - before
         inferences.append(("Inverse parent/children", added))
+        print(f"  [OK] Added {added:,} triples")
+    else:
+        print("  [FAIL] Failed")
+    
+    time.sleep(1)
+
+    print("\n[Rule 2b: Inverse depicts/depictedIn]")
+    print("  IF ?card depicts ?char THEN ?char depictedIn ?card")
+    before = count_triples()
+    if materialize_inverse_depicts_depictedIn():
+        after = count_triples()
+        added = after - before
+        inferences.append(("Inverse depicts/depictedIn", added))
         print(f"  [OK] Added {added:,} triples")
     else:
         print("  [FAIL] Failed")
